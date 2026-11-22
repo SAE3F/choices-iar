@@ -118,7 +118,7 @@
           },
           {
             "id": "B",
-            "text": "PCR cuantitativa (8)"
+            "text": "PCR cuantitativa"
           },
           {
             "id": "C",
@@ -126,7 +126,7 @@
           },
           {
             "id": "D",
-            "text": "Virológico por IFl en secreciones nasales AY"
+            "text": "Virológico por IFI en secreciones nasales"
           },
           {
             "id": "E",
@@ -134,7 +134,7 @@
           },
           {
             "id": "F",
-            "text": "ECG O"
+            "text": "ECG"
           },
           {
             "id": "G",
@@ -142,7 +142,6 @@
           }
         ],
         "correct_answers": [
-          "C",
           "D",
           "E"
         ],
@@ -160,11 +159,11 @@
         "id": "2020-septiembre_c1_q4_4",
         "number": 4,
         "case_number": 1,
-        "prompt": "Según su criterio, ¿Cuáles serían a Su criterio las conductas más sico ra en el caso de Alexia? (Seleccione una o más de una)",
+        "prompt": "Según su criterio, ¿cuáles serían las conductas más adecuadas a tomar en el caso de Alexia? (Seleccione una o más de una)",
         "options": [
           {
             "id": "A",
-            "text": "Oxigeno con cánula nasal S"
+            "text": "Oxígeno con cánula nasal"
           },
           {
             "id": "B",
@@ -362,7 +361,7 @@
         "id": "2020-septiembre_c2_q4_8",
         "number": 8,
         "case_number": 2,
-        "prompt": "Según su criterio, ¿Cuáles serfanía su criterio las conductas más adecuadas a tomar en el caso de Ignacio? (Seleccione una o más de una)",
+        "prompt": "Según su criterio, ¿cuáles serían las conductas más adecuadas a tomar en el caso de Ignacio? (Seleccione una o más de una)",
         "options": [
           {
             "id": "A",
@@ -429,15 +428,31 @@
           },
           {
             "id": "C",
-            "text": "Síndrome nefrítico 0 síndrome depresivo"
+            "text": "Síndrome nefrítico"
           },
           {
             "id": "D",
-            "text": "Sindrome nefrótico"
+            "text": "Síndrome depresivo"
           },
           {
             "id": "E",
+            "text": "Síndrome nefrótico"
+          },
+          {
+            "id": "F",
             "text": "Hipotiroidismo"
+          },
+          {
+            "id": "G",
+            "text": "Asma"
+          },
+          {
+            "id": "H",
+            "text": "Tuberculosis"
+          },
+          {
+            "id": "I",
+            "text": "Insuficiencia renal"
           }
         ],
         "correct_answers": [
@@ -520,7 +535,7 @@
         "id": "2020-septiembre_c3_q3_11",
         "number": 11,
         "case_number": 3,
-        "prompt": "¿Qué tratamiento le indicaría a Pedro en este momento mientras aguarda los resultados de los estudios? (Seleccione Una o más de una)",
+        "prompt": "¿Qué tratamiento le indicaría a Pedro en este momento mientras aguarda los resultados de los estudios? (Seleccione una o más de una)",
         "options": [
           {
             "id": "A",
@@ -528,7 +543,7 @@
           },
           {
             "id": "B",
-            "text": "Dieta hiposódica G)"
+            "text": "Dieta hiposódica"
           },
           {
             "id": "C",
@@ -545,6 +560,22 @@
           {
             "id": "F",
             "text": "Glibenclamida"
+          },
+          {
+            "id": "G",
+            "text": "Lactulosa"
+          },
+          {
+            "id": "H",
+            "text": "Albúmina"
+          },
+          {
+            "id": "I",
+            "text": "Corticoides y broncodilatadores inhalatorios"
+          },
+          {
+            "id": "J",
+            "text": "Sertralina"
           }
         ],
         "correct_answers": [
@@ -574,7 +605,7 @@
           },
           {
             "id": "B",
-            "text": "Cáncer de páncreas y"
+            "text": "Cáncer de páncreas"
           },
           {
             "id": "C",
@@ -586,7 +617,7 @@
           },
           {
             "id": "E",
-            "text": "Sindrome nefrótico"
+            "text": "Síndrome nefrótico"
           },
           {
             "id": "F",
@@ -642,7 +673,7 @@
           },
           {
             "id": "D",
-            "text": "Clearence de creatinina"
+            "text": "Clearance de creatinina"
           },
           {
             "id": "E",
@@ -650,7 +681,23 @@
           },
           {
             "id": "F",
-            "text": "Baciloscopia de esputo"
+            "text": "Baciloscopía de esputo"
+          },
+          {
+            "id": "G",
+            "text": "TSH y T4 libre"
+          },
+          {
+            "id": "H",
+            "text": "TC de abdomen"
+          },
+          {
+            "id": "I",
+            "text": "Tiempo de Quick"
+          },
+          {
+            "id": "J",
+            "text": "Proteinuria de 24 hs"
           }
         ],
         "correct_answers": [
@@ -675,23 +722,43 @@
         "options": [
           {
             "id": "A",
-            "text": "Espironolactona —_ PP — Dieta hiposódica"
+            "text": "Espironolactona"
           },
           {
             "id": "B",
-            "text": "Insulinoterapia"
+            "text": "Dieta hiposódica"
           },
           {
             "id": "C",
-            "text": "Dieta hipohidrocarbonada"
+            "text": "Insulinoterapia"
           },
           {
             "id": "D",
-            "text": "Hidroclorotiazida"
+            "text": "Dieta hipohidrocarbonada"
           },
           {
             "id": "E",
+            "text": "Hidroclorotiazida"
+          },
+          {
+            "id": "F",
             "text": "Glibenclamida"
+          },
+          {
+            "id": "G",
+            "text": "Lactulosa"
+          },
+          {
+            "id": "H",
+            "text": "Albúmina"
+          },
+          {
+            "id": "I",
+            "text": "Corticoides y broncodilatadores inhalatorios"
+          },
+          {
+            "id": "J",
+            "text": "Sertralina"
           }
         ],
         "correct_answers": [
@@ -775,10 +842,14 @@
           },
           {
             "id": "D",
-            "text": "Serología Helicobacter pylori € Amilasa"
+            "text": "Serología Helicobacter pylori"
           },
           {
             "id": "E",
+            "text": "Amilasa"
+          },
+          {
+            "id": "F",
             "text": "Hepatograma"
           }
         ],
@@ -805,22 +876,26 @@
         "options": [
           {
             "id": "A",
-            "text": "Tiempo de Quick O) Ecografía hepática"
+            "text": "Tiempo de Quick"
           },
           {
             "id": "B",
-            "text": "TAC de abdomen"
+            "text": "Ecografía hepática"
           },
           {
             "id": "C",
-            "text": "Colonoscopia"
+            "text": "TAC de abdomen"
           },
           {
             "id": "D",
-            "text": "Gastroduodenoscopia"
+            "text": "Colonoscopia"
           },
           {
             "id": "E",
+            "text": "Gastroduodenoscopia"
+          },
+          {
+            "id": "F",
             "text": "TC de tórax"
           }
         ],
@@ -851,18 +926,22 @@
           },
           {
             "id": "B",
-            "text": "Indica estudios y le programa una visita de seguimiento para dentro de 48 horas por consultorios externos. Cc) Indica dieta líquida y analgésicos antiespasmódicos y la envía al domicilio con indicación de regresar si el cuadro no cede en 48 horas."
+            "text": "Indica estudios y le programa una visita de seguimiento para dentro de 48 horas por consultorios externos."
           },
           {
             "id": "C",
-            "text": "La lleva al quirófano para una operación inmediata sin esperar otros estudios"
+            "text": "Indica dieta líquida y analgésicos antiespasmódicos y la envía al domicilio con indicación de regresar si el cuadro no cede en 48 horas."
           },
           {
             "id": "D",
-            "text": "Solicita consulta inmediata con especialista en hepatología."
+            "text": "La lleva al quirófano para una operación inmediata sin esperar otros estudios."
           },
           {
             "id": "E",
+            "text": "Solicita consulta inmediata con especialista en hepatología."
+          },
+          {
+            "id": "F",
             "text": "Solicita consulta con el residente de Cirugía General y le transfiere la paciente."
           }
         ],
@@ -945,11 +1024,15 @@
           },
           {
             "id": "D",
-            "text": "Ecodoppler venoso de miembrosinferiores O) Angiografía pulmonar por tomografía computarizada"
+            "text": "Ecodoppler venoso de miembros inferiores"
           },
           {
             "id": "E",
-            "text": "Electrocardiograma / Pr"
+            "text": "Angiografía pulmonar por tomografía computarizada"
+          },
+          {
+            "id": "F",
+            "text": "Electrocardiograma"
           }
         ],
         "correct_answers": [
@@ -978,15 +1061,19 @@
           },
           {
             "id": "B",
-            "text": "Indica el cultivo de uretra a la pareja. a indica cultivo de flujo y tratamiento de acuerdo al germen."
+            "text": "Indica el cultivo de uretra a la pareja."
           },
           {
             "id": "C",
-            "text": "Sospecha de herpes genital y trata la infección"
+            "text": "Indica cultivo de flujo y tratamiento de acuerdo al germen."
           },
           {
             "id": "D",
-            "text": "Prescribe óvulos a la mujer y comprimidos de metronidazol a ambos: Nilda regresa para un nuevo control'en.consultorio. Ha abandonado los"
+            "text": "Sospecha de herpes genital y trata la infección."
+          },
+          {
+            "id": "E",
+            "text": "Prescribe óvulos a la mujer y comprimidos de metronidazol a ambos."
           }
         ],
         "correct_answers": [
@@ -1007,7 +1094,7 @@
         "id": "2020-septiembre_c6_q2_22",
         "number": 22,
         "case_number": 6,
-        "prompt": "Dos años después, al cumplir 43 años, lo en utilizar anticonceptivosinyectables mensuales. Le pide un anticonceptivos orales y le comunica que está pensand consejo. ¿Qué opciones le ofrece y/o recomienda? (Señale 3 opciones)",
+        "prompt": "Dos años después, al cumplir 43 años, Nilda regresa para un nuevo control en consultorio. Ha abandonado los anticonceptivos orales y le comunica que está pensando en utilizar anticonceptivos inyectables mensuales. Le pide un consejo. ¿Qué opciones le ofrece y/o recomienda? (Señale 3 opciones)",
         "options": [
           {
             "id": "A",
@@ -1019,7 +1106,7 @@
           },
           {
             "id": "C",
-            "text": "Le indica utilizar los anticonceptivos inyectables y compl"
+            "text": "Le indica utilizar los anticonceptivos inyectables y complementarlos con estrógeno terapia oral para mayor eficacia."
           },
           {
             "id": "D",
@@ -1027,7 +1114,7 @@
           },
           {
             "id": "E",
-            "text": "Le indica realizar estudios de laboratorio, Papanicolaou, examen ginecológico y ecografía. Luego, según los resultados, evaluar MAC a seguir. lementarlos con estrógeno terapia oral para mayor eficacia."
+            "text": "Le indica realizar estudios de laboratorio, Papanicolaou, examen ginecológico y ecografía. Luego, según los resultados, evaluar MAC a seguir."
           }
         ],
         "correct_answers": [
@@ -1057,15 +1144,19 @@
           },
           {
             "id": "B",
-            "text": "Biopsia de vellosidades coriónicas y controles rutinarios del embarazo. 0 Controles cada 2 semanas durante los dos primeros trimestres y, luego, controles semanales."
+            "text": "Biopsia de vellosidades coriónicas y controles rutinarios del embarazo."
           },
           {
             "id": "C",
-            "text": "Eco-doppler color para valorar malformaciones fetales."
+            "text": "Controles cada 2 semanas durante los dos primeros trimestres y, luego, controles semanales."
           },
           {
             "id": "D",
-            "text": "Estudios rutinarios del embarazo, ecografía obstétrica y alfa-feto proteína. AAA ADD AE IAE E EEE E ITESO"
+            "text": "Eco-doppler color para valorar malformaciones fetales."
+          },
+          {
+            "id": "E",
+            "text": "Estudios rutinarios del embarazo, ecografía obstétrica y alfa-feto proteína."
           }
         ],
         "correct_answers": [
@@ -1144,7 +1235,11 @@
           },
           {
             "id": "D",
-            "text": "Hiperplasia lobulillar. (O Mestopatía displásica."
+            "text": "Hiperplasia lobulillar."
+          },
+          {
+            "id": "E",
+            "text": "Mastopatía displásica."
           }
         ],
         "correct_answers": [
@@ -1483,11 +1578,19 @@
           },
           {
             "id": "C",
-            "text": "Indicar kinesioterapia y fisioterapia en el miembro afectado indicar antiagregantes plaquetarios y Cilostazol Proponer un protocolo de ejercicios fisicos basados en caminar"
+            "text": "Indicar kinesioterapia y fisioterapia en el miembro afectado"
           },
           {
             "id": "D",
-            "text": "Indicar cirugia con catéter de Fogarty urgente para destapar la arteria"
+            "text": "Indicar antiagregantes plaquetarios y Cilostazol"
+          },
+          {
+            "id": "E",
+            "text": "Proponer un protocolo de ejercicios físicos basados en caminar"
+          },
+          {
+            "id": "F",
+            "text": "Indicar cirugía con catéter de Fogarty urgente para destapar la arteria"
           }
         ],
         "correct_answers": [
@@ -1510,23 +1613,27 @@
         "options": [
           {
             "id": "A",
-            "text": "Hematocrito 38%"
+            "text": "T.S.H. 18 mUI/dl, T4 total 11,8 mcg/dl"
           },
           {
             "id": "B",
-            "text": "Volumen corpuscular medio de 106 fl"
+            "text": "Hematocrito 38%"
           },
           {
             "id": "C",
-            "text": "Volumen corpuscular medio de 78 fl"
+            "text": "Volumen corpuscular medio de 106 fl"
           },
           {
             "id": "D",
-            "text": "TS.H. 0,02 mUl/dI (V.N. 2 a4,5 mUl/dl) TA total 6 mcg/dl (V.N. 4 a 12 mcg/dl)"
+            "text": "Volumen corpuscular medio de 78 fl"
           },
           {
             "id": "E",
-            "text": "Volumen Corpuscular medio 88 fl"
+            "text": "T.S.H. 0,02 mUI/dl (V.N. 2 a 4,5 mUI/dl), T4 total 6 mcg/dl (V.N. 4 a 12 mcg/dl)"
+          },
+          {
+            "id": "F",
+            "text": "Volumen corpuscular medio 88 fl"
           }
         ],
         "correct_answers": [
@@ -1549,18 +1656,26 @@
         "options": [
           {
             "id": "A",
-            "text": "Indicar Smg de metimazoi y subirlo cada 15 días 0 indicar levotiroxina 25 mcg Cc. Indicar 100 mcg de levotiróxina,"
+            "text": "Indicar 5 mg de metimazol y subirlo cada 15 días"
           },
           {
             "id": "B",
-            "text": "Solicitar Femina"
+            "text": "Indicar levotiroxina 25 mcg"
           },
           {
             "id": "C",
-            "text": "Indicar Ácido fólico"
+            "text": "Indicar 100 mcg de levotiroxina"
           },
           {
             "id": "D",
+            "text": "Solicitar ferritina"
+          },
+          {
+            "id": "E",
+            "text": "Indicar ácido fólico"
+          },
+          {
+            "id": "F",
             "text": "Indicar 30 mg de metimazol"
           }
         ],
@@ -1623,14 +1738,26 @@
         "options": [
           {
             "id": "A",
-            "text": "Sufometoxazol"
+            "text": "Sulfametoxazol"
           },
           {
             "id": "B",
-            "text": "Cefalexina d Tinidazol e Doxiciclina"
+            "text": "Metronidazol"
           },
           {
             "id": "C",
+            "text": "Tinidazol"
+          },
+          {
+            "id": "D",
+            "text": "Cefalexina"
+          },
+          {
+            "id": "E",
+            "text": "Doxiciclina"
+          },
+          {
+            "id": "F",
             "text": "Fluconazol"
           }
         ],
@@ -2021,7 +2148,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Internar al paciente para reposo y control de tensión arterial / balance de ingresos y egresos"
+            "text": "Internar al paciente para reposo y control de tensión arterial"
           },
           {
             "id": "B",
@@ -2029,19 +2156,35 @@
           },
           {
             "id": "C",
-            "text": "Furosemida endovenosa para control de la sobrecarga de volumen y la HTA"
+            "text": "Control de diuresis y balance de ingresos y egresos"
           },
           {
             "id": "D",
-            "text": "Corticoides orales a altas dosis"
+            "text": "Hidratación rápida parenteral"
           },
           {
             "id": "E",
-            "text": "Hidratación parenteral rápida a 3000 ml/m2/día"
+            "text": "Furosemida endovenosa"
           },
           {
             "id": "F",
+            "text": "Interconsulta con Infectología"
+          },
+          {
+            "id": "G",
+            "text": "Internar al paciente para su estudio"
+          },
+          {
+            "id": "H",
+            "text": "Control en 48 horas"
+          },
+          {
+            "id": "I",
             "text": "Albúmina endovenosa"
+          },
+          {
+            "id": "J",
+            "text": "Cefalexina 100 mg/Kg vía oral"
           }
         ],
         "correct_answers": [
@@ -2116,22 +2259,26 @@
         "options": [
           {
             "id": "A",
-            "text": "Ecografia renal bilateral"
+            "text": "Ecografía renal bilateral"
           },
           {
             "id": "B",
-            "text": "Ecodoopler cardiaco Cc. T.S.H. / T4 libre"
+            "text": "Ecodoppler cardíaco"
           },
           {
             "id": "C",
-            "text": "Baciloscopia de esputo"
+            "text": "T.S.H. / T4 libre"
           },
           {
             "id": "D",
-            "text": "Tomografía de cerebro con contraste"
+            "text": "Baciloscopía de esputo"
           },
           {
             "id": "E",
+            "text": "Tomografía de cerebro con contraste"
+          },
+          {
+            "id": "F",
             "text": "Espirometría"
           }
         ],
@@ -2157,7 +2304,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Dieta hiperproteíca"
+            "text": "Dieta hiperproteica"
           },
           {
             "id": "B",
@@ -2173,7 +2320,11 @@
           },
           {
             "id": "E",
-            "text": "Clonazepan 1mg cada 8 horas Ó Sertralina 25 mg diarios"
+            "text": "Clonazepam 1 mg cada 8 horas"
+          },
+          {
+            "id": "F",
+            "text": "Sertralina 25 mg diarios"
           }
         ],
         "correct_answers": [
@@ -2307,12 +2458,12 @@
           }
         ],
         "correct_answers": [
-          "H"
+          "A"
         ],
         "has_official_key": true,
         "is_multiple": false,
         "area": "Clínica Médica",
-        "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (H).",
+        "explanation": "En la hepatitis alcohólica aguda es característica la relación TGO/TGP (AST/ALT) > 2 con elevación moderada de transaminasas (< 300-500 UI/L).",
         "pdf_page": 14,
         "correct_options": [
           "A"
@@ -2514,11 +2665,23 @@
           },
           {
             "id": "B",
-            "text": "Realizar laparoscopica exploradora"
+            "text": "Realizar laparotomía exploradora"
           },
           {
             "id": "C",
-            "text": "Indicar paracentesis evacuadora total indicar cefotaxime 2gr cada 12 horas arcrrnonnanananan nano nonanopananananananaansana| 5 Oagregar lactulosa y rifaximina"
+            "text": "Indicar paracentesis evacuadora total"
+          },
+          {
+            "id": "D",
+            "text": "Indicar cefotaxime 2 gr cada 12 horas"
+          },
+          {
+            "id": "E",
+            "text": "Agregar lactulosa y rifaximina"
+          },
+          {
+            "id": "F",
+            "text": "Indicar tratamiento antituberculoso"
           }
         ],
         "correct_answers": [
@@ -2772,14 +2935,22 @@
         "options": [
           {
             "id": "A",
-            "text": "Control en 6 meses. O) Tratamiento de la pareja con metronidazol"
+            "text": "Control en 6 meses."
           },
           {
             "id": "B",
-            "text": "Tratamiento de pareja con clindamicina 0 Tratamiento con óvulos de metronidazol"
+            "text": "Tratamiento de la pareja con metronidazol"
           },
           {
             "id": "C",
+            "text": "Tratamiento de pareja con clindamicina"
+          },
+          {
+            "id": "D",
+            "text": "Tratamiento con óvulos de metronidazol"
+          },
+          {
+            "id": "E",
             "text": "Cultivo de flujo vaginal para descartar flora contaminante"
           }
         ],
@@ -3386,7 +3557,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Broncodilatadores y"
+            "text": "Broncodilatadores"
           },
           {
             "id": "B",
@@ -3420,39 +3591,59 @@
         "options": [
           {
             "id": "A",
-            "text": "Salk gan"
+            "text": "Salk"
           },
           {
             "id": "B",
-            "text": "Doble bacteriana »"
+            "text": "Doble bacteriana"
           },
           {
             "id": "C",
-            "text": "Triple bacteriana celular 0 Antigripal"
+            "text": "Triple bacteriana celular"
           },
           {
             "id": "D",
-            "text": "BCG"
+            "text": "Antigripal"
           },
           {
             "id": "E",
-            "text": "Triple bacteriana acelular"
+            "text": "BCG"
           },
           {
             "id": "F",
-            "text": "Triple viral"
+            "text": "Triple bacteriana acelular"
           },
           {
             "id": "G",
-            "text": "HPV"
+            "text": "Triple viral"
           },
           {
             "id": "H",
-            "text": "Quíntuple"
+            "text": "HPV"
           },
           {
             "id": "I",
-            "text": "Neumocócica 13 valente k. Meningococica cuadrivalente l. Hepatitis A m. Hepatitis B n. Rotavirus monovalente"
+            "text": "Quíntuple"
+          },
+          {
+            "id": "J",
+            "text": "Neumocócica 13 valente"
+          },
+          {
+            "id": "K",
+            "text": "Meningocócica cuadrivalente"
+          },
+          {
+            "id": "L",
+            "text": "Hepatitis A"
+          },
+          {
+            "id": "M",
+            "text": "Hepatitis B"
+          },
+          {
+            "id": "N",
+            "text": "Rotavirus monovalente"
           }
         ],
         "correct_answers": [
@@ -3476,7 +3667,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Florencia presenta signos de sugestivos de cardiopatía congénita"
+            "text": "Florencia presenta signos sugestivos de cardiopatía congénita"
           },
           {
             "id": "B",
@@ -3492,7 +3683,11 @@
           },
           {
             "id": "E",
-            "text": "Florencia presenta signos de dificultad respiratoria OF lorencia es una recién nacida de término con peso adecuado para la edad gestacional"
+            "text": "Florencia presenta signos de dificultad respiratoria"
+          },
+          {
+            "id": "F",
+            "text": "Florencia es una recién nacida de término con peso adecuado para la edad gestacional"
           }
         ],
         "correct_answers": [
@@ -3516,19 +3711,23 @@
         "options": [
           {
             "id": "A",
-            "text": "Aplicar hidrocortisona al 1% enlas lesiones"
+            "text": "Aplicar hidrocortisona al 1% en las lesiones"
           },
           {
             "id": "B",
-            "text": "Indicar cefalexina 80 mg/Kg peso/día 0 indicar vacunación a todos los contactos susceptibles"
+            "text": "Indicar cefalexina 80 mg/Kg peso/día"
           },
           {
             "id": "C",
-            "text": "Indicar pomada con permetrina al 5% a toda, la familia en días O, 5 y 10"
+            "text": "Indicar vacunación a todos los contactos susceptibles"
           },
           {
             "id": "D",
-            "text": "Indicar antihistamínicos del tipo de la difenhidramina o cetirizine"
+            "text": "Indicar pomada con permetrina al 5% a toda la familia en días 0, 5 y 10"
+          },
+          {
+            "id": "E",
+            "text": "Indicar antihistamínicos del tipo de la difenhidramina o cetirizina"
           }
         ],
         "correct_answers": [
@@ -3593,15 +3792,15 @@
           },
           {
             "id": "C",
-            "text": "Constata que la paciente no presente signos de eclampsismo. e"
+            "text": "Constata que la paciente no presente signos de eclampsismo."
           },
           {
             "id": "D",
-            "text": "Deja a la paciente en observación por seis horas e indica internación si la TA mínima no desciende de 100 mm Hg e"
+            "text": "Deja a la paciente en observación por seis horas e indica internación si la TA mínima no desciende de 100 mm Hg."
           },
           {
             "id": "E",
-            "text": "Deja a la paciente en observación por seis horas y si la TA mínima desciende de 100 mm Hg, durante ese lapso, la deriva a consultorio especializado para control. e"
+            "text": "Deja a la paciente en observación por seis horas y si la TA mínima desciende de 100 mm Hg, durante ese lapso, la deriva a consultorio especializado para control."
           },
           {
             "id": "F",
@@ -3645,7 +3844,11 @@
           },
           {
             "id": "E",
-            "text": "Mantiene conducta expectante con control de la paciente Oh iministra sulfato de magnesio por vía parenteral"
+            "text": "Mantiene conducta expectante con control de la paciente"
+          },
+          {
+            "id": "F",
+            "text": "Administra sulfato de magnesio por vía parenteral"
           }
         ],
         "correct_answers": [
@@ -3754,23 +3957,31 @@
         "options": [
           {
             "id": "A",
-            "text": "Danantizol 0 Vitamina B12"
+            "text": "Danantizol"
           },
           {
             "id": "B",
-            "text": "Solo Vit B1"
+            "text": "Vitamina B12"
           },
           {
             "id": "C",
-            "text": "Solo ácido fólico"
+            "text": "Solo Vit B1"
           },
           {
             "id": "D",
-            "text": "Sulfato ferroso OL evotiroxina"
+            "text": "Solo ácido fólico"
+          },
+          {
+            "id": "E",
+            "text": "Sulfato ferroso"
+          },
+          {
+            "id": "F",
+            "text": "Levotiroxina"
           }
         ],
         "correct_answers": [
-          "A"
+          "B"
         ],
         "has_official_key": false,
         "is_multiple": true,
@@ -3921,11 +4132,11 @@
           },
           {
             "id": "B",
-            "text": "El parásito eliminado por la niña es un helminto que podría ser un ascaris lumbricoides: Y"
+            "text": "El parásito eliminado por la niña es un helminto que podría ser un ascaris lumbricoides: V"
           },
           {
             "id": "C",
-            "text": "La mayoria de las parasitosis intestinales son asintomáticas. Cuando existe clínica suele ser digestiva, pero de características totalmente inespecíficas: W"
+            "text": "La mayoría de las parasitosis intestinales son asintomáticas. Cuando existe clínica suele ser digestiva, pero de características totalmente inespecíficas: V"
           },
           {
             "id": "D",
@@ -3945,7 +4156,7 @@
           },
           {
             "id": "H",
-            "text": "De acuerdo con los datos antropométricos enunciados. Gisela presenta una desnutrición de ler grado: VW"
+            "text": "De acuerdo con los datos antropométricos enunciados, Gisela presenta una desnutrición de 1er grado: V"
           }
         ],
         "correct_answers": [
@@ -3971,7 +4182,7 @@
           },
           {
             "id": "B",
-            "text": "Identificar el cuadro como apendicitis aguda y solicitar inter consulta con Servicio de Cirugía"
+            "text": "Identificar el cuadro como apendicitis aguda y solicitar interconsulta con Servicio de Cirugía"
           },
           {
             "id": "C",
@@ -3987,11 +4198,11 @@
           },
           {
             "id": "F",
-            "text": "Solicitar coproparasitologico con test de Graham MMsolicitar ecografia abdominal e Interconsulta con Servicio de Cirugia AAA MA M0 a manana nn ana"
+            "text": "Solicitar coproparasitológico con test de Graham"
           },
           {
             "id": "G",
-            "text": "á y V i devra naa rra rr esddicid"
+            "text": "Solicitar ecografía abdominal e interconsulta con Servicio de Cirugía"
           }
         ],
         "correct_answers": [
@@ -5748,7 +5959,15 @@
           },
           {
             "id": "F",
-            "text": "Diarrea crónica inespecifica"
+            "text": "Diarrea crónica inespecífica"
+          },
+          {
+            "id": "G",
+            "text": "Enfermedad celíaca"
+          },
+          {
+            "id": "H",
+            "text": "Giardiasis"
           }
         ],
         "correct_answers": [
@@ -6266,7 +6485,7 @@
           },
           {
             "id": "C",
-            "text": "Indica BCG í y"
+            "text": "Indica BCG"
           },
           {
             "id": "D",
@@ -6282,7 +6501,7 @@
           },
           {
             "id": "G",
-            "text": "Le aconseja mamadas frecuentes, a libre demanda día y noche, le esclarece la importancia de la lactancia materna »"
+            "text": "Le aconseja mamadas frecuentes, a libre demanda día y noche, le esclarece la importancia de la lactancia materna"
           },
           {
             "id": "H",
@@ -6669,7 +6888,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Seriada gastroduodenal y"
+            "text": "Seriada gastroduodenal"
           },
           {
             "id": "B",
@@ -7174,11 +7393,11 @@
         "options": [
           {
             "id": "A",
-            "text": "Embarazo ectópico y"
+            "text": "Embarazo ectópico"
           },
           {
             "id": "B",
-            "text": "Enfermedad inflamatoria pelviana'"
+            "text": "Enfermedad inflamatoria pelviana"
           },
           {
             "id": "C",
@@ -9239,7 +9458,7 @@
           },
           {
             "id": "E",
-            "text": "Hemorragia aguda un cuadro de astenia de 48 horas de evolución acompañado de dolor ámenes de laboratorio, realizados hace siete días por una rutina de laboratorio a la paciente que presenta los L.D.H. 980 U.! (V. Normal hasta 120)"
+            "text": "Hemorragia aguda"
           }
         ],
         "correct_answers": [
@@ -9597,7 +9816,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Gonococo EN,"
+            "text": "Gonococo"
           },
           {
             "id": "B",
@@ -9609,11 +9828,11 @@
           },
           {
             "id": "D",
-            "text": "Anaerobios y"
+            "text": "Anaerobios"
           },
           {
             "id": "E",
-            "text": "Bacilo de Koch p"
+            "text": "Bacilo de Koch"
           }
         ],
         "correct_answers": [
@@ -10997,19 +11216,31 @@
           },
           {
             "id": "B",
-            "text": "Antibioticoterapia de amplio espectro Cc. Verapamilo"
+            "text": "Antibioticoterapia de amplio espectro"
           },
           {
             "id": "C",
-            "text": "Digoxina"
+            "text": "Verapamilo"
           },
           {
             "id": "D",
-            "text": "Hidroclorotiazida"
+            "text": "Digoxina"
           },
           {
             "id": "E",
+            "text": "Hidroclorotiazida"
+          },
+          {
+            "id": "F",
             "text": "Beta2 adrenérgicos"
+          },
+          {
+            "id": "G",
+            "text": "Furosemida"
+          },
+          {
+            "id": "H",
+            "text": "Enalapril"
           }
         ],
         "correct_answers": [
@@ -11053,6 +11284,14 @@
           {
             "id": "F",
             "text": "Tensión arterial 140 / 90"
+          },
+          {
+            "id": "G",
+            "text": "Soplo sistólico"
+          },
+          {
+            "id": "H",
+            "text": "Tercer ruido"
           }
         ],
         "correct_answers": [
@@ -11154,38 +11393,6 @@
           {
             "id": "H",
             "text": "Administrar complemento vitamínico AD"
-          },
-          {
-            "id": "I",
-            "text": "Indicar, además de la serie de puff, una dosis de betametasona via oral"
-          },
-          {
-            "id": "J",
-            "text": "Asumir un score de Tal 4 y dar pautas de alarma."
-          },
-          {
-            "id": "K",
-            "text": "Asumir que Laura no tiene buen vínculo con su bebé ya que presenta calendario de vacunación incompleto y fuma."
-          },
-          {
-            "id": "L",
-            "text": "Asumir que por frecuencia a esta edad un cuadro respiratorio con fiebre es una neumonía, medicar con antibiótico y enviar a su domicilio con pautas de alarma."
-          },
-          {
-            "id": "M",
-            "text": "Asumir que Lucas tiene Bronquiolitis y dado los factores de riesgo, en caso de no saturar aire ambiente 94 o más, indicarle internación."
-          },
-          {
-            "id": "O14",
-            "text": "Mantener conducta expectante ya que Lucas no tiene factores de riesgo para que se complique su cuadro respiratorio."
-          },
-          {
-            "id": "O15",
-            "text": "Informarle a Laura que su bebé tiene un cuadro viral leve y indicarle tratamiento con salbutamol en su casa y control en 24 hs."
-          },
-          {
-            "id": "O16",
-            "text": "Asumir score de Tal 6 e indicar/tratamiento de rescate con serie de puff de salbutamol, 2 puff cada 20/minutos y evaluación a la hora."
           }
         ],
         "correct_answers": [
@@ -11403,7 +11610,7 @@
           },
           {
             "id": "D",
-            "text": "Conducta expectante con controlde la paciente"
+            "text": "Conducta expectante con control de la paciente"
           },
           {
             "id": "E",
@@ -11412,6 +11619,14 @@
           {
             "id": "F",
             "text": "Evaluar riesgo inminente de una eclampsia"
+          },
+          {
+            "id": "G",
+            "text": "Internar para un mejor control"
+          },
+          {
+            "id": "H",
+            "text": "Indicar un sedante suave"
           }
         ],
         "correct_answers": [
@@ -11455,6 +11670,14 @@
           {
             "id": "F",
             "text": "Solicitar ecografía transvaginal"
+          },
+          {
+            "id": "G",
+            "text": "Descartar mioma"
+          },
+          {
+            "id": "H",
+            "text": "Anticuerpos antitransglutaminasa"
           }
         ],
         "correct_answers": [
@@ -11477,7 +11700,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Solicitar una ecografía reno-vesical como estudio complementario"
+            "text": "Realizar toma de urocultivo y mantener conducta expectante"
           },
           {
             "id": "B",
@@ -11493,7 +11716,19 @@
           },
           {
             "id": "E",
-            "text": "Punción lumbar para estudio de LCR"
+            "text": "Realizar toma de urocultivo y comenzar con antibiótico vía oral."
+          },
+          {
+            "id": "F",
+            "text": "Solicitar una ecografía reno-vesical como estudio complementario."
+          },
+          {
+            "id": "G",
+            "text": "Medicar con antibiótico vía oral y control en 48 horas."
+          },
+          {
+            "id": "H",
+            "text": "Internar al bebé, realizar toma de urocultivo y comenzar con antibiótico endovenoso"
           }
         ],
         "correct_answers": [
@@ -14098,19 +14333,19 @@
         "options": [
           {
             "id": "A",
-            "text": "obstrucción arterial aguda"
+            "text": "Obstrucción arterial aguda"
           },
           {
             "id": "B",
-            "text": "quiste poplíteo"
+            "text": "Quiste poplíteo"
           },
           {
             "id": "C",
-            "text": "tvp y"
+            "text": "TVP"
           },
           {
             "id": "D",
-            "text": "ruptura del plantar delgado"
+            "text": "Ruptura del plantar delgado"
           }
         ],
         "correct_answers": [
@@ -14269,23 +14504,23 @@
         "id": "2022-diciembre_c0_q20_20",
         "number": 20,
         "case_number": null,
-        "prompt": "Recién nacido q medidas tomar? Estaba sin tiraje ni nada. Buen APGAR. Opciones ¿Cuál es la conducta o diagnóstico correcto?",
+        "prompt": "Recién nacido vigoroso, sin tiraje ni dificultad respiratoria, con buen puntaje de APGAR. ¿Qué medidas iniciales de recepción corresponde tomar?",
         "options": [
           {
             "id": "A",
-            "text": "clampear (esta decía 30 segundos, pero bueno era la más correcta) y darle vitk y vacuna hepatitis b:// aspirado anal y esofágico // darle oxígeno // mantas HUMEDAS (tienen q ser secas)."
+            "text": "Clampeo oportuno del cordón umbilical, administración de vitamina K y vacuna anti-hepatitis B"
           },
           {
             "id": "B",
-            "text": "Conducta expectante sin cambios"
+            "text": "Aspiración sistemática anal y esofágica"
           },
           {
             "id": "C",
-            "text": "Solicitar interconsulta urgente con cirugía general"
+            "text": "Administración de oxígeno suplementario de rutina"
           },
           {
             "id": "D",
-            "text": "Tratamiento sintomático ambulatorio"
+            "text": "Secado y abrigo con compresas húmedas"
           }
         ],
         "correct_answers": [
@@ -14294,7 +14529,7 @@
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
-        "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
+        "explanation": "En un recién nacido vigoroso, las medidas de recepción incluyen el clampeo oportuno del cordón, profilaxis con vitamina K IM y vacuna contra la hepatitis B. No se realiza aspiración invasiva de rutina ni oxígeno ni mantas húmedas (deben ser secas y tibias).",
         "pdf_page": 70,
         "correct_options": [
           "A"
@@ -14513,12 +14748,12 @@
           }
         ],
         "correct_answers": [
-          "E"
+          "B"
         ],
         "has_official_key": true,
         "is_multiple": false,
         "area": "Cirugía",
-        "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (E). *No es clave oficial ministerial.*",
+        "explanation": "La profilaxis antibiótica quirúrgica se administra 30-60 minutos antes de la incisión (B).",
         "pdf_page": 70,
         "group_id": "2023-marzo_c0_q5_5",
         "is_case_followup": false
@@ -14535,7 +14770,7 @@
           },
           {
             "id": "B",
-            "text": "Filtro en vena cava. (Se utilizan en pacientes que no responden o que no pueden ser reducir el riesgo de mortalidad después de un ataque cardíaco y para preamolvenir otro ataque cardíaco)."
+            "text": "Filtro en vena cava."
           },
           {
             "id": "C",
@@ -14543,7 +14778,7 @@
           },
           {
             "id": "D",
-            "text": "Anticoagular. Semiología de derrame pleural: Abolición de VV y del MV + matidez"
+            "text": "Anticoagular."
           }
         ],
         "correct_answers": [
@@ -14680,34 +14915,22 @@
         "options": [
           {
             "id": "A",
-            "text": "Cambio enalapril por losartan"
+            "text": "Cambio enalapril por losartán"
           },
           {
             "id": "B",
-            "text": "Subo dosis de furo"
+            "text": "Subo dosis de furosemida"
           },
           {
             "id": "C",
-            "text": "Agregodapagliflozina"
+            "text": "Agrego dapagliflozina"
           },
           {
             "id": "D",
-            "text": "Agrego digoxina 1d e e e e e e e e e e e e e e a e a a a e e a a a e € € l e e e e e e o a E e e e o a e 5) 5)"
+            "text": "Agrego digoxina"
           },
           {
             "id": "E",
-            "text": "e] ) BS] -) 5)"
-          },
-          {
-            "id": "H",
-            "text": "2) BS)"
-          },
-          {
-            "id": "I",
-            "text": "VIV YY"
-          },
-          {
-            "id": "J",
             "text": "Agrego sacubitril"
           }
         ],
@@ -15563,12 +15786,12 @@
           }
         ],
         "correct_answers": [
-          "D"
+          "A"
         ],
         "has_official_key": true,
         "is_multiple": false,
         "area": "Pediatría",
-        "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (D). *No es clave oficial ministerial.*",
+        "explanation": "Hombre joven con adenopatías cervicales indoloras de evolución lenta es sugestivo de Linfoma de Hodgkin (A).",
         "pdf_page": 75,
         "group_id": "2023-mayo_c0_q2_2",
         "is_case_followup": false
@@ -15872,7 +16095,7 @@
           },
           {
             "id": "B",
-            "text": "lonograma."
+            "text": "Ionograma."
           },
           {
             "id": "C",
@@ -15880,23 +16103,7 @@
           },
           {
             "id": "D",
-            "text": "Función renal. 12 Paciente de 60 años con disnea de 45 días de evolución. Te muestran un exámen de laboratorio en donde se evidencia una anemia microcítica hipocrómica y VSG muy elevada (40 mm). Marcar una sola."
-          },
-          {
-            "id": "E",
-            "text": "Administrar sulfato ferroso y citar a control con nuevos estudios en 60 días."
-          },
-          {
-            "id": "F",
-            "text": "Administrar B12 y AF."
-          },
-          {
-            "id": "G",
-            "text": "Realizar endoscopía digestiva,"
-          },
-          {
-            "id": "H",
-            "text": "Otras dos que no me acuerdo:"
+            "text": "Función renal."
           }
         ],
         "correct_answers": [
@@ -15908,6 +16115,40 @@
         "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (C). *No es clave oficial ministerial.*",
         "pdf_page": 76,
         "group_id": "2023-mayo_c0_q11_11",
+        "is_case_followup": false
+      },
+      {
+        "id": "2023-mayo_c0_q12_11b",
+        "number": 12,
+        "case_number": null,
+        "prompt": "Paciente de 60 años con disnea de 45 días de evolución. Se presenta un examen de laboratorio donde se evidencia una anemia microcítica hipocrómica y VSG muy elevada (40 mm). (Marcar una sola)",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar sulfato ferroso y citar a control con nuevos estudios en 60 días."
+          },
+          {
+            "id": "B",
+            "text": "Administrar B12 y ácido fólico."
+          },
+          {
+            "id": "C",
+            "text": "Realizar endoscopía digestiva."
+          },
+          {
+            "id": "D",
+            "text": "Otras dos opciones (no recordadas en el apunte)."
+          }
+        ],
+        "correct_answers": [
+          "C"
+        ],
+        "has_official_key": true,
+        "is_multiple": false,
+        "area": "Clínica Médica",
+        "explanation": "Anemia ferropénica/microcítica en paciente de 60 años obliga a descartar pérdida digestiva oculta (neoplasia de colon/gástrica) mediante endoscopía digestiva.",
+        "pdf_page": 76,
+        "group_id": "2023-mayo_c0_q12_11b",
         "is_case_followup": false
       },
       {
@@ -17866,12 +18107,12 @@
           }
         ],
         "correct_answers": [
-          "D"
+          "C"
         ],
         "has_official_key": true,
         "is_multiple": false,
         "area": "Clínica Médica",
-        "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (D). *No es clave oficial ministerial.*",
+        "explanation": "Imagen hiperdensa en forma de semiluna en TAC de cráneo corresponde a Hematoma subdural (C).",
         "pdf_page": 85,
         "group_id": "2023-octubre_c0_q4_4",
         "is_case_followup": false
@@ -18010,15 +18251,19 @@
           },
           {
             "id": "D",
-            "text": "Peritonitis bacteriana espontanea"
+            "text": "Peritonitis bacteriana espontánea"
           },
           {
             "id": "E",
-            "text": "Tuberculosis peritoneal Esepsis"
+            "text": "Tuberculosis peritoneal"
           },
           {
             "id": "F",
-            "text": "Sindrome hepatorenal"
+            "text": "Sepsis"
+          },
+          {
+            "id": "G",
+            "text": "Síndrome hepatorrenal"
           }
         ],
         "correct_answers": [
