@@ -452,7 +452,7 @@
         "pdf_page": 5,
         "group_id": "2020-septiembre_case_3",
         "case_title": "Caso Clínico 3: Pedro (70 años)",
-        "case_vignette": "Pedro de 70 años de edad consulta por astenia y decaimiento de 6 meses de evolución, asociado a pérdida de 5 kg de peso y sensación de saciedad precoz. No refiere fiebre ni dolor abdominal agudo. Al examen físico se palpa una masa epigástrica indolora y palidez cutáneo-mucosa.",
+        "case_vignette": "Pedro de 70 años de edad consulta por astenia y decaimiento de 6 meses de evolución coincidente con la fecha de fallecimiento de su esposa. Manifiesta no sentir placer por nada, incluida su actividad preferida, la jardinería. Fuma 20 cigarrillos diarios desde los 16 años. Refiere que desde hace bastante tiempo tiene tos continua con expectoración sobre todo al levantarse. Ha perdido 6 kg de peso, tiene menos apetito e insomnio. Al examen físico: discreto broncoespasmo, distensión abdominal y edema bimaleolar leve. Rx de tórax: lesión con tractos cicatrizales en vértice pulmonar derecho y aplanamiento diafragmático.",
         "is_case_followup": false
       },
       {
@@ -475,11 +475,31 @@
           },
           {
             "id": "D",
-            "text": "Clearence de creatinina LLL MT isis 0uuorsddd m VA ma 333348 WI A e] 1411411141114 88'"
+            "text": "Clearance de creatinina"
           },
           {
             "id": "E",
-            "text": "Hemoglobina glicosilada ¡aciloscopia de esputo"
+            "text": "Hemoglobina glicosilada"
+          },
+          {
+            "id": "F",
+            "text": "Baciloscopía de esputo"
+          },
+          {
+            "id": "G",
+            "text": "TSH y T4 libre"
+          },
+          {
+            "id": "H",
+            "text": "TC de abdomen"
+          },
+          {
+            "id": "I",
+            "text": "Tiempo de Quick"
+          },
+          {
+            "id": "J",
+            "text": "Proteinuria de 24 hs"
           }
         ],
         "correct_answers": [
@@ -489,11 +509,11 @@
         "has_official_key": true,
         "is_multiple": true,
         "area": "Clínica Médica",
-        "explanation": "Respuesta confirmada por la clave del Examen IAR Septiembre 2020 (C, F).",
+        "explanation": "Respuesta confirmada por la clave oficial del Examen IAR Septiembre 2020 (C: Espirometría para evaluar EPOC; F: Baciloscopía de esputo para confirmar Tuberculosis pulmonar activa).",
         "pdf_page": 5,
         "group_id": "2020-septiembre_case_3",
         "case_title": "Caso Clínico 3: Pedro (70 años)",
-        "case_vignette": "Pedro de 70 años de edad consulta por astenia y decaimiento de 6 meses de evolución, asociado a pérdida de 5 kg de peso y sensación de saciedad precoz. No refiere fiebre ni dolor abdominal agudo. Al examen físico se palpa una masa epigástrica indolora y palidez cutáneo-mucosa.",
+        "case_vignette": "Pedro de 70 años de edad consulta por astenia y decaimiento de 6 meses de evolución coincidente con la fecha de fallecimiento de su esposa. Manifiesta no sentir placer por nada, incluida su actividad preferida, la jardinería. Fuma 20 cigarrillos diarios desde los 16 años. Refiere que desde hace bastante tiempo tiene tos continua con expectoración sobre todo al levantarse. Ha perdido 6 kg de peso, tiene menos apetito e insomnio. Al examen físico: discreto broncoespasmo, distensión abdominal y edema bimaleolar leve. Rx de tórax: lesión con tractos cicatrizales en vértice pulmonar derecho y aplanamiento diafragmático.",
         "is_case_followup": true
       },
       {
@@ -539,7 +559,7 @@
         "pdf_page": 5,
         "group_id": "2020-septiembre_case_3",
         "case_title": "Caso Clínico 3: Pedro (70 años)",
-        "case_vignette": "Pedro de 70 años de edad consulta por astenia y decaimiento de 6 meses de evolución, asociado a pérdida de 5 kg de peso y sensación de saciedad precoz. No refiere fiebre ni dolor abdominal agudo. Al examen físico se palpa una masa epigástrica indolora y palidez cutáneo-mucosa.",
+        "case_vignette": "Pedro de 70 años de edad consulta por astenia y decaimiento de 6 meses de evolución coincidente con la fecha de fallecimiento de su esposa. Manifiesta no sentir placer por nada, incluida su actividad preferida, la jardinería. Fuma 20 cigarrillos diarios desde los 16 años. Refiere que desde hace bastante tiempo tiene tos continua con expectoración sobre todo al levantarse. Ha perdido 6 kg de peso, tiene menos apetito e insomnio. Al examen físico: discreto broncoespasmo, distensión abdominal y edema bimaleolar leve. Rx de tórax: lesión con tractos cicatrizales en vértice pulmonar derecho y aplanamiento diafragmático.",
         "is_case_followup": true
       },
       {
@@ -843,7 +863,7 @@
           },
           {
             "id": "E",
-            "text": "Solicita consulta con el residente de Cirugía General y le transfiere la paciente. ANY! les ¡les lle ¡Es LES ¡A Y AS A Y A NANA ARARARDAAMA h aan aano"
+            "text": "Solicita consulta con el residente de Cirugía General y le transfiere la paciente."
           }
         ],
         "correct_answers": [
@@ -3213,7 +3233,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Carvedilo!"
+            "text": "Carvedilol"
           },
           {
             "id": "B",
@@ -3221,7 +3241,7 @@
           },
           {
             "id": "C",
-            "text": "Tnalapril"
+            "text": "Enalapril"
           },
           {
             "id": "D",
@@ -3233,7 +3253,7 @@
           },
           {
             "id": "F",
-            "text": "Hidroclorotiazida 406000011111! ras"
+            "text": "Hidroclorotiazida"
           }
         ],
         "correct_answers": [
@@ -5196,7 +5216,7 @@
           },
           {
             "id": "G",
-            "text": "Debe mantenerse conducta expectante con respecto a tratamiento antibiótico hasta recibir los resultados de los cultivos, POBLADOS 00m ars 22 A AAARA MAMADA p dvuvVa audi"
+            "text": "Debe mantenerse conducta expectante con respecto a tratamiento antibiótico hasta recibir los resultados de los cultivos."
           }
         ],
         "correct_answers": [
@@ -5602,7 +5622,7 @@
           },
           {
             "id": "C",
-            "text": "Poliarteritis nodosa ba CEA EEE ARE E EEE ELE LE LE ELELELELEE ARABIA , rr"
+            "text": "Poliarteritis nodosa"
           },
           {
             "id": "D",
@@ -5969,15 +5989,7 @@
           },
           {
             "id": "E",
-            "text": "Insuficiencia cardíaca y as La La La Lal e e E"
-          },
-          {
-            "id": "F",
-            "text": "LÍ e e e e e e E a e eu:"
-          },
-          {
-            "id": "G",
-            "text": "e e e e e e e decororsascbbll PERRERA 5) a"
+            "text": "Insuficiencia cardíaca"
           }
         ],
         "correct_answers": [
@@ -6361,7 +6373,7 @@
         "id": "2021-mayo_c0_q7_7",
         "number": 7,
         "case_number": null,
-        "prompt": "Usted se encuentra de guardia en un hospital materno infantil. Lo llaman a sala de partos, porque Marta, de 25 años de edad, quien cursa su primer embarazo, controlado y de bajo riesgo, se encuentra en periodo expulsivo (se trata de una maternidad segura y centrada en la familia), donde se cumplen las consignas de parto respetado. ¿Cuáles son los próximos pasos a seguir? Marcar 2 opciones. EEE EEE LEERTE ERE RE ELELLEDE ETT esió",
+        "prompt": "Usted se encuentra de guardia en un hospital materno infantil. Lo llaman a sala de partos porque Marta, de 25 años de edad, quien cursa su primer embarazo, controlado y de bajo riesgo, se encuentra en período expulsivo en una maternidad segura y centrada en la familia con pautas de parto respetado. ¿Cuáles son los próximos pasos a seguir? (Marcar 2 opciones)",
         "options": [
           {
             "id": "A",
@@ -13707,23 +13719,23 @@
         "id": "2022-octubre_c0_q18_17",
         "number": 17,
         "case_number": null,
-        "prompt": "Mujer joven, atc cáncer de mamá en su flia y tiene nódulo borde regular 2.5cm. Conducta? Hacerle eco // hacerle mamo // no hacerle nada porque por la edad es esperable. A pl . ik A2A y ¿Cuál es la conducta o diagnóstico correcto?",
+        "prompt": "Mujer joven con antecedente familiar de cáncer de mama consulta por palpación de un nódulo mamario de bordes regulares de 2,5 cm. ¿Cuál es la conducta inicial más adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "rn. ...o. O nro oeoeesaana .n....9 he LIRAARRAARAA MA el DLL 1101000"
+            "text": "Ecografía mamaria bilateral"
           },
           {
             "id": "B",
-            "text": "Conducta expectante sin cambios"
+            "text": "Mamografía bilateral"
           },
           {
             "id": "C",
-            "text": "Solicitar interconsulta urgente con cirugía general"
+            "text": "Conducta expectante y control en 1 año"
           },
           {
             "id": "D",
-            "text": "Tratamiento sintomático ambulatorio"
+            "text": "Punción aspiración con aguja fina inmediata"
           }
         ],
         "correct_answers": [
@@ -13732,7 +13744,7 @@
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
-        "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
+        "explanation": "En una mujer joven con nódulo palpable regular, el estudio de primera línea de elección es la ecografía mamaria dada la alta densidad del tejido glandular mamario.",
         "pdf_page": 69,
         "correct_options": [
           "A"
@@ -16051,7 +16063,7 @@
         "id": "2023-mayo_c0_q16_15",
         "number": 15,
         "case_number": null,
-        "prompt": "Paciente femenina jóven que referia dolor en hipocondrio derecho, omalgia, anorexia y pérdida de peso. VUVUVVIVIII Iii Hace 15 días se le había realizado una apendicectomía. Al exámen físico dolor a la palpación del hipocondrio derecho, disminución del MV en base derecha y desaparición de matidez hepática. Se realiza diagnóstico de absceso subfrénico. ¿Cuál es la conducta? Marcar una:",
+        "prompt": "Paciente femenina joven que refería dolor en hipocondrio derecho, omalgia, anorexia y pérdida de peso. Hace 15 días se le había realizado una apendicectomía. Al examen físico: dolor a la palpación del hipocondrio derecho, disminución del MV en base derecha y desaparición de la matidez hepática. Se realiza diagnóstico de absceso subfrénico. ¿Cuál es la conducta? (Marcar una)",
         "options": [
           {
             "id": "A",
@@ -18229,20 +18241,24 @@
           },
           {
             "id": "B",
-            "text": "Hiperparatiroidismo secundario <. Aumento de calcemia por osteolisis"
+            "text": "Hiperparatiroidismo secundario"
           },
           {
             "id": "C",
-            "text": "Deficit de Vit D"
+            "text": "Aumento de calcemia por osteólisis tumoral"
+          },
+          {
+            "id": "D",
+            "text": "Déficit de Vitamina D"
           }
         ],
         "correct_answers": [
-          "B"
+          "A"
         ],
         "has_official_key": true,
         "is_multiple": false,
         "area": "Clínica Médica",
-        "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (B). *No es clave oficial ministerial.*",
+        "explanation": "PTH alta con hipercalcemia (calcio 13 mg/dl), densitometría alterada y antecedente de nefrocalcinosis define Hiperparatiroidismo primario.",
         "pdf_page": 88,
         "group_id": "2023-octubre_c0_q16_17",
         "is_case_followup": false
@@ -18590,7 +18606,7 @@
           },
           {
             "id": "C",
-            "text": "Diverticulitis Al ron rs rs nossrnscaras. A dE y y vou id id200008u Jr add a ult. ú"
+            "text": "Diverticulitis aguda"
           },
           {
             "id": "D",

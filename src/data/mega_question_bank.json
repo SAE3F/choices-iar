@@ -1283,11 +1283,6 @@
         "was_marked_in_doc": false
       },
       {
-        "id": "I",
-        "text": "EJERCICIO CLINICO Nro. 5",
-        "was_marked_in_doc": false
-      },
-      {
         "id": "J",
         "text": "Ud. es médico generalista y es llamado a atender a un operario de 32 años que en la fábrica donde",
         "was_marked_in_doc": false
@@ -3195,16 +3190,6 @@
         "id": "H",
         "text": "No son necesarias más indicaciones",
         "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLÍNICO Nro. 3",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "J",
-        "text": "EJERCICIO CLINICO Nº 4",
-        "was_marked_in_doc": false
       }
     ],
     "correct_answers": [
@@ -3776,16 +3761,6 @@
         "id": "H",
         "text": "Hiperprolactinemia",
         "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLÍNICO Nro. 5",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "J",
-        "text": "EJERCICIO CLINICO Nº 6",
-        "was_marked_in_doc": false
       }
     ],
     "correct_answers": [
@@ -4060,11 +4035,6 @@
       {
         "id": "H",
         "text": "Valores de laboratorio elevados, marginales, sin significación diagnóstica",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLINICO Nro. 1",
         "was_marked_in_doc": false
       }
     ],
@@ -4441,11 +4411,6 @@
       {
         "id": "H",
         "text": "Candidiasis mucosa por antibioticoterapia",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLINICO Nro. 2",
         "was_marked_in_doc": false
       }
     ],
@@ -4833,11 +4798,6 @@
         "id": "H",
         "text": "Corrección de las alteraciones del ionograma",
         "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLINICO Nro. 4",
-        "was_marked_in_doc": false
       }
     ],
     "correct_answers": [
@@ -5214,11 +5174,6 @@
         "id": "H",
         "text": "Si Laura aún no gatea indico estimulación temprana",
         "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLINICO Nro. 5",
-        "was_marked_in_doc": false
       }
     ],
     "correct_answers": [
@@ -5579,11 +5534,6 @@
         "id": "H",
         "text": "Solicitar anticuerpos antiendomisio y antigliadina",
         "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLINICO Nro. 6",
-        "was_marked_in_doc": false
       }
     ],
     "correct_answers": [
@@ -5639,16 +5589,6 @@
       {
         "id": "H",
         "text": "Mantener conducta expectante",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "I",
-        "text": "EJERCICIO CLÍNICO Nro. 1",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "J",
-        "text": "EJERCICIO CLÍNICO Nro. 2",
         "was_marked_in_doc": false
       }
     ],
@@ -6218,11 +6158,6 @@
         "was_marked_in_doc": false
       },
       {
-        "id": "I",
-        "text": "EJERCICIO CLÍNICO Nro. 3",
-        "was_marked_in_doc": false
-      },
-      {
         "id": "J",
         "text": "Alberto",
         "was_marked_in_doc": false
@@ -6606,11 +6541,6 @@
       {
         "id": "I",
         "text": "Ofrecer lácteos espesados antes de dormir",
-        "was_marked_in_doc": false
-      },
-      {
-        "id": "J",
-        "text": "EJERCICIO CLÍNICO Nro. 4",
         "was_marked_in_doc": false
       }
     ],
