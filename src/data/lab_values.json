@@ -1,0 +1,187 @@
+[
+  {
+    "system": "Serie Roja y Hemograma",
+    "items": [
+      {
+        "parameter": "Hemoglobina (Mujeres)",
+        "normal": "12.0 - 15.5 g/dL",
+        "notes": "Anemia en embarazo < 11 g/dL (1° y 3° trim), < 10.5 (2° trim)"
+      },
+      {
+        "parameter": "Hemoglobina (Hombres)",
+        "normal": "13.5 - 17.5 g/dL",
+        "notes": "Criterio de anemia OMS: Hb < 13 g/dL en varones"
+      },
+      {
+        "parameter": "Hematocrito",
+        "normal": "37% - 48% (mujeres) / 40% - 52% (hombres)",
+        "notes": "Policitemia vera: Hto > 48% mujeres, > 49% hombres"
+      },
+      {
+        "parameter": "VCM (Volumen Corpuscular Medio)",
+        "normal": "80 - 100 fL",
+        "notes": "<80 microcítica (ferropenia, talasemia); >100 macrocítica (B12, folatos)"
+      },
+      {
+        "parameter": "HCM / CHCM",
+        "normal": "27 - 33 pg / 32 - 36 g/dL",
+        "notes": "Hipocromía típica en deficiencia de hierro"
+      },
+      {
+        "parameter": "Reticulocitos",
+        "normal": "0.5% - 2.0% (o 25.000 - 85.000 /uL)",
+        "notes": "Regenerativa (>2% o IPR > 2) vs arregenerativa"
+      }
+    ]
+  },
+  {
+    "system": "Serie Blanca y Plaquetas",
+    "items": [
+      {
+        "parameter": "Glóbulos Blancos Totales",
+        "normal": "4.000 - 10.000 /mm³",
+        "notes": "Leucocitosis con desviación a la izquierda: neutrófilos en banda > 5-10%"
+      },
+      {
+        "parameter": "Neutrófilos segmentados",
+        "normal": "55% - 70% (2.000 - 7.000 /mm³)",
+        "notes": "Predominio en infecciones bacterianas agudas"
+      },
+      {
+        "parameter": "Linfocitos",
+        "normal": "20% - 40% (1.000 - 4.000 /mm³)",
+        "notes": "Linfomonocitosis con atípicos en Mononucleosis / CMV"
+      },
+      {
+        "parameter": "Eosinófilos",
+        "normal": "1% - 4% (50 - 500 /mm³)",
+        "notes": "Eosinofilia en parásitos tisulares (Toxocara) y alergias"
+      },
+      {
+        "parameter": "Plaquetas",
+        "normal": "150.000 - 450.000 /mm³",
+        "notes": "Trombocitopenia < 150.000; SUH cursa con anemia microangiopática + plaquetopenia"
+      }
+    ]
+  },
+  {
+    "system": "Medio Interno y Electrolitos",
+    "items": [
+      {
+        "parameter": "Sodio sérico (Na+)",
+        "normal": "135 - 145 mEq/L",
+        "notes": "Hiponatremia < 135 mEq/L (calcular osmolaridad y volemia, SIADH = euvolémico)"
+      },
+      {
+        "parameter": "Potasio sérico (K+)",
+        "normal": "3.5 - 5.0 mEq/L",
+        "notes": "Hipopotasemia con onda U y T aplanada; hiperpotasemia T picudas y QRS ancho"
+      },
+      {
+        "parameter": "Cloro sérico (Cl-)",
+        "normal": "98 - 106 mEq/L",
+        "notes": "Útil para cálculo de Anion Gap: Na - (Cl + HCO3) [VN: 8-12 mEq/L]"
+      },
+      {
+        "parameter": "Calcio total / iónico",
+        "normal": "8.5 - 10.5 mg/dL / 1.15 - 1.33 mmol/L",
+        "notes": "Corregir por albúmina: Ca corregido = Ca medido + 0.8*(4 - Albúmina)"
+      },
+      {
+        "parameter": "Fósforo / Magnesio",
+        "normal": "2.5 - 4.5 mg/dL / 1.7 - 2.4 mg/dL",
+        "notes": "Hipomagnesemia perpetúa hipopotasemia e hipocalcemia refactaria"
+      }
+    ]
+  },
+  {
+    "system": "Función Renal y Metabolismo",
+    "items": [
+      {
+        "parameter": "Urea / BUN",
+        "normal": "20 - 40 mg/dL / 7 - 20 mg/dL",
+        "notes": "Relación Urea/Creatinina > 40 sugiere causa prerrenal"
+      },
+      {
+        "parameter": "Creatinina sérica",
+        "normal": "0.7 - 1.2 mg/dL (hombres) / 0.5 - 1.0 (mujeres)",
+        "notes": "Estimación de Filtrado Glomerular con CKD-EPI"
+      },
+      {
+        "parameter": "Glucemia en ayunas",
+        "normal": "70 - 99 mg/dL",
+        "notes": "Diabetes >= 126 mg/dL en 2 tomas o prueba de tolerancia >= 200 o HbA1c >= 6.5%"
+      },
+      {
+        "parameter": "HbA1c",
+        "normal": "< 5.7% (Prediabetes: 5.7 - 6.4%)",
+        "notes": "Meta general en pacientes diabéticos: < 7.0%"
+      },
+      {
+        "parameter": "Ácido úrico",
+        "normal": "3.5 - 7.0 mg/dL",
+        "notes": "Hiperuricemia en gota o preeclampsia"
+      }
+    ]
+  },
+  {
+    "system": "Hepatograma y Perfil Biliar",
+    "items": [
+      {
+        "parameter": "Bilirrubina Total / Directa",
+        "normal": "Total < 1.0 - 1.2 mg/dL / Directa < 0.3 mg/dL",
+        "notes": "Ictericia clínica evidente con BT > 2 - 2.5 mg/dL"
+      },
+      {
+        "parameter": "TGO / AST (Aspartato aminotransferasa)",
+        "normal": "10 - 40 UI/L",
+        "notes": "AST/ALT > 2 en hepatitis alcohólica"
+      },
+      {
+        "parameter": "TGP / ALT (Alanina aminotransferasa)",
+        "normal": "10 - 40 UI/L",
+        "notes": "Elevaciones > 1000 UI/L en hepatitis virales agudas, isquémicas o tóxicas (paracetamol)"
+      },
+      {
+        "parameter": "Fosfatasa Alcalina (FAL)",
+        "normal": "40 - 130 UI/L (adultos)",
+        "notes": "Marcador de colestasis. Si sube aislada, solicitar GGT para confirmar origen hepático"
+      },
+      {
+        "parameter": "GGT (Gamma Glutamil Transferasa)",
+        "normal": "10 - 50 UI/L",
+        "notes": "Elevada en colestasis e inducida fuertemente por consumo de alcohol"
+      },
+      {
+        "parameter": "Tiempo de Protrombina (TP) / RIN",
+        "normal": "70% - 100% / 0.8 - 1.2",
+        "notes": "Marcador fidedigno de función de síntesis hepática aguda"
+      }
+    ]
+  },
+  {
+    "system": "Líquidos Biológicos de Examen",
+    "items": [
+      {
+        "parameter": "Líquido Ascítico - GASA",
+        "normal": "Albúmina suero - Albúmina ascitis",
+        "notes": ">= 1.1 g/dL = Hipertensión portal (cirrosis, IC, Budd-Chiari); < 1.1 g/dL = No HTP (carcinomatosis, TBC, nefropatía)"
+      },
+      {
+        "parameter": "PBE (Peritonitis Bacteriana Espontánea)",
+        "normal": "Neutrófilos en líquido ascítico < 250 /mm³",
+        "notes": "Dx de PBE: >= 250 PMN/mm³. Tratamiento: Cefotaxima 2g c/8h + Albúmina IV"
+      },
+      {
+        "parameter": "Líquido Pleural - Criterios de Light",
+        "normal": "Transudado si no cumple ningún criterio",
+        "notes": "Exudado si: Prot pleural/suero > 0.5; LDH pleural/suero > 0.6; o LDH pleural > 2/3 límite normal sérico"
+      },
+      {
+        "parameter": "Líquido Cefalorraquídeo (LCR) Normal",
+        "normal": "Aspecto cristal de roca, Células < 5 /mm³",
+        "notes": "Bacteriana: turbio, PMN > 1000, glucorraquia < 40%, proteínas > 100. Viral: claro, linfocitos, glucosa normal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "age": "1 a 2 meses",
+    "motor": "Sostiene la cabeza momentáneamente al estar boca abajo. Movimientos simétricos de brazos y piernas.",
+    "fine_motor": "Manos cerradas la mayor parte del tiempo, reflejo de prensión palmar presente.",
+    "language": "Vocaliza sonidos guturales (agú). Se sobresalta ante ruidos fuertes.",
+    "social": "Sonrisa social (aparece a las 6-8 semanas). Fija la mirada y sigue rostros a corta distancia.",
+    "red_flags": "No fija la mirada, no responde a sonidos, marcada hipotonía o asimetría motora."
+  },
+  {
+    "age": "3 a 4 meses",
+    "motor": "Sostén cefálico firme (3 meses). Se apoya en antebrazos en decúbito prono. Rueda de prono a supino.",
+    "fine_motor": "Manos abiertas frecuentemente. Junta las manos en la línea media. Intenta alcanzar objetos.",
+    "language": "Balbuceo simple, emite risas sonoras, gira la cabeza hacia la fuente sonora.",
+    "social": "Sonríe espontáneamente, disfruta jugar con personas, llora si el juego se interrumpe.",
+    "red_flags": "Falta de sostén cefálico a los 4 meses, manos permanentemente en puño cerrado."
+  },
+  {
+    "age": "6 meses",
+    "motor": "Se sienta con apoyo momentáneo (o trípode). Rueda en ambas direcciones. Pasa peso a piernas si se lo sostiene de pie.",
+    "fine_motor": "Pasa objetos de una mano a la otra. Prensión palmar voluntaria de objetos grandes.",
+    "language": "Balbuceo con cadenas de consonantes (da-da, ma-ma sin significado). Responde a su nombre.",
+    "social": "Reconoce caras familiares y comienza a extrañar o desconfiar de extraños. Le gusta mirarse en el espejo.",
+    "red_flags": "No rola, rigidez o debilidad unilateral, no emite sonidos con vocales, no responde a sonidos."
+  },
+  {
+    "age": "9 meses",
+    "motor": "Sedestación independiente sin apoyo (se sienta solo con estabilidad). Puede gatear o reptar. Se para apoyado de muebles.",
+    "fine_motor": "Pinza digital inferior o radial (pulgar e índice). Busca objetos ocultos parcialmente (permanencia del objeto).",
+    "language": "Entiende el 'NO'. Combina sílabas con entonación. Balbuceo imitativo.",
+    "social": "Angustia del octavo/noveno mes ante extraños. Juega a taparse la cara ('¿dónde está bebé?').",
+    "red_flags": "No se sienta solo a los 9 meses, asimetría de prensión o tono, no balbucea."
+  },
+  {
+    "age": "12 meses (1 año)",
+    "motor": "Deambulación con apoyo o pasos independientes. Se pone de pie solo sujetándose. Camina tomado de una mano.",
+    "fine_motor": "Pinza digital fina (índice y pulgar madura). Señala con el dedo índice. Golpea dos cubos entre sí.",
+    "language": "Primeras palabras con significado ('mamá', 'papá' orientadas al progenitor + 1 palabra más). Comprende órdenes simples con gestos.",
+    "social": "Saluda con la mano ('chau'), aplaude. Ayuda al vestirse extendiendo brazos o piernas.",
+    "red_flags": "No se pone de pie apoyado, no señala con el dedo, no pronuncia ninguna palabra ni comprende gestos."
+  },
+  {
+    "age": "15 a 18 meses",
+    "motor": "Camina solo con soltura (15 meses). Puede comenzar a correr, sube escaleras tomado de la mano o gateando.",
+    "fine_motor": "Torre de 2 a 3 cubos. Garabatea espontáneamente con un crayón. Come con cuchara (derramando).",
+    "language": "Dice entre 4 y 10 palabras con significado claro. Reconoce y señala partes del cuerpo y objetos familiares.",
+    "social": "Imita tareas domésticas simples (barrer, limpiar). Muestra afecto. Abraza muñecos o familiares. Inicio de berrinches.",
+    "red_flags": "No camina a los 18 meses, menos de 3-4 palabras a los 18 meses, pérdida de habilidades adquiridas."
+  },
+  {
+    "age": "2 años (24 meses)",
+    "motor": "Corre bien, patea una pelota, salta en dos pies, sube y baja escaleras peldaño a peldaño.",
+    "fine_motor": "Torre de 6 cubos. Traza líneas verticales. Pasa páginas de un libro una por una. Desenrosca tapas.",
+    "language": "Frases de 2 palabras ('quiero agua', 'vamos auto'). Vocabulario de 50+ palabras. Comprende el 50% de lo que dice un extraño.",
+    "social": "Juego en paralelo junto a otros niños. Imita a adultos y niños mayores. Mayor independencia y desafío ('no').",
+    "red_flags": "No usa frases de dos palabras a los 2 años, no imita acciones o palabras, no sigue órdenes sencillas de 2 pasos."
+  },
+  {
+    "age": "3 años",
+    "motor": "Sube escaleras alternando pies. Pedalea en triciclo. Se para en un pie durante 1 a 2 segundos.",
+    "fine_motor": "Torre de 8 a 9 cubos. Copia un círculo. Usa tijeras simples. Come solo con tenedor.",
+    "language": "Oraciones completas de 3 o más palabras. Dice su nombre, edad y sexo. Usa pronombres ('yo', 'mío'). Habla comprensible en 75%.",
+    "social": "Juego asociativo o cooperativo. Comparte juguetes espontáneamente a veces. Control de esfínteres diurno.",
+    "red_flags": "Dificultad grave para separarse de los padres, no interactúa con otros niños, habla ininteligible, no usa oraciones."
+  },
+  {
+    "age": "4 a 5 años",
+    "motor": "Salta en un solo pie con destreza. Atrapa una pelota que rebota. Se balancea.",
+    "fine_motor": "Copia una cruz (4 años) y un triángulo (5 años). Dibuja una persona con al menos 3 a 6 partes. Se viste y desviste solo.",
+    "language": "Habla con fluidez y gramática correcta. Cuenta historias. Conoce colores básicos y conceptos de tiempo (hoy, mañana).",
+    "social": "Juegos reglados y de fantasía complejos. Prefiere jugar con amigos que solo. Muestra empatía y simpatía.",
+    "red_flags": "Incapacidad para vestirse solo, no dibuja figuras geométricas, problemas severos de conducta o lenguaje incomprensible."
+  }
+]

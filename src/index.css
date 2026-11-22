@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fff9f1;
+  --cream-2: #faf2e8;
+  --surface: #fffdfa;
+  --ink: #2f241c;
+  --ink-soft: #5f524a;
+  --ink-faint: #776c64;
+  --line: #e3ddd6;
+  --line-strong: #d1c9c1;
+  --clay: #b95931;
+  --clay-deep: #a0421d;
+  --clay-tint: #ffe1d1;
+  --clay-tint-2: #faccb6;
+  --sage: #729f7b;
+  --sage-deep: #436f4f;
+  --sage-tint: #dbeede;
+  --ochre: #d7b16a;
+  --ochre-tint: #f7e6c3;
+  --plum: #a3689e;
+  --plum-deep: #834c81;
+  --plum-tint: #f8e4f6;
+  --dc: #3e668f;
+  --dc-tint: #e2f0ff;
+  --dc-line: #bed4eb;
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Hanken Grotesk", system-ui, sans-serif;
+  --font-hand: "Caveat", cursive;
+  --shadow-sm: 0 1px 2px #5444380f, 0 2px 8px #5444380d;
+  --shadow-md: 0 4px 14px #54443814, 0 1px 3px #5444380f;
+}
+
+@layer base {
+  body {
+    background-color: var(--cream);
+    color: var(--ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-hand {
+    font-family: var(--font-hand);
+  }
+}
+
+.academic-card {
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+
+.academic-card-elevated {
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-md);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(119, 108, 100, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(95, 82, 74, 0.5);
+}
