@@ -342,75 +342,101 @@ export default function QuestionBankView({ questions }) {
       {/* Main Question Card */}
       <div className="academic-card-elevated rounded-[20px] px-6 pb-6 pt-2 sm:px-8 sm:pb-8 sm:pt-3 transition-all">
         <div
-          className="sticky top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px] flex items-center justify-between gap-2"
+          className="sticky top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px]"
           style={{
             backgroundColor: 'rgba(255, 253, 250, 0.96)',
             borderColor: 'var(--line)',
           }}
         >
-          <div className="flex flex-wrap items-center gap-2">
-            <span
-              className="font-mono text-xs font-bold px-2.5 py-1 rounded-lg"
-              style={{ backgroundColor: 'var(--cream-2)', color: 'var(--ink)' }}
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <span
+                className="font-mono text-xs font-bold px-2.5 py-1 rounded-lg"
+                style={{ backgroundColor: 'var(--cream-2)', color: 'var(--ink)' }}
+              >
+                Pregunta {currentIndex + 1} de {totalInFilter}
+              </span>
+              <span className="text-xs font-semibold px-2.5 py-1 rounded-lg" style={areaStyle}>
+                {currentQ.area}
+              </span>
+              {currentQ.has_student_mark ? (
+                <span
+                  className="text-[11px] font-bold px-2.5 py-0.5 rounded-md border flex items-center space-x-1"
+                  style={{
+                    backgroundColor: 'var(--ochre-tint)',
+                    color: '#7a5a18',
+                    borderColor: '#e8cb8d'
+                  }}
+                >
+                  <span>⚠️ Marcada en apunte</span>
+                </span>
+              ) : (
+                <span
+                  className="text-[11px] font-bold px-2.5 py-0.5 rounded-md border flex items-center space-x-1"
+                  style={{
+                    backgroundColor: 'var(--dc-tint)',
+                    color: 'var(--dc)',
+                    borderColor: '#b4c9dc'
+                  }}
+                >
+                  <span>💡 Sugerencia IA</span>
+                </span>
+              )}
+              {currentQ.is_multiple && (
+                <span
+                  className="text-xs font-bold px-2.5 py-0.5 rounded-md border"
+                  style={{
+                    backgroundColor: 'var(--plum-tint)',
+                    color: 'var(--plum-deep)',
+                    borderColor: '#e4c7e1',
+                  }}
+                >
+                  Selección Múltiple
+                </span>
+              )}
+            </div>
+
+            <button
+              onClick={() => toggleBookmark(currentQ.id)}
+              className="p-2 rounded-xl transition-all"
+              style={
+                bookmarks.includes(currentQ.id)
+                  ? { backgroundColor: 'var(--ochre-tint)', color: '#7a5a18' }
+                  : { color: 'var(--ink-faint)' }
+              }
+              title="Guardar para repasar"
             >
-              Pregunta {currentIndex + 1} de {totalInFilter}
-            </span>
-            <span className="text-xs font-semibold px-2.5 py-1 rounded-lg" style={areaStyle}>
-              {currentQ.area}
-            </span>
-            {currentQ.has_student_mark ? (
-              <span
-                className="text-[11px] font-bold px-2.5 py-0.5 rounded-md border flex items-center space-x-1"
-                style={{
-                  backgroundColor: 'var(--ochre-tint)',
-                  color: '#7a5a18',
-                  borderColor: '#e8cb8d'
-                }}
-              >
-                <span>⚠️ Marcada en apunte</span>
-              </span>
-            ) : (
-              <span
-                className="text-[11px] font-bold px-2.5 py-0.5 rounded-md border flex items-center space-x-1"
-                style={{
-                  backgroundColor: 'var(--dc-tint)',
-                  color: 'var(--dc)',
-                  borderColor: '#b4c9dc'
-                }}
-              >
-                <span>💡 Sugerencia IA</span>
-              </span>
-            )}
-            {currentQ.is_multiple && (
-              <span
-                className="text-xs font-bold px-2.5 py-0.5 rounded-md border"
-                style={{
-                  backgroundColor: 'var(--plum-tint)',
-                  color: 'var(--plum-deep)',
-                  borderColor: '#e4c7e1',
-                }}
-              >
-                Selección Múltiple
-              </span>
-            )}
+              {bookmarks.includes(currentQ.id) ? (
+                <BookmarkCheck className="w-5 h-5 fill-current" />
+              ) : (
+                <Bookmark className="w-5 h-5" />
+              )}
+            </button>
           </div>
 
-          <button
-            onClick={() => toggleBookmark(currentQ.id)}
-            className="p-2 rounded-xl transition-all"
-            style={
-              bookmarks.includes(currentQ.id)
-                ? { backgroundColor: 'var(--ochre-tint)', color: '#7a5a18' }
-                : { color: 'var(--ink-faint)' }
-            }
-            title="Guardar para repasar"
-          >
-            {bookmarks.includes(currentQ.id) ? (
-              <BookmarkCheck className="w-5 h-5 fill-current" />
-            ) : (
-              <Bookmark className="w-5 h-5" />
-            )}
-          </button>
+          {/* CLINICAL CASE VIGNETTE CARD (WHEN PRESENT) */}
+          {currentQ.case_vignette && (
+            <div
+              className="mt-3 rounded-2xl p-3.5 sm:p-4 border"
+              style={{
+                backgroundColor: 'var(--cream-2)',
+                borderColor: 'var(--line-strong)',
+              }}
+            >
+              <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider mb-1.5" style={{ color: 'var(--clay-deep)' }}>
+                <HelpCircle className="w-3.5 h-3.5" />
+                <span>{currentQ.case_title || 'Caso Clínico'}</span>
+                {currentQ.is_case_followup && (
+                  <span className="ml-2 font-mono text-[10px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'var(--clay-tint)', color: 'var(--clay-deep)' }}>
+                    Pregunta de seguimiento
+                  </span>
+                )}
+              </div>
+              <p className="text-xs sm:text-sm leading-relaxed whitespace-pre-line max-h-32 sm:max-h-40 overflow-y-auto pr-1" style={{ color: 'var(--ink)' }}>
+                {currentQ.case_vignette}
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Question Prompt */}
