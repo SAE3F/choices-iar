@@ -340,8 +340,14 @@ export default function QuestionBankView({ questions }) {
       </div>
 
       {/* Main Question Card */}
-      <div className="academic-card-elevated rounded-[20px] p-6 sm:p-8 transition-all">
-        <div className="flex items-center justify-between pb-4 border-b gap-2" style={{ borderColor: 'var(--line)' }}>
+      <div className="academic-card-elevated rounded-[20px] px-6 pb-6 pt-2 sm:px-8 sm:pb-8 sm:pt-3 transition-all">
+        <div
+          className="sticky top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px] flex items-center justify-between gap-2"
+          style={{
+            backgroundColor: 'rgba(255, 253, 250, 0.96)',
+            borderColor: 'var(--line)',
+          }}
+        >
           <div className="flex flex-wrap items-center gap-2">
             <span
               className="font-mono text-xs font-bold px-2.5 py-1 rounded-lg"
