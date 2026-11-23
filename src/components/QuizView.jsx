@@ -189,6 +189,7 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
 
   // Mobile: clinical case banner collapsed by default; auto-expanded when a new case starts
   const [caseExpanded, setCaseExpanded] = useState(false);
+  const [filtersOpenMobile, setFiltersOpenMobile] = useState(false);
   useEffect(() => {
     setCaseExpanded(!currentQ?.is_case_followup);
   }, [currentQ?.case_vignette]);
@@ -474,8 +475,36 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
 
       {/* TOP FILTERS & SELECTION BAR (When not in Simulacro) */}
       {!isSimulacroActive && (
-        <div className="academic-card rounded-[20px] p-4 sm:p-5 space-y-4">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div className="academic-card rounded-[20px] p-3.5 sm:p-5 space-y-3 sm:space-y-4">
+          {/* Mobile compact toggle header */}
+          <div className="flex sm:hidden items-center justify-between gap-2">
+            <button
+              type="button"
+              onClick={() => setFiltersOpenMobile(v => !v)}
+              className="flex-1 flex items-center justify-between text-left px-3 py-2 rounded-xl border text-xs font-semibold"
+              style={{ backgroundColor: 'var(--cream)', borderColor: 'var(--line)', color: 'var(--ink)' }}
+            >
+              <span className="truncate">
+                {selectedExamId === 'all' ? 'Todos los exámenes' : exams.find(e => e.id === selectedExamId)?.title}
+                {selectedArea !== 'all' ? ` • ${selectedArea}` : ''}
+                {` (${totalInFilter})`}
+              </span>
+              <span className="ml-2 shrink-0" style={{ color: 'var(--clay-deep)' }}>
+                {filtersOpenMobile ? 'Ocultar ▴' : 'Filtros ▾'}
+              </span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowSimulacroModal(true)}
+              className="px-3 py-2 rounded-xl text-xs font-bold text-white flex items-center gap-1.5 shrink-0"
+              style={{ backgroundColor: 'var(--clay)' }}
+            >
+              <Shuffle className="w-3.5 h-3.5" />
+              <span>Simulacro</span>
+            </button>
+          </div>
+
+          <div className={`${filtersOpenMobile ? 'flex' : 'hidden'} sm:flex flex-col md:flex-row md:items-center justify-between gap-4`}>
             {/* Exam selector */}
             <div className="flex-1">
               <label className="block text-[11px] font-bold uppercase tracking-wider mb-1.5" style={{ color: 'var(--ink-faint)' }}>
@@ -537,7 +566,7 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
           </div>
 
           {/* FILTER MODES (Todas, Pendientes, Errores, Guardadas) */}
-          <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t" style={{ borderColor: 'var(--line)' }}>
+          <div className={`${filtersOpenMobile ? 'flex' : 'hidden'} sm:flex flex-wrap items-center justify-between gap-3 pt-3 border-t`} style={{ borderColor: 'var(--line)' }}>
             <div className="flex flex-wrap items-center gap-2">
               <button
                 onClick={() => { setFilterMode('all'); setCurrentIndex(0); }}
@@ -613,7 +642,7 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
       <div className="academic-card-elevated rounded-[20px] px-6 pb-6 pt-2 sm:px-8 sm:pb-8 sm:pt-3 transition-all">
         {/* Sticky Header: Question Number, Badges & Clinical Case Vignette */}
         <div
-          className="sticky top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px]"
+          className="sticky top-[102px] md:top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px]"
           style={{
             backgroundColor: 'rgba(255, 253, 250, 0.96)',
             borderColor: 'var(--line)',

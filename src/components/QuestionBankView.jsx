@@ -347,7 +347,7 @@ export default function QuestionBankView({ questions }) {
       {/* Main Question Card */}
       <div className="academic-card-elevated rounded-[20px] px-6 pb-6 pt-2 sm:px-8 sm:pb-8 sm:pt-3 transition-all">
         <div
-          className="sticky top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px]"
+          className="sticky top-[102px] md:top-16 z-30 -mx-6 sm:-mx-8 px-6 sm:px-8 pt-3 pb-3 border-b backdrop-blur-md rounded-t-[20px]"
           style={{
             backgroundColor: 'rgba(255, 253, 250, 0.96)',
             borderColor: 'var(--line)',
