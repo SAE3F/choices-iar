@@ -873,11 +873,29 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
                 <p className="font-display font-bold">
                   {recordedState?.isCorrect ? '¡Respuesta Correcta!' : 'Respuesta Incorrecta'}
                 </p>
-                <p className="mt-0.5 text-xs opacity-90">
-                  Respuesta oficial/sugerida:{' '}
-                  <strong className="underline uppercase">
-                    {(currentQ.correct_options || currentQ.correct_answers || []).join(', ')}
-                  </strong>
+                <p className="mt-0.5 text-xs opacity-90 flex flex-wrap items-center gap-2">
+                  <span>
+                    {currentQ.key_status === 'suggested_no_official' ? 'Respuesta sugerida:' : 'Respuesta oficial del apunte:'}{' '}
+                    <strong className="underline uppercase">
+                      {(currentQ.correct_options || currentQ.correct_answers || []).join(', ')}
+                    </strong>
+                  </span>
+                  {currentQ.key_status === 'possible_key_error' && (
+                    <span
+                      className="inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-bold border"
+                      style={{ backgroundColor: 'var(--ochre-tint)', color: '#7a5a18', borderColor: '#e8cb8d' }}
+                    >
+                      ⚠️ Posible error en la clave
+                    </span>
+                  )}
+                  {currentQ.key_status === 'suggested_no_official' && (
+                    <span
+                      className="inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-bold border"
+                      style={{ backgroundColor: 'var(--cream)', color: 'var(--ink-soft)', borderColor: 'var(--line-strong)' }}
+                    >
+                      💡 Sugerida, no oficial
+                    </span>
+                  )}
                 </p>
               </div>
             </div>

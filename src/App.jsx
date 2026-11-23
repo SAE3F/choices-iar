@@ -11,6 +11,26 @@ import theoryData from './data/theory.json';
 import milestonesData from './data/milestones.json';
 import labValuesData from './data/lab_values.json';
 import megaQuestionsData from './data/mega_question_bank.json';
+import changedAuditInfo from './data/changed_question_ids.json';
+
+// Reset saved progress ONLY for questions whose options or correct answers changed in the medical audit
+try {
+  const applied = localStorage.getItem('iar_audit_migration');
+  if (applied !== changedAuditInfo.version) {
+    const raw = JSON.parse(localStorage.getItem('iar_user_answers') || '{}');
+    let mutated = false;
+    for (const qid of changedAuditInfo.changed_ids || []) {
+      if (qid in raw) {
+        delete raw[qid];
+        mutated = true;
+      }
+    }
+    if (mutated) {
+      localStorage.setItem('iar_user_answers', JSON.stringify(raw));
+    }
+    localStorage.setItem('iar_audit_migration', changedAuditInfo.version);
+  }
+} catch {}
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('quiz');
