@@ -187,6 +187,12 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
     }
   }, [currentIndex, currentQ, userAnswers]);
 
+  // Mobile: clinical case banner collapsed by default; auto-expanded when a new case starts
+  const [caseExpanded, setCaseExpanded] = useState(false);
+  useEffect(() => {
+    setCaseExpanded(!currentQ?.is_case_followup);
+  }, [currentQ?.case_vignette]);
+
   // Keyboard navigation (Left / Right arrows)
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -218,9 +224,8 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
         setSelectedOptions([...selectedOptions, optId]);
       }
     } else {
-      const newSel = [optId];
-      setSelectedOptions(newSel);
-      submitAnswer(newSel);
+      // Single choice: only select (can be changed); user must confirm explicitly
+      setSelectedOptions([optId]);
     }
   };
 
@@ -695,23 +700,33 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
                 borderColor: 'var(--line-strong)',
               }}
             >
-              <div className="flex items-center justify-between mb-1.5">
-                <div className="flex items-center space-x-2">
-                  <span className="w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--clay)' }} />
-                  <h4 className="font-display font-bold text-xs uppercase tracking-wider" style={{ color: 'var(--clay-deep)' }}>
+              <button
+                type="button"
+                onClick={() => setCaseExpanded(v => !v)}
+                className="w-full flex items-center justify-between mb-1.5 text-left sm:cursor-default"
+                aria-expanded={caseExpanded}
+              >
+                <div className="flex items-center space-x-2 min-w-0">
+                  <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: 'var(--clay)' }} />
+                  <h4 className="font-display font-bold text-xs uppercase tracking-wider truncate" style={{ color: 'var(--clay-deep)' }}>
                     {currentQ.case_title || 'Caso Clínico Asociado'}
                   </h4>
                 </div>
-                {currentQ.is_case_followup && (
-                  <span
-                    className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md"
-                    style={{ backgroundColor: 'var(--clay-tint)', color: 'var(--clay-deep)' }}
-                  >
-                    Pregunta Encadenada al Caso
+                <div className="flex items-center gap-2 shrink-0">
+                  {currentQ.is_case_followup && (
+                    <span
+                      className="hidden sm:inline text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md"
+                      style={{ backgroundColor: 'var(--clay-tint)', color: 'var(--clay-deep)' }}
+                    >
+                      Pregunta Encadenada al Caso
+                    </span>
+                  )}
+                  <span className="sm:hidden text-[11px] font-semibold" style={{ color: 'var(--clay-deep)' }}>
+                    {caseExpanded ? 'Ocultar ▴' : 'Ver caso ▾'}
                   </span>
-                )}
-              </div>
-              <p className="text-xs sm:text-sm leading-relaxed whitespace-pre-line max-h-32 sm:max-h-40 overflow-y-auto pr-1" style={{ color: 'var(--ink)' }}>
+                </div>
+              </button>
+              <p className={`${caseExpanded ? 'block' : 'hidden'} sm:block text-sm leading-relaxed whitespace-pre-line max-h-[40vh] sm:max-h-40 overflow-y-auto pr-1`} style={{ color: 'var(--ink)' }}>
                 {currentQ.case_vignette}
               </p>
             </div>
@@ -795,7 +810,7 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
                   key={opt.id}
                   onClick={() => toggleOption(opt.id)}
                   disabled={isAnswered}
-                  className="w-full text-left p-4 rounded-2xl border transition-all flex items-start space-x-3.5"
+                  className="w-full text-left p-4 min-h-[52px] rounded-2xl border transition-all flex items-start space-x-3.5 active:scale-[0.99]"
                   style={cardStyle}
                 >
                   <div
@@ -817,16 +832,23 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
           </div>
         )}
 
-        {/* Multiple choice confirmation button */}
-        {currentQ.is_multiple && currentQ.options?.length > 0 && !isAnswered && (
-          <div className="mt-5 flex justify-end">
+        {/* Confirmation button (single and multiple choice) - sticky at bottom on mobile */}
+        {currentQ.options?.length > 0 && !isAnswered && (
+          <div
+            className="sticky bottom-0 z-20 -mx-6 px-6 py-3 mt-5 sm:static sm:mx-0 sm:px-0 sm:py-0 flex justify-end"
+            style={{ background: 'linear-gradient(to top, rgba(255,253,250,1) 70%, rgba(255,253,250,0))' }}
+          >
             <button
               onClick={() => submitAnswer()}
               disabled={selectedOptions.length === 0}
-              className="px-6 py-2.5 text-white font-semibold rounded-xl transition-all disabled:opacity-40"
+              className="w-full sm:w-auto min-h-[48px] px-6 py-2.5 text-white font-semibold rounded-xl transition-all disabled:opacity-40"
               style={{ backgroundColor: 'var(--clay)', boxShadow: 'var(--shadow-sm)' }}
             >
-              Confirmar Selección ({selectedOptions.length})
+              {currentQ.is_multiple
+                ? `Confirmar Selección (${selectedOptions.length})`
+                : selectedOptions.length === 0
+                  ? 'Elegí una opción'
+                  : `Confirmar respuesta (${selectedOptions[0]})`}
             </button>
           </div>
         )}

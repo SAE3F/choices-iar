@@ -101,6 +101,11 @@ export default function QuestionBankView({ questions }) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [filteredQuestions.length]);
 
+  const [caseExpanded, setCaseExpanded] = useState(false);
+  useEffect(() => {
+    setCaseExpanded(!currentQ?.is_case_followup);
+  }, [currentQ?.case_vignette]);
+
   const handleSelectOption = (optId) => {
     if (isAnswered) return;
     if (currentQ?.is_multiple) {
@@ -423,16 +428,27 @@ export default function QuestionBankView({ questions }) {
                 borderColor: 'var(--line-strong)',
               }}
             >
-              <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider mb-1.5" style={{ color: 'var(--clay-deep)' }}>
-                <HelpCircle className="w-3.5 h-3.5" />
-                <span>{currentQ.case_title || 'Caso Clínico'}</span>
-                {currentQ.is_case_followup && (
-                  <span className="ml-2 font-mono text-[10px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'var(--clay-tint)', color: 'var(--clay-deep)' }}>
-                    Pregunta de seguimiento
-                  </span>
-                )}
-              </div>
-              <p className="text-xs sm:text-sm leading-relaxed whitespace-pre-line max-h-32 sm:max-h-40 overflow-y-auto pr-1" style={{ color: 'var(--ink)' }}>
+              <button
+                type="button"
+                onClick={() => setCaseExpanded(v => !v)}
+                className="w-full flex items-center justify-between gap-2 text-xs font-bold uppercase tracking-wider mb-1.5 text-left sm:cursor-default"
+                style={{ color: 'var(--clay-deep)' }}
+                aria-expanded={caseExpanded}
+              >
+                <span className="flex items-center space-x-2 min-w-0">
+                  <HelpCircle className="w-3.5 h-3.5 shrink-0" />
+                  <span className="truncate">{currentQ.case_title || 'Caso Clínico'}</span>
+                  {currentQ.is_case_followup && (
+                    <span className="hidden sm:inline ml-2 font-mono text-[10px] px-2 py-0.5 rounded-full" style={{ backgroundColor: 'var(--clay-tint)', color: 'var(--clay-deep)' }}>
+                      Pregunta de seguimiento
+                    </span>
+                  )}
+                </span>
+                <span className="sm:hidden normal-case text-[11px] font-semibold shrink-0">
+                  {caseExpanded ? 'Ocultar ▴' : 'Ver caso ▾'}
+                </span>
+              </button>
+              <p className={`${caseExpanded ? 'block' : 'hidden'} sm:block text-sm leading-relaxed whitespace-pre-line max-h-[40vh] sm:max-h-40 overflow-y-auto pr-1`} style={{ color: 'var(--ink)' }}>
                 {currentQ.case_vignette}
               </p>
             </div>
@@ -548,11 +564,14 @@ export default function QuestionBankView({ questions }) {
 
         {/* Action Button: Comprobar */}
         {!isAnswered && (
-          <div className="mt-6 flex justify-end">
+          <div
+            className="sticky bottom-0 z-20 -mx-6 px-6 py-3 mt-6 sm:static sm:mx-0 sm:px-0 sm:py-0 flex justify-end"
+            style={{ background: 'linear-gradient(to top, rgba(255,253,250,1) 70%, rgba(255,253,250,0))' }}
+          >
             <button
               onClick={handleSubmitAnswer}
               disabled={selectedOptions.length === 0}
-              className="px-6 py-3 rounded-xl font-bold text-sm text-white disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+              className="w-full sm:w-auto min-h-[48px] px-6 py-3 rounded-xl font-bold text-sm text-white disabled:opacity-40 disabled:cursor-not-allowed transition-all"
               style={{
                 backgroundColor: 'var(--clay)',
                 boxShadow: selectedOptions.length > 0 ? 'var(--shadow-md)' : 'none',
