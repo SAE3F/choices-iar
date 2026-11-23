@@ -1790,62 +1790,22 @@
           },
           {
             "id": "C",
-            "text": "Ingurgitacion yugular"
+            "text": "Ingurgitación yugular"
           },
           {
             "id": "D",
-            "text": "Hepatomegalia E"
+            "text": "Hepatomegalia"
           },
           {
             "id": "E",
-            "text": ""
+            "text": "Hipoventilación bibasal"
           },
           {
             "id": "F",
-            "text": "e e e e e” e”"
-          },
-          {
-            "id": "G",
-            "text": "e e”"
-          },
-          {
-            "id": "H",
-            "text": ""
-          },
-          {
-            "id": "I",
-            "text": ""
-          },
-          {
-            "id": "J",
-            "text": ""
-          },
-          {
-            "id": "K",
-            "text": ""
-          },
-          {
-            "id": "L",
-            "text": "es"
-          },
-          {
-            "id": "M",
-            "text": "Es Es"
-          },
-          {
-            "id": "O14",
-            "text": "e"
-          },
-          {
-            "id": "O15",
-            "text": "Hipoventilacion bibasal"
-          },
-          {
-            "id": "O16",
             "text": "Taquicardia"
           },
           {
-            "id": "O17",
+            "id": "G",
             "text": "Edemas bimaleolares"
           }
         ],
@@ -9353,7 +9313,7 @@
           },
           {
             "id": "E",
-            "text": "Presencia de obesidad, o ún IMC en percentil >90"
+            "text": "Presencia de obesidad, o un IMC en percentil >90"
           },
           {
             "id": "F",
@@ -9361,11 +9321,7 @@
           },
           {
             "id": "G",
-            "text": "Ambos padres con sobrepeso//0besidad"
-          },
-          {
-            "id": "H",
-            "text": ""
+            "text": "Ambos padres con sobrepeso / obesidad"
           }
         ],
         "correct_answers": [

@@ -187,6 +187,27 @@ export default function QuizView({ exams, megaQuestions = [], initialArea = 'all
     }
   }, [currentIndex, currentQ, userAnswers]);
 
+  // Keyboard navigation (Left / Right arrows)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      const tag = e.target?.tagName?.toUpperCase();
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (showSimulacroModal || showSimulacroSummary || lightboxPage !== null) return;
+      if (activeQuestions.length === 0) return;
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        setCurrentIndex(prev => Math.max(0, prev - 1));
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        setCurrentIndex(prev => Math.min(activeQuestions.length - 1, prev + 1));
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [activeQuestions.length, showSimulacroModal, showSimulacroSummary, lightboxPage]);
+
   // Option selection handler
   const toggleOption = (optId) => {
     if (isAnswered) return;

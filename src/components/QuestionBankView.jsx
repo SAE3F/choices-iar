@@ -81,6 +81,26 @@ export default function QuestionBankView({ questions }) {
     }
   }, [currentIndex, currentQ?.id]);
 
+  // Keyboard navigation (Left / Right arrows)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      const tag = e.target?.tagName?.toUpperCase();
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      if (filteredQuestions.length === 0) return;
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        setCurrentIndex(prev => Math.max(0, prev - 1));
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        setCurrentIndex(prev => Math.min(filteredQuestions.length - 1, prev + 1));
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [filteredQuestions.length]);
+
   const handleSelectOption = (optId) => {
     if (isAnswered) return;
     if (currentQ?.is_multiple) {
