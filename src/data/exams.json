@@ -2476,7 +2476,7 @@
         "id": "2020-noviembre_c0_q5_5",
         "number": 5,
         "case_number": null,
-        "prompt": "Manuel es soltero y tiene 23 años de edad. Según refiere, en pleno estado de buena salud. durante un partido de tenis, siente un fuerte dolor en el pecho, del lado izquierdo, de dificil caracterización. El cuadro lo obliga a detener el juego y retirarse de la cancha. El dolor continúa por unos 20 minutos agregándose disnea. Pasados 30 minutos del episodio persiste con los sintomas. Sus compañeros, lo ayudan a trasladarse a una guardia hospitalaria donde usted lo recibe, Le realiza un interrogatorio el cual no arroja ningún dato importante y procede con el siguiente examen físico: Pulso radial regular. FC 120 Ipm, TA 120 / 70 mm de Hg y FR: 22 por minuto. La semiología del tórax evidencia una disminución de la excursión de la base izquierda, hipersonoridad y disminución del murmullo vesicular en la misma región. Ante este cuadro, cuál es su sospecha diagnóstica? fONeumotorax espontaneo",
+        "prompt": "Manuel es soltero y tiene 23 años de edad. En pleno estado de buena salud, durante un partido de tenis siente un fuerte dolor en el pecho del lado izquierdo, de difícil caracterización, que lo obliga a retirarse de la cancha. A los 20 minutos se agrega disnea progresiva. Al examen físico en guardia: FC 120 lpm, TA 120/70 mmHg, FR 22 rpm. Semiología torácica: disminución de la excursión de la base izquierda, hipersonoridad y abolición del murmullo vesicular en la misma región. Ante este cuadro, ¿cuál es su sospecha diagnóstica?",
         "options": [
           {
             "id": "A",
@@ -2503,64 +2503,86 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (A).",
         "pdf_page": 14,
-        "group_id": "2020-noviembre_c0_q5_5",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_manuel",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Manuel (23 años)",
+        "case_vignette": "Manuel es soltero y tiene 23 años de edad. En pleno estado de buena salud, durante un partido de tenis siente un fuerte dolor en el pecho del lado izquierdo, de difícil caracterización, que lo obliga a retirarse de la cancha. A los 20 minutos se agrega disnea progresiva. Al examen físico en guardia: FC 120 lpm, TA 120/70 mmHg, FR 22 rpm. Semiología torácica: disminución de la excursión de la base izquierda, hipersonoridad y abolición del murmullo vesicular en la misma región."
       },
       {
         "id": "2020-noviembre_c0_q6_6",
         "number": 6,
         "case_number": null,
-        "prompt": "Qué estudios complementarios.decide solicitar? O. Radiografía de toras simple de frente y perfil",
+        "prompt": "¿Qué estudios complementarios decide solicitar inicialmente para evaluar a Manuel? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "Electrocardiograma Cc. LDH"
+            "text": "Radiografía de tórax simple de frente y perfil"
           },
           {
             "id": "B",
-            "text": "Hemograma completo y coagulograma"
+            "text": "Electrocardiograma"
           },
           {
             "id": "C",
-            "text": "Ecotomografía digital con reconstrucción tridimensional"
+            "text": "LDH"
           },
           {
             "id": "D",
-            "text": "Fibrobroncoscopia diagnóstica de urgencia"
+            "text": "Hemograma completo y coagulograma"
+          },
+          {
+            "id": "E",
+            "text": "Ecotomografía digital con reconstrucción tridimensional"
+          },
+          {
+            "id": "F",
+            "text": "Fibrobroncoscopía diagnóstica de urgencia"
           }
         ],
         "correct_answers": [
-          "A"
+          "A",
+          "B",
+          "D"
         ],
         "has_official_key": true,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (A).",
         "pdf_page": 14,
-        "group_id": "2020-noviembre_c0_q6_6",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_manuel",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Manuel (23 años)",
+        "case_vignette": "Manuel es soltero y tiene 23 años de edad. En pleno estado de buena salud, durante un partido de tenis siente un fuerte dolor en el pecho del lado izquierdo, de difícil caracterización, que lo obliga a retirarse de la cancha. A los 20 minutos se agrega disnea progresiva. Al examen físico en guardia: FC 120 lpm, TA 120/70 mmHg, FR 22 rpm. Semiología torácica: disminución de la excursión de la base izquierda, hipersonoridad y abolición del murmullo vesicular en la misma región."
       },
       {
         "id": "2020-noviembre_c0_q7_7",
         "number": 7,
         "case_number": null,
-        "prompt": "El laboratorio arroja resultados normales. La radiografía de tórax evidencia colapso pulmonar de más del 50% en el lado izquierdo. El paciente presenta agravamiento de;su disnea. Si requiere consultar: Presentación inicial del caso. Ud. Decide... Señale 3 opciones: 60 Avenamiento pleural con sistema cerrado conectado a frasco de'agua 9 Punción torácica para evacuar el aire",
+        "prompt": "El laboratorio arroja resultados normales. La radiografía de tórax evidencia colapso pulmonar mayor al 50% en el hemitórax izquierdo y el paciente presenta agravamiento de su disnea. ¿Cuál es la conducta terapéutica indicada?",
         "options": [
           {
             "id": "A",
-            "text": "Reexpansión pulmonar asistida por respirador volumétrico"
+            "text": "Avenamiento pleural con sistema cerrado bajo sello de agua"
           },
           {
             "id": "B",
-            "text": "Mediastinoscopia terapéutica para sellar bullas de enfisema"
+            "text": "Punción torácica simple evacuadora de aire"
           },
           {
             "id": "C",
-            "text": "Toracotomía de urgencia para descomprimir el pulmón"
+            "text": "Reexpansión pulmonar asistida por respirador volumétrico"
           },
           {
             "id": "D",
-            "text": "Sutura de la efracción pleural por fibrobroncoscopia"
+            "text": "Mediastinoscopía terapéutica"
+          },
+          {
+            "id": "E",
+            "text": "Toracotomía de urgencia"
+          },
+          {
+            "id": "F",
+            "text": "Sutura de la efracción pleural por fibrobroncoscopía"
           }
         ],
         "correct_answers": [
@@ -2571,14 +2593,16 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 15,
-        "group_id": "2020-noviembre_c0_q7_7",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_manuel",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Manuel (23 años)",
+        "case_vignette": "Manuel es soltero y tiene 23 años de edad. En pleno estado de buena salud, durante un partido de tenis siente un fuerte dolor en el pecho del lado izquierdo, de difícil caracterización, que lo obliga a retirarse de la cancha. A los 20 minutos se agrega disnea progresiva. Al examen físico en guardia: FC 120 lpm, TA 120/70 mmHg, FR 22 rpm. Semiología torácica: disminución de la excursión de la base izquierda, hipersonoridad y abolición del murmullo vesicular en la misma región."
       },
       {
         "id": "2020-noviembre_c0_q8_8",
         "number": 8,
         "case_number": null,
-        "prompt": "Alberto de 54 años de edad se encuentra en tratamiento desde hace 7 días por un síndrome ascítico edematoso con buena respuesta terapéutica. Hace 48 horas que dejo de perder peso y comenzó con dolor abdominal difuso a predominio de hemiabdomen inferior. En el día de la consulta registra temperatura superior a 37,8? y al ser examinado se lo nota lento en sus respuestas verbales y alteraciones en la escritura. Se decide realizar una parecentesis la cual informa los siguientes resultados: GASA =1,9 g/ dl, 920 leucocitos con 92% de neutrófilos. De acuerdo con los datos obtenidos señale los diagnósticos posibles. Marque 2 opciones.",
+        "prompt": "Alberto, de 54 años de edad, se encuentra en tratamiento desde hace 7 días por un síndrome ascítico-edematoso. Hace 48 horas dejó de perder peso y comenzó con dolor abdominal difuso en hemiabdomen inferior con fiebre (>37,8 °C), bradipsiquia y asterixis. La paracentesis informa GASA 1,9 g/dl, 920 leucocitos con 92% de neutrófilos. De acuerdo con los datos obtenidos, señale los dos diagnósticos presentes:",
         "options": [
           {
             "id": "A",
@@ -2586,7 +2610,7 @@
           },
           {
             "id": "B",
-            "text": "TEncefalopatía hepática"
+            "text": "Encefalopatía hepática"
           },
           {
             "id": "C",
@@ -2594,11 +2618,15 @@
           },
           {
             "id": "D",
-            "text": "Peritonitis bacteriana espontanea"
+            "text": "Peritonitis bacteriana espontánea"
           },
           {
             "id": "E",
-            "text": "Tuberculosis peritoneal fsepsis"
+            "text": "Tuberculosis peritoneal"
+          },
+          {
+            "id": "F",
+            "text": "Sepsis"
           }
         ],
         "correct_answers": [
@@ -2610,14 +2638,16 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (B, D).",
         "pdf_page": 15,
-        "group_id": "2020-noviembre_c0_q8_8",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_alberto",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Alberto (54 años)",
+        "case_vignette": "Alberto, de 54 años de edad, se encuentra en tratamiento desde hace 7 días por un síndrome ascítico-edematoso con buena respuesta terapéutica inicial. Hace 48 horas dejó de perder peso y comenzó con dolor abdominal difuso a predominio de hemiabdomen inferior. En el día de la consulta registra temperatura axilar > 37,8 °C y al examen se lo nota lento en sus respuestas verbales con asterixis y alteraciones en la escritura. Se realiza una paracentesis diagnóstica que informa: GASA = 1,9 g/dl, 920 leucocitos con 92% de neutrófilos (PMN > 250/mm3)."
       },
       {
         "id": "2020-noviembre_c0_q9_9",
         "number": 9,
         "case_number": null,
-        "prompt": "De acuerdo a su impresión diagnóstica establezca los tratamientos que usted considere apropiados. Marque 2 opciones.",
+        "prompt": "De acuerdo a su impresión diagnóstica (PBE y encefalopatía hepática), establezca los tratamientos que considera apropiados: (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
@@ -2653,8 +2683,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (D, E).",
         "pdf_page": 15,
-        "group_id": "2020-noviembre_c0_q9_9",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_alberto",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Alberto (54 años)",
+        "case_vignette": "Alberto, de 54 años de edad, se encuentra en tratamiento desde hace 7 días por un síndrome ascítico-edematoso con buena respuesta terapéutica inicial. Hace 48 horas dejó de perder peso y comenzó con dolor abdominal difuso a predominio de hemiabdomen inferior. En el día de la consulta registra temperatura axilar > 37,8 °C y al examen se lo nota lento en sus respuestas verbales con asterixis y alteraciones en la escritura. Se realiza una paracentesis diagnóstica que informa: GASA = 1,9 g/dl, 920 leucocitos con 92% de neutrófilos (PMN > 250/mm3)."
       },
       {
         "id": "2020-noviembre_c0_q10_11",
@@ -2703,7 +2735,7 @@
         "id": "2020-noviembre_c0_q11_12",
         "number": 12,
         "case_number": null,
-        "prompt": "Daniela de 34 años de edad consulta por hipertermia que no puede precisar cuándo comenzo. Durante los últimos 10 días informa que comenzó con'tos seca. Consultó en una sala de atención primaria y le indicaron una radiografía de tórax en la cual se observa un importante derrame pleural derecho. Se decidió punzarlo y se informó el siguiente resultado: Proteinas elevadas, LDÁ elevada, 980 glóbulos blancos con 95% de linfocitos. ¿Cual de los siguientes datos semiológicos corresponde que se observen en Daniela?. Seleccione una:",
+        "prompt": "Daniela, de 34 años de edad, consulta por fiebre y tos seca de 10 días de evolución. La Rx de tórax evidencia un derrame pleural derecho importante. ¿Cuál de los siguientes hallazgos semiológicos corresponde encontrar en el hemitórax afectado de Daniela?",
         "options": [
           {
             "id": "A",
@@ -2734,22 +2766,24 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (A).",
         "pdf_page": 16,
-        "group_id": "2020-noviembre_c0_q11_12",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_daniela",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Daniela (34 años)",
+        "case_vignette": "Daniela, de 34 años de edad, consulta por hipertermia y tos seca de 10 días de evolución. La radiografía de tórax evidencia un importante derrame pleural derecho. La toracocentesis informa: líquido serofibrinoso con proteínas elevadas, LDH elevada (exudado de Light) y 980 glóbulos blancos con 95% de predominio linfocitario."
       },
       {
         "id": "2020-noviembre_c0_q12_13",
         "number": 13,
         "case_number": null,
-        "prompt": "Luego de analizar el líquido, ¿cuál es su sospecha diagnóstica?",
+        "prompt": "Luego de analizar las características del líquido pleural (exudado serofibrinoso a predominio linfocitario unilateral en mujer joven), ¿cuál es su principal sospecha diagnóstica?",
         "options": [
           {
             "id": "A",
-            "text": "Metastasis pleural"
+            "text": "Metástasis pleural"
           },
           {
             "id": "B",
-            "text": "Neumonía con derrame"
+            "text": "Neumonía con derrame paraneumónico simple"
           },
           {
             "id": "C",
@@ -2761,7 +2795,7 @@
           },
           {
             "id": "E",
-            "text": "Sindrome de Meigs"
+            "text": "Síndrome de Meigs"
           }
         ],
         "correct_answers": [
@@ -2772,14 +2806,16 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (D).",
         "pdf_page": 16,
-        "group_id": "2020-noviembre_c0_q12_13",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_daniela",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Daniela (34 años)",
+        "case_vignette": "Daniela, de 34 años de edad, consulta por hipertermia y tos seca de 10 días de evolución. La radiografía de tórax evidencia un importante derrame pleural derecho. La toracocentesis informa: líquido serofibrinoso con proteínas elevadas, LDH elevada (exudado de Light) y 980 glóbulos blancos con 95% de predominio linfocitario."
       },
       {
         "id": "2020-noviembre_c0_q13_14",
         "number": 14,
         "case_number": null,
-        "prompt": "Javier, de 18 meses, concurre a control por vacunación. Tiene las siguientes vacunas dadas:\n+ Bcg y hepatitis B al nacer) + Antimeningoccocica cuadrivalente 2 dosis Y)\n+ — Quintuple 3 dosis Y) + Antirotavirus 2 dosis Y) +» Salk3 dosis Y) += Triple viral 1 dosis Y)\n+ — Antineumocócica 3 dosis Y) + Hepatitis A 1 dosis Y) Según el calendario de vacunación oficial. Ud. Le indica... Marque 3 opciones",
+        "prompt": "Javier, de 18 meses, concurre al centro de salud para control de vacunación. Su carnet acredita las siguientes vacunas aplicadas: BCG y Hepatitis B neonatal, Quíntuple (3 dosis), Salk (3 dosis), Neumococo conjugada 13-valente (3 dosis), Rotavirus (2 dosis), Meningococo conjugada (2 dosis), Triple Viral (1 dosis) y Hepatitis A (1 dosis). Según el Calendario Nacional de Vacunación oficial, ¿cuáles vacunas le corresponde indicar en esta consulta? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
@@ -2787,7 +2823,7 @@
           },
           {
             "id": "B",
-            "text": "Hepatitis B"
+            "text": "Hepatitis B monovalente"
           },
           {
             "id": "C",
@@ -2811,36 +2847,46 @@
           },
           {
             "id": "H",
-            "text": "Neumococica 13 valente"
+            "text": "Neumocócica 13-valente"
           },
           {
             "id": "I",
-            "text": "Meningococica cuadrivalente"
+            "text": "Meningocócica cuadrivalente (refuerzo)"
           },
           {
             "id": "J",
-            "text": "Doble bacteriana k-Salk L-HPV"
+            "text": "Doble bacteriana"
           },
           {
             "id": "K",
-            "text": "-Quintuple (difteria + tétanos + tos convulsa + H. influenzae + Hep. B) Lirica"
+            "text": "Salk (IPV)"
           },
           {
             "id": "L",
-            "text": "Anugripar"
+            "text": "HPV"
           },
           {
             "id": "M",
-            "text": "Varicela"
+            "text": "Quíntuple (refuerzo 15-18 meses: difteria, tétanos, pertussis, Hib, Hep B)"
+          },
+          {
+            "id": "N",
+            "text": "Antigripal"
+          },
+          {
+            "id": "O",
+            "text": "Varicela (dosis de los 15 meses si no fue aplicada previamente)"
           }
         ],
         "correct_answers": [
-          "A"
+          "I",
+          "M",
+          "O"
         ],
         "has_official_key": false,
         "is_multiple": true,
         "area": "Pediatría",
-        "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
+        "explanation": "A los 15-18 meses corresponden los refuerzos de Quíntuple celular (M), Meningocócica tetravalente (I) y la aplicación de Varicela (O, indicada a los 15 meses en calendario oficial).",
         "pdf_page": 16,
         "group_id": "2020-noviembre_c0_q13_14",
         "is_case_followup": false
@@ -2849,49 +2895,47 @@
         "id": "2020-noviembre_c0_q14_15",
         "number": 15,
         "case_number": null,
-        "prompt": "Analia de 27 años, fumadora (6cig/dia), es hipotiroidea y se encuentra en tratamiento con",
+        "prompt": "Analía, de 27 años, fumadora de 6 cigarrillos diarios, es hipotiroidea en tratamiento con levotiroxina. Su PAP informa presencia de tricomonas y lesión escamosa intraepitelial de alto grado (H-SIL) asociada a HPV. ¿Qué factores de riesgo considera usted que tiene la paciente para desarrollar patología maligna de cérvix uterino?",
         "options": [
           {
             "id": "A",
-            "text": "Tabaquismo, múltiples parejas"
+            "text": "Tabaquismo y múltiples parejas sexuales"
           },
           {
             "id": "B",
-            "text": "Tabaquismo, multiples parejas"
+            "text": "Paridad, tabaquismo e infección por HPV"
           },
           {
             "id": "C",
-            "text": "Paridad, tabaquismo, HPV"
+            "text": "Tabaquismo y lesión H-SIL asociada a HPV"
           },
           {
             "id": "D",
-            "text": "Tabaquismo, H-SIL HPV"
+            "text": "Tabaquismo y tricomoniasis"
           },
           {
             "id": "E",
-            "text": "Tabaquismo, tricomoniasis"
-          },
-          {
-            "id": "F",
-            "text": "Paridad, tabaquismo, multiples parejas"
+            "text": "Paridad, tabaquismo y múltiples parejas sexuales"
           }
         ],
         "correct_answers": [
-          "A"
+          "C"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 16,
-        "group_id": "2020-noviembre_c0_q14_15",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_analia",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Analía (27 años)",
+        "case_vignette": "Analía, de 27 años, fumadora de 6 cigarrillos/día, es hipotiroidea en tratamiento con levotiroxina. Hace dos años tuvo un parto y no realizó controles ginecológicos posteriores hasta este año, en el que le realizaron un Papanicolaou cuyo resultado informa: presencia de tricomonas y lesión intraepitelial escamosa de alto grado (H-SIL) asociada a HPV. Actualmente se encuentra sin pareja estable y utiliza anticoncepción hormonal oral."
       },
       {
         "id": "2020-noviembre_c0_q15_16",
         "number": 16,
         "case_number": null,
-        "prompt": "Con respecto a la presencia de tricomonas, ¿Qué conductas considera las más adecuadas? Maque 2 opciones.",
+        "prompt": "Con respecto a la presencia de tricomonas en el PAP de Analía, ¿qué conductas considera las más adecuadas? (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
@@ -2923,26 +2967,28 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (B, D).",
         "pdf_page": 16,
-        "group_id": "2020-noviembre_c0_q15_16",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_analia",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Analía (27 años)",
+        "case_vignette": "Analía, de 27 años, fumadora de 6 cigarrillos/día, es hipotiroidea en tratamiento con levotiroxina. Hace dos años tuvo un parto y no realizó controles ginecológicos posteriores hasta este año, en el que le realizaron un Papanicolaou cuyo resultado informa: presencia de tricomonas y lesión intraepitelial escamosa de alto grado (H-SIL) asociada a HPV. Actualmente se encuentra sin pareja estable y utiliza anticoncepción hormonal oral."
       },
       {
         "id": "2020-noviembre_c0_q16_17",
         "number": 17,
         "case_number": null,
-        "prompt": "Respecto del informe del Papanicólaou, ¿Que conducta adoptaría?",
+        "prompt": "Respecto del informe del Papanicolaou con lesión intraepitelial de alto grado (H-SIL), ¿qué conducta diagnóstica/terapéutica adoptaría?",
         "options": [
           {
             "id": "A",
-            "text": "Histerectomia"
+            "text": "Histerectomía total"
           },
           {
             "id": "B",
-            "text": "Conización"
+            "text": "Conización cervical"
           },
           {
             "id": "C",
-            "text": "Legrado endocervical"
+            "text": "Colposcopía y biopsia dirigida / legrado endocervical"
           },
           {
             "id": "D",
@@ -2957,18 +3003,20 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (C).",
         "pdf_page": 16,
-        "group_id": "2020-noviembre_c0_q16_17",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_analia",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Analía (27 años)",
+        "case_vignette": "Analía, de 27 años, fumadora de 6 cigarrillos/día, es hipotiroidea en tratamiento con levotiroxina. Hace dos años tuvo un parto y no realizó controles ginecológicos posteriores hasta este año, en el que le realizaron un Papanicolaou cuyo resultado informa: presencia de tricomonas y lesión intraepitelial escamosa de alto grado (H-SIL) asociada a HPV. Actualmente se encuentra sin pareja estable y utiliza anticoncepción hormonal oral."
       },
       {
         "id": "2020-noviembre_c0_q17_18",
         "number": 18,
         "case_number": null,
-        "prompt": "Gabriela de 40 años de edad consulta por haberse detectado un nódulo en su mama derecha. Al examen físico se constata en el cuadrante supero externo de la máma derecha un nódulo duro, irregular, de 1 cm de diametro, no adherido a planos profundos ni superficiales, móvil, no.doloroso, localizado. El resto del examen es normal. ¿Cuáles son los diagnósticos diferenciales? Marque 3 opciones.",
+        "prompt": "Gabriela, de 40 años de edad, consulta por haberse detectado un nódulo duro, irregular y móvil de 1 cm en cuadrante superoexterno de mama derecha. ¿Cuáles son los diagnósticos diferenciales principales? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "MVastopatia displásica"
+            "text": "Mastopatía displásica"
           },
           {
             "id": "B",
@@ -2976,7 +3024,7 @@
           },
           {
             "id": "C",
-            "text": "Tumor Phylloides"
+            "text": "Tumor Phyllodes"
           },
           {
             "id": "D",
@@ -2984,53 +3032,61 @@
           },
           {
             "id": "E",
-            "text": "Carcinoma de mama Flinfoma mamario"
+            "text": "Carcinoma de mama"
           },
           {
             "id": "F",
-            "text": "Hiperplasia lobulillar"
+            "text": "Linfoma mamario"
           },
           {
             "id": "G",
+            "text": "Hiperplasia lobulillar"
+          },
+          {
+            "id": "H",
             "text": "Fibroadenoma mamario"
           }
         ],
         "correct_answers": [
-          "A"
+          "A",
+          "E",
+          "H"
         ],
         "has_official_key": true,
         "is_multiple": true,
         "area": "Tocoginecología",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (A).",
         "pdf_page": 17,
-        "group_id": "2020-noviembre_c0_q17_18",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_gabriela",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Gabriela (40 años)",
+        "case_vignette": "Gabriela, de 40 años de edad, consulta por haberse detectado un nódulo en su mama derecha. Al examen físico se constata en el cuadrante superoexterno de la mama derecha un nódulo duro, irregular, de 1 cm de diámetro, no adherido a planos profundos ni superficiales, móvil y no doloroso. El resto del examen físico es normal."
       },
       {
         "id": "2020-noviembre_c0_q18_19",
         "number": 19,
         "case_number": null,
-        "prompt": "En el caso de Gabriela, cuales son las primeras conductas a adoptar? Marque 3 opciones.",
+        "prompt": "En el caso de Gabriela, ¿cuáles son las primeras conductas a adoptar para el estudio del nódulo mamario? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "Indique dosaje de estrógeno y progesterona"
+            "text": "Dosaje de estrógeno y progesterona"
           },
           {
             "id": "B",
-            "text": "Indicar mamografía"
+            "text": "Indicar mamografía bilateral"
           },
           {
             "id": "C",
-            "text": "Indicar ecografia mamaria"
+            "text": "Indicar ecografía mamaria"
           },
           {
             "id": "D",
-            "text": "Indicar tomografía axial computada de mama"
+            "text": "Indicar tomografía computarizada de mama"
           },
           {
             "id": "E",
-            "text": "Realizar punción guiada por ecografia con aguja gruesa"
+            "text": "Realizar punción biopsia con aguja gruesa (core biopsy) guiada por imágenes"
           },
           {
             "id": "F",
@@ -3038,37 +3094,41 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "B",
+          "C",
+          "E"
         ],
         "has_official_key": false,
         "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 17,
-        "group_id": "2020-noviembre_c0_q18_19",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_gabriela",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Gabriela (40 años)",
+        "case_vignette": "Gabriela, de 40 años de edad, consulta por haberse detectado un nódulo en su mama derecha. Al examen físico se constata en el cuadrante superoexterno de la mama derecha un nódulo duro, irregular, de 1 cm de diámetro, no adherido a planos profundos ni superficiales, móvil y no doloroso. El resto del examen físico es normal."
       },
       {
         "id": "2020-noviembre_c0_q19_21",
         "number": 21,
         "case_number": null,
-        "prompt": "Consulta por guardia, Tatiana, de 11 meses, por 5 deposiciones liquidas, sin moco ni sangre de 4 días de evolución. Presento vómitos al inicio del cuadro. No refiere fiebre. Los padres no pueden diferenciar diuresis de las deposiciones. Último peso 1 mes atrás: 9500 gr. 1 500 gE FC 140xmin, TA 90/60mmhg, FR 38xmin. T* 36,4*”C. Peso 9000 gramos. Al examen físico en brazos de su madre, llorando sin lagrimas, se encuentra en regular estado general, con palidez a] E Ma] ho] en Ll ER en Lo es e Ye q Í q y ” el = a a 2. j . a Y divicavuvuvoa => b' V cutanea, mucosas secas, enoftalmos y signo del pliegue t+. Abdomen ligeramente distendido, blando, depresible, con HA aumentados. Pañal colocado hace dos horas seco. Los examenes complementarios Na+ 126mE0/L, K+ 4,75mEq/L. Glucemia 102mg/d. Uremia 138mg/dl, creatininemia 1,3mg/dl, ph 7,33; pCO2 28mmhg; HCO03 14,4mE9/L Ud. Identifica que Tatiana presenta: Seleccione una",
+        "prompt": "Tatiana, de 11 meses, consulta por cuadro diarreico de 4 días con pérdida de 500 g (5,2%), signos de deshidratación moderada y laboratorio con Na+ 126 mEq/L y acidosis metabólica. ¿Qué alteración del medio interno y compartimentos corporales presenta Tatiana?",
         "options": [
           {
             "id": "A",
-            "text": "Liquido extracelular aumentado con líquido intracelular disminuido"
+            "text": "Líquido extracelular aumentado con líquido intracelular disminuido"
           },
           {
             "id": "B",
-            "text": "Hiponatremia isótonica"
+            "text": "Hiponatremia isotónica"
           },
           {
             "id": "C",
-            "text": "Contracción del líquido extracelular"
+            "text": "Contracción del líquido extracelular con deshidratación hipotónica"
           },
           {
             "id": "D",
-            "text": "Deshidratación hipotónica leve o"
+            "text": "Deshidratación hipertónica con expansión intracelular"
           }
         ],
         "correct_answers": [
@@ -3079,30 +3139,32 @@
         "area": "Pediatría",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2020 (C).",
         "pdf_page": 17,
-        "group_id": "2020-noviembre_c0_q19_21",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_tatiana",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Tatiana (11 meses)",
+        "case_vignette": "Tatiana, de 11 meses, consulta por guardia por 5 deposiciones líquidas al día, sin moco ni sangre, de 4 días de evolución, asociadas a vómitos al inicio y sin fiebre. Peso previo hace 1 mes: 9.500 g. Examen físico: Peso actual 9.000 g (pérdida de ~5%), FC 140 lpm, TA 90/60 mmHg, FR 38 rpm, afebril (36,4 °C). Regular estado general, llanto sin lágrimas, palidez cutánea, mucosas secas, enoftalmos, signo del pliegue positivo (++) y pañal seco tras 2 horas. Laboratorio: Na+ 126 mEq/L (hiponatremia), K+ 4,75 mEq/L, Glucemia 102 mg/dl, Urea 138 mg/dl, Creatinina 1,3 mg/dl, pH 7,33, pCO2 28 mmHg, HCO3 14,4 mEq/L."
       },
       {
         "id": "2020-noviembre_c0_q20_22",
         "number": 22,
         "case_number": null,
-        "prompt": "Cual es su conducta inicial? Seleccione una:",
+        "prompt": "En el caso de Tatiana, ¿cuál es la conducta terapéutica inicial más adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "Ndicar rehidratación por vía oral"
+            "text": "Indicar terapia de rehidratación por vía oral (Plan B con sales de rehidratación OMS)"
           },
           {
             "id": "B",
-            "text": "Indicar expansión con solución fisiológica 20mI/k en 20 minutos"
+            "text": "Indicar expansión rápida con solución fisiológica EV a 20 ml/kg"
           },
           {
             "id": "C",
-            "text": "Colocar sonda nasogastrica para hidratar por gastroclisis"
+            "text": "Administrar antibióticos endovenosos de amplio espectro"
           },
           {
             "id": "D",
-            "text": "Indicar hidratación parenteral."
+            "text": "Indicar loperamida y antiespasmódicos"
           }
         ],
         "correct_answers": [
@@ -3113,8 +3175,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 17,
-        "group_id": "2020-noviembre_c0_q20_22",
-        "is_case_followup": false
+        "group_id": "2020-noviembre_case_tatiana",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Tatiana (11 meses)",
+        "case_vignette": "Tatiana, de 11 meses, consulta por guardia por 5 deposiciones líquidas al día, sin moco ni sangre, de 4 días de evolución, asociadas a vómitos al inicio y sin fiebre. Peso previo hace 1 mes: 9.500 g. Examen físico: Peso actual 9.000 g (pérdida de ~5%), FC 140 lpm, TA 90/60 mmHg, FR 38 rpm, afebril (36,4 °C). Regular estado general, llanto sin lágrimas, palidez cutánea, mucosas secas, enoftalmos, signo del pliegue positivo (++) y pañal seco tras 2 horas. Laboratorio: Na+ 126 mEq/L (hiponatremia), K+ 4,75 mEq/L, Glucemia 102 mg/dl, Urea 138 mg/dl, Creatinina 1,3 mg/dl, pH 7,33, pCO2 28 mmHg, HCO3 14,4 mEq/L."
       }
     ],
     "page_start": 14,
@@ -3138,23 +3202,23 @@
         "id": "2020-diciembre_c0_q1_1",
         "number": 1,
         "case_number": null,
-        "prompt": "Clara tiene 2 años y 6 meses, sin antecedentes patológicos de importancia. Su madre está preocupada por la maduración de su hija.\n+ Clara es capaz de decir 10 palabras NS +» Sube escaleras, patea una pelota\n+ comprende lo que le dicen Ly\" + — Noregula esfínteres diurnos ni nocturnos\n+ tiene un lenguaje no verbal muy expresivo y », Es capaz de utilizar el no y juega al lado de\n* — nousael mío niel yo. otros niños. Arrastre la opción correcta en cada uno de los casilleros. (Norma]/tardío/avanzado)\nHabilidades motoras ¿Cuál es la conducta o diagnóstico correcto?",
+        "prompt": "Clara tiene 2 años y 6 meses, sin antecedentes patológicos. Su madre consulta por pautas madurativas:\n- Sube escaleras y patea una pelota.\n- Dice 10 palabras sueltas, comprende lo que le dicen, tiene lenguaje no verbal muy expresivo, pero no usa pronombres (\"mío\" ni \"yo\") ni arma frases de 2 palabras.\n- No regula esfínteres diurnos ni nocturnos.\n- Utiliza el \"no\" y juega en paralelo al lado de otros niños.\nIndique el nivel de desarrollo alcanzado en las áreas motora, del lenguaje y social:",
         "options": [
           {
             "id": "A",
-            "text": "......N\nHabilidades del lenguaje\nHabilidades sociales: N"
+            "text": "Motor: Normal | Lenguaje: Normal | Social: Normal"
           },
           {
             "id": "B",
-            "text": "Conducta expectante sin cambios"
+            "text": "Motor: Normal | Lenguaje: Tardío | Social: Normal"
           },
           {
             "id": "C",
-            "text": "Solicitar interconsulta urgente con cirugía general"
+            "text": "Motor: Tardío | Lenguaje: Tardío | Social: Normal"
           },
           {
             "id": "D",
-            "text": "Tratamiento sintomático ambulatorio"
+            "text": "Retraso global en todas las áreas del desarrollo"
           }
         ],
         "correct_answers": [
@@ -3249,23 +3313,27 @@
         "id": "2020-diciembre_c0_q4_4",
         "number": 4,
         "case_number": null,
-        "prompt": "Ana, de 20 años de edad, consulta por presentar dos urocultivos positivos a escherichia coli. El antibiograma informa que solo es sensible a norfloxacina y cefalexina. No posee ningún síntoma . ¿Cuál es la conducta que usted adopta?",
+        "prompt": "Ana, de 20 años de edad, no embarazada, consulta con dos urocultivos positivos para Escherichia coli (>100.000 UFC/ml). El antibiograma informa sensibilidad exclusiva a norfloxacina y cefalexina. La paciente se encuentra totalmente asintomática. ¿Cuál es la conducta adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "Le repite el urocultivo en un mes."
+            "text": "Le repite el urocultivo en un mes"
           },
           {
             "id": "B",
-            "text": "Nola trata Cc. Le indica norfloxacina"
+            "text": "No la trata (la bacteriuria asintomática no se trata en mujeres no gestantes)"
           },
           {
             "id": "C",
-            "text": "Le indica cefalexana"
+            "text": "Le indica norfloxacina"
           },
           {
             "id": "D",
-            "text": "Indica vitamina C y cita con nuevo urocultivo"
+            "text": "Le indica cefalexina"
+          },
+          {
+            "id": "E",
+            "text": "Indica vitamina C y cita a control"
           }
         ],
         "correct_answers": [
@@ -3283,11 +3351,11 @@
         "id": "2020-diciembre_c0_q5_5",
         "number": 5,
         "case_number": null,
-        "prompt": "Laura, de 24 años de edad, Cursa un embarazo de26 semanas. Consulta por presentar dos urocultivos positivos a escherichia coli. El antibiograma/informa que solo es sensible a norfloxacina y cefalexina. No posee ningún síntoma y el control del embarazo es normal. ¿Cuál es la conducta que usted adopta?",
+        "prompt": "Laura, de 24 años de edad, cursa un embarazo de 26 semanas. Consulta con dos urocultivos positivos para Escherichia coli (>100.000 UFC/ml) sensibles a norfloxacina y cefalexina. No posee síntomas y el control obstétrico es normal. ¿Cuál es la conducta adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "Indica vitamina C y cita con nuevo urócultivo"
+            "text": "Indica vitamina C y cita con nuevo urocultivo"
           },
           {
             "id": "B",
@@ -3295,11 +3363,15 @@
           },
           {
             "id": "C",
-            "text": "No la trata Oe indica cefalexina"
+            "text": "No la trata"
           },
           {
             "id": "D",
-            "text": "Le repite el urocultivo en un mes."
+            "text": "Le indica cefalexina (la bacteriuria asintomática en el embarazo siempre se trata; las quinolonas están contraindicadas)"
+          },
+          {
+            "id": "E",
+            "text": "Le repite el urocultivo en un mes sin medicar"
           }
         ],
         "correct_answers": [
@@ -3317,7 +3389,7 @@
         "id": "2020-diciembre_c0_q6_6",
         "number": 6,
         "case_number": null,
-        "prompt": "Manuel de 54 años consulta por disnea clase funcional lll a IV, de tres meses de evolución, acompañada por edemas desde hace 20 días, en ambos miembros inferiores que llegan hásta las rodillas. Los miembros están fríos. Posee antecedentes de hipertensión, hipercolesterolemia con tratamiento: inadecuado. Es fumador desde su adolescencia. Refiere palpitaciones, nicturia y nocturia. Es examinado por un médico de guardia quien realiza el diagnóstico clínico de Insuficiencia Cardíaca. De siguientes signos clínicos señale 2 que usted considere los más específicos para el diagnóstico de Insuficiencia Cardíaca.",
+        "prompt": "Manuel de 54 años consulta por disnea CF III-IV y edemas en miembros inferiores hasta las rodillas. Se realiza diagnóstico clínico de Insuficiencia Cardíaca. De los siguientes signos clínicos, señale los 2 más específicos de Insuficiencia Cardíaca:",
         "options": [
           {
             "id": "A",
@@ -3325,23 +3397,23 @@
           },
           {
             "id": "B",
-            "text": "Ingurgitación yugular con colapso inspiratorio"
-          },
-          {
-            "id": "C",
-            "text": "Tensión arterial 140 / 90"
-          },
-          {
-            "id": "D",
-            "text": "Tercer ruido"
-          },
-          {
-            "id": "E",
             "text": "Ingurgitación yugular sin colapso inspiratorio"
           },
           {
+            "id": "C",
+            "text": "Tensión arterial 140/90 mmHg"
+          },
+          {
+            "id": "D",
+            "text": "Tercer ruido cardíaco (R3 / ritmo de galope)"
+          },
+          {
+            "id": "E",
+            "text": "Ingurgitación yugular con colapso inspiratorio"
+          },
+          {
             "id": "F",
-            "text": "Soplo sistólico LEI E LLE ES"
+            "text": "Soplo sistólico"
           }
         ],
         "correct_answers": [
@@ -3353,14 +3425,16 @@
         "area": "Pediatría",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (B, D).",
         "pdf_page": 19,
-        "group_id": "2020-diciembre_c0_q6_6",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_manuel",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Manuel (54 años)",
+        "case_vignette": "Manuel, de 54 años, consulta por disnea clase funcional III a IV de 3 meses de evolución, acompañada de edemas bimaleolares y en miembros inferiores hasta las rodillas desde hace 20 días. Antecedentes de hipertensión e hipercolesterolemia con tratamiento inadecuado; tabaquista desde la adolescencia. Refiere palpitaciones, nicturia y nocturia. Al examen físico se realiza diagnóstico clínico de Insuficiencia Cardíaca."
       },
       {
         "id": "2020-diciembre_c0_q7_7",
         "number": 7,
         "case_number": null,
-        "prompt": "Luego del diagnóstico clínico se le realiza una radiografía de tórax la cual muestra signos de congestión vascular con compromiso alveolar en bases. El electrocardiograma presenta taquicardia sinusal con signos de hipertrofia de ventrículo izquierdo. Además, se le solicita un ecocardiograma que se realizará en los días siguientes. Usted decide internar al paciente y debe indicarle el tratamiento. Seleccione la medicación. Marque 2 opciones:",
+        "prompt": "La Rx de tórax muestra congestión vascular pulmonar con compromiso alveolar bibasal. El ECG presenta taquicardia sinusal e hipertrofia ventricular izquierda. Decide internar al paciente. ¿Qué medicación indica para el tratamiento inicial? (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
@@ -3396,30 +3470,36 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (C, D).",
         "pdf_page": 19,
-        "group_id": "2020-diciembre_c0_q7_7",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_manuel",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Manuel (54 años)",
+        "case_vignette": "Manuel, de 54 años, consulta por disnea clase funcional III a IV de 3 meses de evolución, acompañada de edemas bimaleolares y en miembros inferiores hasta las rodillas desde hace 20 días. Antecedentes de hipertensión e hipercolesterolemia con tratamiento inadecuado; tabaquista desde la adolescencia. Refiere palpitaciones, nicturia y nocturia. Al examen físico se realiza diagnóstico clínico de Insuficiencia Cardíaca."
       },
       {
         "id": "2020-diciembre_c0_q8_8",
         "number": 8,
         "case_number": null,
-        "prompt": "¿Cuáles son los hallazgos semiológicos compatibles con el ECG de Mario?",
+        "prompt": "Mario, de 72 años, presenta en su ECG una arritmia por fibrilación auricular. ¿Cuáles son los hallazgos semiológicos al examen cardiovascular compatibles con el ECG de Mario?",
         "options": [
           {
             "id": "A",
-            "text": "Pulso irregular, primer ruido intensidad variable, diástole libre"
+            "text": "Pulso irregular y desigual, primer ruido de intensidad variable, diástole libre"
           },
           {
             "id": "B",
-            "text": "Pulso irregular, primer ruido intensidad normal, tercer ruido <. Pulso regular, primer ruido intensidad normal, diástole libre"
+            "text": "Pulso irregular, primer ruido de intensidad normal, tercer ruido"
           },
           {
             "id": "C",
-            "text": "Pulso irregular, primer ruido intensidad normal, cuarto ruido"
+            "text": "Pulso regular, primer ruido de intensidad normal, diástole libre"
           },
           {
             "id": "D",
-            "text": "Pulso regular, primer ruido intensidad variable, cuarto ruido"
+            "text": "Pulso irregular, primer ruido de intensidad normal, cuarto ruido"
+          },
+          {
+            "id": "E",
+            "text": "Pulso regular, primer ruido de intensidad variable, cuarto ruido"
           }
         ],
         "correct_answers": [
@@ -3430,18 +3510,20 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (A).",
         "pdf_page": 19,
-        "group_id": "2020-diciembre_c0_q8_8",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_mario",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Mario (72 años)",
+        "case_vignette": "Mario, de 72 años, concurre a la guardia por astenia y palpitaciones irregulares. Se le realiza un electrocardiograma que demuestra una arritmia completa por fibrilación auricular (FA)."
       },
       {
         "id": "2020-diciembre_c0_q9_9",
         "number": 9,
         "case_number": null,
-        "prompt": "Luego de informados los resultados del ECG, a Mario, de 72 años, se le indicó tratamiento antiarrítmico el cual resultó adecuado. Indique ¿qué otra medicación le agregaría?",
+        "prompt": "Luego de informados los resultados del ECG y controlado el ritmo con antiarrítmicos, ¿qué medicación fundamental debe agregarse para prevención tromboembólica?",
         "options": [
           {
             "id": "A",
-            "text": "Acenocumarol"
+            "text": "Acenocumarol (anticoagulación oral)"
           },
           {
             "id": "B",
@@ -3453,7 +3535,7 @@
           },
           {
             "id": "D",
-            "text": "Aspirina"
+            "text": "Aspirina a bajas dosis"
           },
           {
             "id": "E",
@@ -3468,30 +3550,32 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (A).",
         "pdf_page": 19,
-        "group_id": "2020-diciembre_c0_q9_9",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_mario",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Mario (72 años)",
+        "case_vignette": "Mario, de 72 años, concurre a la guardia por astenia y palpitaciones irregulares. Se le realiza un electrocardiograma que demuestra una arritmia completa por fibrilación auricular (FA)."
       },
       {
         "id": "2020-diciembre_c0_q10_10",
         "number": 10,
         "case_number": null,
-        "prompt": "La imagen radiográfica que se presenta puede ser compatible con... Marque 2 opciones",
+        "prompt": "La imagen radiográfica de abdomen en bipedestación muestra neumoperitoneo subdiafragmático. ¿Con cuáles de las siguientes situaciones clínicas es compatible? (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "E.P.O.C"
+            "text": "EPOC con enfisema"
           },
           {
             "id": "B",
-            "text": "Apendicitis retrocecal perforada"
+            "text": "Apendicitis retrocecal perforada / perforación de víscera hueca"
           },
           {
             "id": "C",
-            "text": "Postoperatorio de cirugía laparoscópica de 48 horas."
+            "text": "Postoperatorio normal de cirugía laparoscópica dentro de las 48 horas"
           },
           {
             "id": "D",
-            "text": "Neumonía de base derechá *"
+            "text": "Neumonía de base derecha"
           },
           {
             "id": "E",
@@ -3499,37 +3583,40 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "B",
+          "C"
         ],
         "has_official_key": false,
         "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 19,
-        "group_id": "2020-diciembre_c0_q10_10",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_neumoperitoneo",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Neumoperitoneo",
+        "case_vignette": "Paciente que ingresa a la guardia con dolor abdominal agudo. La radiografía directa de abdomen y tórax en bipedestación evidencia una imagen aérea semilunar por debajo del hemidiafragma derecho compatible con neumoperitoneo."
       },
       {
         "id": "2020-diciembre_c0_q11_11",
         "number": 11,
         "case_number": null,
-        "prompt": "¿Cuál es su conducta inicial?",
+        "prompt": "En un paciente con abdomen agudo peritoneal y neumoperitoneo por perforación de víscera hueca, ¿cuál es la conducta terapéutica inicial definitiva?",
         "options": [
           {
             "id": "A",
-            "text": "Broncodilatadores"
+            "text": "Broncodilatadores inhalatorios"
           },
           {
             "id": "B",
-            "text": "Ampicilina sulbactam con claritromicina"
+            "text": "Ampicilina sulbactam con claritromicina ambulatoria"
           },
           {
             "id": "C",
-            "text": "Fibrocolonoscopia"
+            "text": "Fibrocolonoscopía diagnóstica"
           },
           {
             "id": "D",
-            "text": "Laparotomía exploradora"
+            "text": "Laparotomía exploradora de urgencia"
           }
         ],
         "correct_answers": [
@@ -3540,18 +3627,20 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (D).",
         "pdf_page": 20,
-        "group_id": "2020-diciembre_c0_q11_11",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_neumoperitoneo",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Neumoperitoneo",
+        "case_vignette": "Paciente que ingresa a la guardia con dolor abdominal agudo. La radiografía directa de abdomen y tórax en bipedestación evidencia una imagen aérea semilunar por debajo del hemidiafragma derecho compatible con neumoperitoneo."
       },
       {
         "id": "2020-diciembre_c0_q12_12",
         "number": 12,
         "case_number": null,
-        "prompt": "Aylen de 5 años de edad, concurre a la consulta para control de salud. Ud. tiene el carnet de vacunas con las siguientes inmunizaciones realizadas: DS\n+ Bcg y hepatitis B al nacer) +, Antirotavirus 2 dosis Y)\n+ Quintuple 4 dosis Y) — ¿Triple viral 1 dosis O\n+ Salk4 dosis Y + Hepatitis A 1 dosis O\n+ — Antineumococica 3 dosis Y) + Varicela 1 dosis $)\n+ Antimeningococica cuadrivalente 3 dosis) Según el calendario de vacunación oficial, Ud. le indica... Marque 3 opciones Seleccione una o más de una:",
+        "prompt": "Aylen, de 5 años de edad, concurre para control de salud e ingreso escolar. Su carnet presenta: BCG y Hep B al nacer, Quíntuple (4 dosis), Salk (4 dosis), Neumococo conjugada (3 dosis), Rotavirus (2 dosis), Triple Viral (1 dosis), Hepatitis A (1 dosis), Varicela (1 dosis) y Meningococo (3 dosis). Según el Calendario Nacional oficial vigente para los 5 años (ingreso escolar), ¿cuáles vacunas le corresponde indicar? (Seleccione 3 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "Salk"
+            "text": "Salk (refuerzo IPV)"
           },
           {
             "id": "B",
@@ -3559,7 +3648,7 @@
           },
           {
             "id": "C",
-            "text": "Triple bacteriana celular"
+            "text": "Triple bacteriana celular (DTP)"
           },
           {
             "id": "D",
@@ -3575,7 +3664,7 @@
           },
           {
             "id": "G",
-            "text": "Triple viral"
+            "text": "Triple viral (segunda dosis SRP)"
           },
           {
             "id": "H",
@@ -3587,7 +3676,7 @@
           },
           {
             "id": "J",
-            "text": "Neumocócica 13 valente"
+            "text": "Neumocócica 13-valente"
           },
           {
             "id": "K",
@@ -3705,23 +3794,31 @@
         "id": "2020-diciembre_c0_q15_15",
         "number": 15,
         "case_number": null,
-        "prompt": "Nahuel, de 8 meses, concurre a la guardia con¡su,mamá. Es un lactante previamente sano hace 72 horas que tiene fiebre y tos-No posee antecedentes tee patológicos. FC 152 x minuto. FR 58 x minuto. Temperatura ¡axilar 37.8 *C. e Saturación de oxígeno 90%. Al examen físico: presenta leve-disminución de la 4 o entrada de aire bilateral, leve tiraje intercostal, murmullo vesicular presente, E u- sibilancias al final de la espiración en ambas bases pulmonares. Traeesta/Rx'de tórax que le realizaron el día anterior. ¿Cuáles son sus conductas iniciales? a Marque 2 opciones a Solicitar aspirado nasofaríngeo de secreciones respiratorias e 6 Internar al paciente con oxígeno a",
+        "prompt": "Nahuel, de 8 meses, concurre a la guardia con su mamá. Es un lactante previamente sano que hace 72 horas presenta fiebre y tos. Al examen físico: FC 152 lpm, FR 58 rpm, T° axilar 37,8 °C, SatO2 90% aire ambiente. Presenta leve disminución de la entrada de aire bilateral, tiraje intercostal leve, murmullo vesicular presente y sibilancias al final de la espiración en ambas bases pulmonares. Trae una radiografía de tórax realizada el día anterior. ¿Cuáles son sus conductas iniciales más adecuadas? (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "Solicitar dos hemocultivos y medicar con cefotaxime u"
+            "text": "Solicitar aspirado nasofaríngeo para virológico de secreciones respiratorias (IFI)"
           },
           {
             "id": "B",
-            "text": "Indicar estado ácido base arterial ww"
+            "text": "Internar al paciente con administración de oxígeno suplementario"
           },
           {
             "id": "C",
-            "text": "Indicar meprednisona 1 mg/k/día por vía oral a"
+            "text": "Solicitar dos hemocultivos y medicar con cefotaxima EV"
           },
           {
             "id": "D",
-            "text": "Citar a control en centro de salud en 24-48 horas = «"
+            "text": "Indicar estado ácido-base arterial"
+          },
+          {
+            "id": "E",
+            "text": "Indicar meprednisona 1 mg/kg/día por vía oral"
+          },
+          {
+            "id": "F",
+            "text": "Citar a control en centro de salud en 24-48 horas"
           }
         ],
         "correct_answers": [
@@ -3740,31 +3837,31 @@
         "id": "2020-diciembre_c0_q16_16",
         "number": 16,
         "case_number": null,
-        "prompt": "Josefina de 24 años de edad consulta por un embarazo con 29 semanas de edad gestacional. Según lahistoria clínica mu tiene realizado un solo control a las cuatro semanas y luego no realizó ninguno más. Concurre a la consulta en el día a de la fecha. No refiere antecedentes heredofamiliares de enfermedad salvo madre con preeclampsia, Tuvo 2 hijospor cesárea. En el examen físico se constata: tensión arterial de 140 mm Hg (máxima) - 100 mm Hg (mínima) ysobrepeso. a La frecuencia cardíaca fetal es de 140 latidos por minuto. Teniendo en cuenta la tensión arterial ¿cuáles son sus a conductas iniciales? Marque 3 opciones.",
+        "prompt": "Josefina, de 24 años, cursando embarazo de 29 semanas, presenta TA de 140/100 mmHg y FCF 140 lpm. Teniendo en cuenta la tensión arterial, ¿cuáles son sus conductas iniciales? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "Diagnostica taquicardia fetal"
+            "text": "Diagnosticar taquicardia fetal"
           },
           {
             "id": "B",
-            "text": "Control ambulatorio para el que le da un turno para consultorio de hipertensión y embarazo ."
+            "text": "Control ambulatorio programado para consultorio de hipertensión y embarazo"
           },
           {
             "id": "C",
-            "text": "Constata que la paciente no presente signos de eclampsismo."
+            "text": "Constatar que la paciente no presente signos de eclampsismo (cefalea, escotomas, epigastralgia, hiperreflexia)"
           },
           {
             "id": "D",
-            "text": "Deja a la paciente en observación por seis horas e indica internación si la TA mínima no desciende de 100 mm Hg."
+            "text": "Dejar a la paciente en observación por 6 horas e indicar internación si la TA diastólica no desciende de 100 mmHg"
           },
           {
             "id": "E",
-            "text": "Deja a la paciente en observación por seis horas y si la TA mínima desciende de 100 mm Hg, durante ese lapso, la deriva a consultorio especializado para control."
+            "text": "Dejar a la paciente en observación por 6 horas y si la TA diastólica desciende de 100 mmHg durante ese lapso, derivar a consultorio especializado para control"
           },
           {
             "id": "F",
-            "text": "Interna inmediatamente a la paciente para control estricto"
+            "text": "Internar inmediatamente para cesárea de urgencia"
           }
         ],
         "correct_answers": [
@@ -3777,14 +3874,16 @@
         "area": "Tocoginecología",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (C, D, E).",
         "pdf_page": 21,
-        "group_id": "2020-diciembre_c0_q16_16",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_josefina",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Josefina (24 años)",
+        "case_vignette": "Josefina, de 24 años de edad, consulta cursando un embarazo de 29 semanas de edad gestacional. Según la historia clínica tiene realizado un solo control a las cuatro semanas. No refiere antecedentes familiares salvo madre con preeclampsia; tuvo dos partos previos por cesárea. Al examen físico se constata tensión arterial de 140/100 mmHg y sobrepeso. La frecuencia cardíaca fetal es de 140 latidos por minuto."
       },
       {
         "id": "2020-diciembre_c0_q17_17",
         "number": 17,
         "case_number": null,
-        "prompt": "Josefina persiste durante seis horas con tensión arterial de 140 mm Hg (máxima) y 100 mm Hg (mínima). Además se registra: hiperreflexia, alteraciones en la visión, epigastralgia y cefalea. Ante esta situación Ud. decide inicialmente... Marque 3 opciones.",
+        "prompt": "Josefina persiste durante 6 horas con tensión arterial de 140/100 mmHg. Además se registra hiperreflexia patelar, alteraciones visuales, epigastralgia en barra y cefalea intensa. Ante esta situación, ¿qué conductas decide adoptar? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
@@ -3804,11 +3903,11 @@
           },
           {
             "id": "E",
-            "text": "Mantiene conducta expectante con control de la paciente"
+            "text": "Mantiene conducta expectante sin medicación"
           },
           {
             "id": "F",
-            "text": "Administra sulfato de magnesio por vía parenteral"
+            "text": "Administra sulfato de magnesio por vía parenteral (régimen de Pritchard o Zuspan)"
           }
         ],
         "correct_answers": [
@@ -3821,18 +3920,20 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (A, D, F).",
         "pdf_page": 21,
-        "group_id": "2020-diciembre_c0_q17_17",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_josefina",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Josefina (24 años)",
+        "case_vignette": "Josefina, de 24 años de edad, consulta cursando un embarazo de 29 semanas de edad gestacional. Según la historia clínica tiene realizado un solo control a las cuatro semanas. No refiere antecedentes familiares salvo madre con preeclampsia; tuvo dos partos previos por cesárea. Al examen físico se constata tensión arterial de 140/100 mmHg y sobrepeso. La frecuencia cardíaca fetal es de 140 latidos por minuto."
       },
       {
         "id": "2020-diciembre_c0_q18_18",
         "number": 18,
         "case_number": null,
-        "prompt": "¿Cuáles de los siguientes controles deben realizarse al administrar Sulfato de Magnesio? Marque 3 opciones:",
+        "prompt": "¿Cuáles de los siguientes controles deben realizarse estrictamente para monitorizar la administración y toxicidad del Sulfato de Magnesio? (Marque 3 opciones)",
         "options": [
           {
             "id": "A",
-            "text": "Reflejos maternos"
+            "text": "Reflejos osteotendinosos maternos (reflejo rotuliano presente)"
           },
           {
             "id": "B",
@@ -3840,15 +3941,15 @@
           },
           {
             "id": "C",
-            "text": "Diuresis materna"
+            "text": "Diuresis horaria materna (> 30 ml/hora o 100 ml en 4 horas)"
           },
           {
             "id": "D",
-            "text": "Puñopercusión para descartar infección urinaria"
+            "text": "Puñopercusión renal bilateral"
           },
           {
             "id": "E",
-            "text": "Frecuencia respiratoria materna"
+            "text": "Frecuencia respiratoria materna (FR > 14-16 por minuto)"
           },
           {
             "id": "F",
@@ -3856,21 +3957,25 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "A",
+          "C",
+          "E"
         ],
         "has_official_key": false,
         "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 21,
-        "group_id": "2020-diciembre_c0_q18_18",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_josefina",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Josefina (24 años)",
+        "case_vignette": "Josefina, de 24 años de edad, consulta cursando un embarazo de 29 semanas de edad gestacional. Según la historia clínica tiene realizado un solo control a las cuatro semanas. No refiere antecedentes familiares salvo madre con preeclampsia; tuvo dos partos previos por cesárea. Al examen físico se constata tensión arterial de 140/100 mmHg y sobrepeso. La frecuencia cardíaca fetal es de 140 latidos por minuto."
       },
       {
         "id": "2020-diciembre_c0_q19_19",
         "number": 19,
         "case_number": null,
-        "prompt": "Karina de 30 años de edad ingresa por un cuadro de debilidad muscular y parestesias en miembrosinferiores de dos meses de evolución y asténia/Los datos del interrogatorio no arrojan ningún dato patológico. Al examen físico se detecta solamente palidez cutáneo,mucosa y trastornos de la sensibidad profunda en miembros inferiores. Concurre a la consulta con el siguiente informe del laboratorio realizado hace 24 horas. Hematocrito 31% Volumen corpuscular medio 119 fl Glóbulos rojos 2.800.000 mm3\ncorpuscular media 29 pg. (VN.28 a 32) Hemoglobina 7 g/dl — Concentración HCM 30 g/dl (VN. 28 a 32) Leucocitos 3300/mm3 Presencia de polilobocitos' Recuento de plaquetas: 95.000 mm3 Glucemia: 0,88 g/l /// Urea: 0,26 g/l /// Creatinina: 1 mg/dl TSH 19 mUul/dl/// T4 2,8 u/dl (VN hasta 6,5 a 10u/dl) Luego de analizar los resultados y el cuadro clínico,\n¿evál es su sospecha diagnóstica?",
+        "prompt": "Karina, de 30 años de edad, presenta debilidad muscular, astenia, parestesias y alteración de la sensibilidad profunda. Laboratorio: anemia macrocítica (VCM 119 fl) con pancitopenia, neutrófilos polilobulados, TSH 19 mUI/dl y T4 baja. Luego de analizar los resultados, ¿cuáles patologías sospecha? (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
@@ -3882,7 +3987,7 @@
           },
           {
             "id": "C",
-            "text": "Anemia megaloblástica por déficit de Vit. B12."
+            "text": "Anemia megaloblástica por déficit de Vitamina B12"
           },
           {
             "id": "D",
@@ -3894,7 +3999,7 @@
           },
           {
             "id": "F",
-            "text": "Leucemia aleucémica"
+            "text": "Leucemia aguda aleucémica"
           }
         ],
         "correct_answers": [
@@ -3906,14 +4011,16 @@
         "area": "Pediatría",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (A, C).",
         "pdf_page": 21,
-        "group_id": "2020-diciembre_c0_q19_19",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_karina",
+        "is_case_followup": false,
+        "case_title": "Caso Clínico: Karina (30 años)",
+        "case_vignette": "Karina, de 30 años de edad, ingresa por un cuadro de debilidad muscular y parestesias en miembros inferiores de dos meses de evolución, acompañado de astenia. Al examen físico se detecta palidez cutáneo-mucosa y alteración de la sensibilidad profunda en miembros inferiores. Laboratorio: Hematocrito 31%, VCM 119 fl (macrocitosis), Glóbulos rojos 2.800.000/mm3, Hemoglobina 7 g/dl, Leucocitos 3.300/mm3 con neutrófilos polilobulados, Plaquetas 95.000/mm3 (pancitopenia periférica), Glucemia 0,88 g/l, Urea 0,26 g/l, Creatinina 1 mg/dl, TSH 19 mUI/dl y T4 libre 2,8 mcg/dl."
       },
       {
         "id": "2020-diciembre_c0_q20_20",
         "number": 20,
         "case_number": null,
-        "prompt": "¿Qué tratamiento le indica a Karina? Marque 2 opciones:",
+        "prompt": "¿Qué tratamiento le indica a Karina para resolver sus dos cuadros clínicos? (Marque 2 opciones)",
         "options": [
           {
             "id": "A",
@@ -3921,19 +4028,19 @@
           },
           {
             "id": "B",
-            "text": "Vitamina B12"
+            "text": "Vitamina B12 parenteral"
           },
           {
             "id": "C",
-            "text": "Solo Vit B1"
+            "text": "Vitamina B1 sola"
           },
           {
             "id": "D",
-            "text": "Solo ácido fólico"
+            "text": "Ácido fólico exclusivo"
           },
           {
             "id": "E",
-            "text": "Sulfato ferroso"
+            "text": "Sulfato ferroso oral"
           },
           {
             "id": "F",
@@ -3941,15 +4048,18 @@
           }
         ],
         "correct_answers": [
-          "B"
+          "B",
+          "F"
         ],
         "has_official_key": false,
         "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 21,
-        "group_id": "2020-diciembre_c0_q20_20",
-        "is_case_followup": false
+        "group_id": "2020-diciembre_case_karina",
+        "is_case_followup": true,
+        "case_title": "Caso Clínico: Karina (30 años)",
+        "case_vignette": "Karina, de 30 años de edad, ingresa por un cuadro de debilidad muscular y parestesias en miembros inferiores de dos meses de evolución, acompañado de astenia. Al examen físico se detecta palidez cutáneo-mucosa y alteración de la sensibilidad profunda en miembros inferiores. Laboratorio: Hematocrito 31%, VCM 119 fl (macrocitosis), Glóbulos rojos 2.800.000/mm3, Hemoglobina 7 g/dl, Leucocitos 3.300/mm3 con neutrófilos polilobulados, Plaquetas 95.000/mm3 (pancitopenia periférica), Glucemia 0,88 g/l, Urea 0,26 g/l, Creatinina 1 mg/dl, TSH 19 mUI/dl y T4 libre 2,8 mcg/dl."
       }
     ],
     "page_start": 18,
