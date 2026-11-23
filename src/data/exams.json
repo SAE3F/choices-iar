@@ -1565,7 +1565,7 @@
         "id": "2020-octubre_c0_q7_6",
         "number": 6,
         "case_number": null,
-        "prompt": "Mientras aguarda los estudios ¿qué decisiones debe tomar? Marque 2 opciones.",
+        "prompt": "En el caso de Emilio, mientras aguarda los estudios complementarios, ¿qué conductas terapéuticas y pautas iniciales decide adoptar? Marque 2 opciones:",
         "options": [
           {
             "id": "A",
@@ -1601,8 +1601,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Octubre 2020 (D, E).",
         "pdf_page": 10,
-        "group_id": "2020-octubre_c0_q7_6",
-        "is_case_followup": false
+        "group_id": "2020-octubre_emilio",
+        "is_case_followup": true,
+        "case_title": "Emilio (69 años) - Claudicación intermitente de miembros inferiores",
+        "case_vignette": "Emilio de 69 años consulta por dolor en pantorrilla al caminar 150 metros que calma en reposo. Antecedentes de tabaquismo y DBT. Pulsos poplíteos y tibiales disminuidos."
       },
       {
         "id": "2020-octubre_c0_q8_7",
@@ -4613,23 +4615,27 @@
         "id": "2021-febrero_c0_q13_14",
         "number": 14,
         "case_number": null,
-        "prompt": "¿Cuál de los siguientes estudios es el más específico para confirmar el diagnóstico de Artritis Reumatoidea?",
+        "prompt": "En el caso de Marisa, ¿cuál de los siguientes estudios serológicos es el más específico para confirmar el diagnóstico de Artritis Reumatoidea? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Anticuerpos anti-péptidos citrulinados (Anti-CCP)"
+            "text": "Anticuerpos antipéptido citrulinado cíclico (Anti-CCP / ACPA)"
           },
           {
             "id": "B",
-            "text": "Factor reumatoideo (Test de látex)"
+            "text": "Proteína C reactiva (PCR) y eritrosedimentación (VSG)"
           },
           {
             "id": "C",
-            "text": "Eritrosedimentación y Proteína C Reactiva"
+            "text": "Factor reumatoideo (Test del Látex)"
           },
           {
             "id": "D",
-            "text": "Anticuerpos anti-ADN de doble cadena (anti-dsDNA)"
+            "text": "Anticuerpos antinucleares (FAN)"
+          },
+          {
+            "id": "E",
+            "text": "Anticuerpos anti-ADN de doble cadena"
           }
         ],
         "correct_answers": [
@@ -4643,8 +4649,10 @@
         "correct_options": [
           "A"
         ],
-        "group_id": "2021-febrero_c0_q13_14",
-        "is_case_followup": false
+        "group_id": "2021-febrero_marisa",
+        "is_case_followup": true,
+        "case_title": "Marisa (34 años) - Artritis Reumatoidea",
+        "case_vignette": "Marisa de 34 años consulta por poliartritis simétrica en manos (MCF, IFP) y rigidez matinal de 5 semanas de evolución compatible con Artritis Reumatoidea."
       },
       {
         "id": "2021-febrero_c0_q15_15",
@@ -5113,7 +5121,7 @@
         "id": "2021-marzo_c0_q6_6",
         "number": 6,
         "case_number": null,
-        "prompt": "Debera indicarse un tratamiento con determinadas drogas y respetando un orden, señale el que considera más apropiado. Seleccione una:",
+        "prompt": "Para el tratamiento crónico de la insuficiencia cardíaca de José, deberá indicarse una combinación de fármacos respetando un orden de titulación. Señale el esquema más apropiado. Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -5125,7 +5133,7 @@
           },
           {
             "id": "C",
-            "text": "Furosemida, enalapril, valsartan, carvedilol"
+            "text": "Furosemida, enalapril, valsartán, carvedilol"
           },
           {
             "id": "D",
@@ -5133,19 +5141,24 @@
           },
           {
             "id": "E",
-            "text": "Furosemida, enalapril, bisoprolol, eplerenona SN 1] TIPO dde o)"
+            "text": "Furosemida, enalapril, bisoprolol, eplerenona"
           }
         ],
         "correct_answers": [
-          "A"
+          "E"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 27,
-        "group_id": "2021-marzo_c0_q6_6",
-        "is_case_followup": false
+        "group_id": "2021-marzo_jose",
+        "is_case_followup": true,
+        "case_title": "José (62 años) - Insuficiencia cardíaca con fracción de eyección reducida",
+        "case_vignette": "José de 62 años consulta por disnea de esfuerzo progresiva clase funcional II, con antecedentes de HTA y EPOC. Se constata insuficiencia cardíaca.",
+        "correct_options": [
+          "E"
+        ]
       },
       {
         "id": "2021-marzo_c0_q7_7",
@@ -5189,7 +5202,7 @@
         "id": "2021-marzo_c0_q8_8",
         "number": 8,
         "case_number": null,
-        "prompt": "Indique, ¿qué tratamiento inicial considera el más adecuado?",
+        "prompt": "En el caso de Manuel con sinusitis aguda bacteriana no complicada, ¿qué tratamiento antibiótico inicial considera el más adecuado? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -5201,11 +5214,11 @@
           },
           {
             "id": "C",
-            "text": "Trimetoprima/sulfametoxazol"
+            "text": "Trimetoprima / sulfametoxazol"
           },
           {
             "id": "D",
-            "text": "Amoxicilina/clavulánico"
+            "text": "Amoxicilina / ácido clavulánico"
           },
           {
             "id": "E",
@@ -5220,8 +5233,13 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Marzo 2021 (D).",
         "pdf_page": 28,
-        "group_id": "2021-marzo_c0_q8_8",
-        "is_case_followup": false
+        "group_id": "2021-marzo_manuel_sinusitis",
+        "is_case_followup": true,
+        "case_title": "Manuel (20 años) - Sinusitis aguda bacteriana",
+        "case_vignette": "Manuel de 20 años consulta por congestión nasal, rinorrea purulenta, dolor facial y cefalea compatible con sinusitis aguda bacteriana. Sin alergias medicamentosas.",
+        "correct_options": [
+          "D"
+        ]
       },
       {
         "id": "2021-marzo_c0_q9_9",
@@ -5464,7 +5482,7 @@
         "id": "2021-marzo_c0_q15_15",
         "number": 15,
         "case_number": null,
-        "prompt": "Indique ¿cuál de los siguientes antibióticos debe indicarse? Seleccione una:",
+        "prompt": "Confirmado el diagnóstico de vaginitis por Trichomonas vaginalis en Teresa, ¿cuál de los siguientes tratamientos antibióticos/antiparasitarios debe indicarse a la paciente y a su pareja? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -5472,15 +5490,15 @@
           },
           {
             "id": "B",
-            "text": "Ceftriaxone"
+            "text": "Ceftriaxona"
           },
           {
             "id": "C",
-            "text": "Miconazol"
+            "text": "Miconazol tópico"
           },
           {
             "id": "D",
-            "text": "Fluconazol"
+            "text": "Fluconazol oral"
           },
           {
             "id": "E",
@@ -5495,8 +5513,13 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Marzo 2021 (E).",
         "pdf_page": 29,
-        "group_id": "2021-marzo_c0_q15_15",
-        "is_case_followup": false
+        "group_id": "2021-marzo_teresa_vaginitis",
+        "is_case_followup": true,
+        "case_title": "Teresa (24 años) - Infección vaginal / Tricomoniasis",
+        "case_vignette": "Teresa de 24 años consulta por dispareunia, prurito vulvar y secreción vaginal amarillenta-verdosa homogénea. Se diagnostica vaginitis por Trichomonas vaginalis.",
+        "correct_options": [
+          "E"
+        ]
       },
       {
         "id": "2021-marzo_c0_q16_16",
@@ -5687,7 +5710,7 @@
         "id": "2021-marzo_c0_q20_20",
         "number": 20,
         "case_number": null,
-        "prompt": "Mientras aguarda los resultados de los estudios. ¿Qué conductas adopta? Marque hasta 2 opciones.",
+        "prompt": "En el paciente Luis, mientras aguarda los resultados de los estudios vasculares, ¿qué conductas terapéuticas iniciales adopta? Marque 2 opciones:",
         "options": [
           {
             "id": "A",
@@ -5714,8 +5737,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 29,
-        "group_id": "2021-marzo_c0_q20_20",
-        "is_case_followup": false
+        "group_id": "2021-marzo_luis",
+        "is_case_followup": true,
+        "case_title": "Luis (72 años) - Claudicación y sospecha vascular periférica",
+        "case_vignette": "Luis de 72 años consulta por intenso dolor en pantorrilla derecha al caminar que lo obliga a detenerse, con factores de riesgo cardiovascular."
       }
     ],
     "page_start": 27,
@@ -8116,7 +8141,7 @@
         "id": "2021-agosto_c0_q3_3",
         "number": 3,
         "case_number": null,
-        "prompt": "Claudia de 26 años ingresa por palpitaciones. En el examen físico se detecta pulso irregular y no se observa ninguna otra alteración. Se realiza la tira de ritmo y se observan los siguientes resultados: Í ] HT ¿A que conclusión arriba luego de la interpretación del + J Ll",
+        "prompt": "Claudia de 26 años ingresa por palpitaciones. En el examen físico se detecta pulso irregular y no se observa ninguna otra alteración. Se realiza tira de ritmo en el electrocardiograma evidenciándose ausencia de ondas P y respuesta ventricular irregularmente irregular. ¿A qué conclusión diagnóstica arriba luego de la interpretación del trazado? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -8897,11 +8922,11 @@
         "id": "2021-septiembre_c0_q2_2",
         "number": 2,
         "case_number": null,
-        "prompt": "Para confirmar su impresión diagnóstica usted solicitará estudios. Señale aquellos dos que usted considere prioritarios.",
+        "prompt": "Para confirmar su sospecha diagnóstica de síndrome nefrótico / nefropatía diabética en Pedrito, usted solicitará estudios de laboratorio. Señale aquellos dos que considera prioritarios. Marque 2 opciones:",
         "options": [
           {
             "id": "A",
-            "text": "Proteinuria de 24 horas"
+            "text": "Proteinuria cuantitativa de 24 horas"
           },
           {
             "id": "B",
@@ -8913,23 +8938,30 @@
           },
           {
             "id": "D",
-            "text": "Hepatograma"
+            "text": "Hepatograma completo"
           },
           {
             "id": "E",
-            "text": "Búsqueda de eritrocitos dismorficos en orina"
+            "text": "Búsqueda de eritrocitos dismórficos en orina"
           }
         ],
         "correct_answers": [
-          "A"
+          "A",
+          "C"
         ],
         "has_official_key": false,
-        "is_multiple": false,
+        "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 47,
-        "group_id": "2021-septiembre_c0_q2_2",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_pedrito",
+        "is_case_followup": true,
+        "case_title": "Pedrito (62 años) - Anasarca / Síndrome nefrótico",
+        "case_vignette": "Pedrito de 62 años, hipertenso y diabético de larga data, consulta por estado de anasarca de 40 días con ascitis y derrame pleural bilateral corroborado por ecografía.",
+        "correct_options": [
+          "A",
+          "C"
+        ]
       },
       {
         "id": "2021-septiembre_c0_q3_3",
@@ -9178,39 +9210,44 @@
         "id": "2021-septiembre_c0_q10_9",
         "number": 9,
         "case_number": null,
-        "prompt": "Usted le indicó estudios que confirmaron la etiología del cuadro, ¿qué conducta adopta? Seleccione una:",
+        "prompt": "En el caso de Osvaldo con diagnóstico confirmado de diverticulitis perforada con peritonitis generalizada / neumoperitoneo, ¿qué conducta terapéutica de urgencia adopta? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Analgesia y observación Y"
+            "text": "Analgesia y observación en sala general"
           },
           {
             "id": "B",
-            "text": "Antibioticoterapia >"
+            "text": "Antibioticoterapia exclusiva y reposo digestivo"
           },
           {
             "id": "C",
-            "text": "Hidratación y dieta por 24 horas"
+            "text": "Hidratación y dieta líquida por 24 horas"
           },
           {
             "id": "D",
-            "text": "Fibrocolonoscopia %"
+            "text": "Fibrocolonoscopía de urgencia"
           },
           {
             "id": "E",
-            "text": "Laparotomía exploradora"
+            "text": "Laparotomía exploradora de urgencia"
           }
         ],
         "correct_answers": [
-          "A"
+          "E"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 48,
-        "group_id": "2021-septiembre_c0_q10_9",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_osvaldo",
+        "is_case_followup": true,
+        "case_title": "Osvaldo (69 años) - Peritonitis aguda por diverticulitis perforada",
+        "case_vignette": "Osvaldo de 69 años presenta dolor intenso en flanco y FII de 48 hs, con dolor a la descompresión, desaparición de la matidez hepática (neumoperitoneo) y silencio abdominal.",
+        "correct_options": [
+          "E"
+        ]
       },
       {
         "id": "2021-septiembre_c0_q11_10",
@@ -9292,7 +9329,7 @@
         "id": "2021-septiembre_c0_q13_12",
         "number": 12,
         "case_number": null,
-        "prompt": "¿Qué otra medicación a la mencionada, se le debe indicar a este paciente?. Seleccione una:",
+        "prompt": "Para mejorar la distancia de claudicación en este paciente con enfermedad arterial periférica sintomática, ¿cuál de los siguientes fármacos vasodilatadores/antiagregantes está indicado? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -9323,8 +9360,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 48,
-        "group_id": "2021-septiembre_c0_q13_12",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_rolando",
+        "is_case_followup": true,
+        "case_title": "Rolando (70 años) - Enfermedad vascular periférica / Claudicación",
+        "case_vignette": "Rolando de 70 años con antecedentes de IC en tratamiento óptimo consulta además por claudicación intermitente progresiva de miembros inferiores."
       },
       {
         "id": "2021-septiembre_c0_q14_13",
@@ -9639,7 +9678,7 @@
         "id": "2021-noviembre_c0_q2_2",
         "number": 2,
         "case_number": null,
-        "prompt": "¿Cuál de los siguientes estudios resulta indispensable para continuar con el tratamiento de esta paciente?, Seleccione una",
+        "prompt": "En el caso de Rosario, ¿cuál de los siguientes estudios complementarios resulta indispensable para avanzar en el diagnóstico y tratamiento etiológico? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -9670,8 +9709,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2021 (D).",
         "pdf_page": 50,
-        "group_id": "2021-noviembre_c0_q2_2",
-        "is_case_followup": false
+        "group_id": "2021-noviembre_rosario",
+        "is_case_followup": true,
+        "case_title": "Rosario (26 años) - Ictericia y dolor abdominal / Hepatopatía",
+        "case_vignette": "Rosario de 26 años ingresa a la guardia por dolor abdominal difuso e ictericia. Presenta alteración del hepatograma en control laboral reciente."
       },
       {
         "id": "2021-noviembre_c0_q3_3",
@@ -9945,7 +9986,7 @@
         "id": "2021-noviembre_c0_q10_10",
         "number": 10,
         "case_number": null,
-        "prompt": "¿Cuál de los siguientes estudios es el de primera elección para realizar el diagnóstico? Seleccione una: á. Resonancia pelviana con contraste",
+        "prompt": "¿Cuál de los siguientes estudios por imágenes es el de primera elección para realizar la valoración diagnóstica inicial en Mariana? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -9965,15 +10006,20 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "B"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 51,
-        "group_id": "2021-noviembre_c0_q10_10",
-        "is_case_followup": false
+        "group_id": "2021-noviembre_mariana",
+        "is_case_followup": true,
+        "case_title": "Mariana (24 años) - Sospecha de Enfermedad Pélvica Inflamatoria (EPI)",
+        "case_vignette": "Mariana de 24 años consulta por dolor hipogástrico constante de 7 días que aumenta al deambular, asociado a fiebre de 38.8 °C y dolor a la movilización cervical uterina.",
+        "correct_options": [
+          "B"
+        ]
       },
       {
         "id": "2021-noviembre_c0_q11_11",
