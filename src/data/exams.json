@@ -1485,27 +1485,23 @@
         "id": "2020-octubre_c0_q5_4",
         "number": 4,
         "case_number": null,
-        "prompt": "Emilio de 69 años concurre al Consultorio Externo porque désde\"hace 20 días comenzó con un fuerte dolor en la pantorrilla derecha, mientras estaba caminando, motivo por el dualidebió detenerse. Al continuar la marcha volvió a sentir el dolor en la misma zona y aproximadamente a mitad de cuadra fuvo que volver a detenerse. A la semana siguiente sufrió el mismo tipo de dolor localizado en el mismo lugar y: fefiere que no puede caminar ni siquiera una cuadra sin percibir el dolor. Al examen físico de los miembros inferiores no se observan lesiones tróficas ni terreno varicoso. A la palpación ambos miembros tienen la misma temperatura. Los pulsos: femorales, están conservados, el popliteo derecho es apenas palpable y el pulso pedio está ausente. Seleccione Una:=>",
+        "prompt": "Emilio de 69 años concurre al consultorio externo porque desde hace 20 días comenzó con un fuerte dolor en la pantorrilla izquierda al caminar 150 metros, que calma con el reposo. Es tabaquista y diabético. Al examen físico: pulsos femorales presentes, poplíteo y tibiales izquierdos disminuidos. ¿Cuál es su sospecha diagnóstica principal? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Obstrucción artenial crónica de miembro inferior derecho"
+            "text": "Obstrucción arterial crónica de miembros inferiores"
           },
           {
             "id": "B",
-            "text": "Trastornos de la microcirculación <. Sindrome del canal medular estrecho"
+            "text": "Trastornos de la microcirculación"
           },
           {
             "id": "C",
-            "text": "Trombosis venosa profunda"
+            "text": "Síndrome del canal medular estrecho"
           },
           {
             "id": "D",
-            "text": "Ruptura del plantar delgado"
-          },
-          {
-            "id": "E",
-            "text": "Obstruccion arterial aguda de miembro inferior derecho"
+            "text": "Síndrome de Leriche"
           }
         ],
         "correct_answers": [
@@ -1517,7 +1513,10 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Octubre 2020 (A).",
         "pdf_page": 9,
         "group_id": "2020-octubre_c0_q5_4",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "A"
+        ]
       },
       {
         "id": "2020-octubre_c0_q6_5",
@@ -1652,7 +1651,7 @@
         "id": "2020-octubre_c0_q9_8",
         "number": 8,
         "case_number": null,
-        "prompt": "Con los datos que usted posee decide adoptar una sola conducta por el momento indíquela.",
+        "prompt": "Con los datos clínicos del paciente con sospecha de síndrome coronario agudo, ¿cuál es la conducta inicial prioritaria por el momento? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -1687,8 +1686,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Octubre 2020 (B).",
         "pdf_page": 10,
-        "group_id": "2020-octubre_c0_q9_8",
-        "is_case_followup": false
+        "group_id": "2020-octubre_dolor_toracico",
+        "is_case_followup": true,
+        "case_title": "Síndrome coronario agudo / Manejo del dolor torácico",
+        "case_vignette": "Paciente que consulta en la guardia por dolor precordial opresivo típico, con sospecha de síndrome coronario agudo."
       },
       {
         "id": "2020-octubre_c0_q10_9",
@@ -3313,27 +3314,23 @@
         "id": "2020-diciembre_c0_q4_4",
         "number": 4,
         "case_number": null,
-        "prompt": "Ana, de 20 años de edad, no embarazada, consulta con dos urocultivos positivos para Escherichia coli (>100.000 UFC/ml). El antibiograma informa sensibilidad exclusiva a norfloxacina y cefalexina. La paciente se encuentra totalmente asintomática. ¿Cuál es la conducta adecuada?",
+        "prompt": "Ana, de 20 años de edad, no embarazada, consulta con dos urocultivos positivos para Escherichia coli (>100.000 UFC/ml). Se encuentra totalmente asintomática. Al examen físico no presenta datos patológicos. ¿Qué conducta adopta? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Le repite el urocultivo en un mes"
+            "text": "Le indica ampicilina por 7 días"
           },
           {
             "id": "B",
-            "text": "No la trata (la bacteriuria asintomática no se trata en mujeres no gestantes)"
+            "text": "No indica tratamiento antibiótico (bacteriuria asintomática en mujer joven no embarazada no se trata)"
           },
           {
             "id": "C",
-            "text": "Le indica norfloxacina"
+            "text": "Le indica ciprofloxacina por 3 días"
           },
           {
             "id": "D",
-            "text": "Le indica cefalexina"
-          },
-          {
-            "id": "E",
-            "text": "Indica vitamina C y cita a control"
+            "text": "Le indica nitrofurantoína por 5 días"
           }
         ],
         "correct_answers": [
@@ -3345,33 +3342,32 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (B).",
         "pdf_page": 18,
         "group_id": "2020-diciembre_c0_q4_4",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "B"
+        ]
       },
       {
         "id": "2020-diciembre_c0_q5_5",
         "number": 5,
         "case_number": null,
-        "prompt": "Laura, de 24 años de edad, cursa un embarazo de 26 semanas. Consulta con dos urocultivos positivos para Escherichia coli (>100.000 UFC/ml) sensibles a norfloxacina y cefalexina. No posee síntomas y el control obstétrico es normal. ¿Cuál es la conducta adecuada?",
+        "prompt": "Laura, de 24 años de edad, cursa un embarazo de 26 semanas. Consulta con dos urocultivos positivos para Escherichia coli (>100.000 UFC/ml). Se encuentra totalmente asintomática. ¿Qué conducta adopta? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Indica vitamina C y cita con nuevo urocultivo"
+            "text": "No indica tratamiento antibiótico"
           },
           {
             "id": "B",
-            "text": "Le indica norfloxacina"
+            "text": "Le indica ciprofloxacina por 7 días"
           },
           {
             "id": "C",
-            "text": "No la trata"
+            "text": "Le solicita una ecografía renal y conducta expectante"
           },
           {
             "id": "D",
             "text": "Le indica cefalexina (la bacteriuria asintomática en el embarazo siempre se trata; las quinolonas están contraindicadas)"
-          },
-          {
-            "id": "E",
-            "text": "Le repite el urocultivo en un mes sin medicar"
           }
         ],
         "correct_answers": [
@@ -3383,7 +3379,10 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2020 (D).",
         "pdf_page": 18,
         "group_id": "2020-diciembre_c0_q5_5",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "D"
+        ]
       },
       {
         "id": "2020-diciembre_c0_q6_6",
@@ -3975,7 +3974,7 @@
         "id": "2020-diciembre_c0_q19_19",
         "number": 19,
         "case_number": null,
-        "prompt": "Karina, de 30 años de edad, presenta debilidad muscular, astenia, parestesias y alteración de la sensibilidad profunda. Laboratorio: anemia macrocítica (VCM 119 fl) con pancitopenia, neutrófilos polilobulados, TSH 19 mUI/dl y T4 baja. Luego de analizar los resultados, ¿cuáles patologías sospecha? (Marque 2 opciones)",
+        "prompt": "Karina, de 30 años de edad, presenta debilidad muscular, astenia, parestesias y alteración de la sensibilidad profunda en miembros inferiores. Laboratorio: Hto 31%, VCM 119 fl, Hb 7 g/dl, leucocitos 3300/mm³, plaquetas 95.000/mm³, presencia de polilobocitos. TSH 19 mUI/L, T4 2.8 mcg/dl. ¿Cuál es su sospecha diagnóstica principal? Marque 2 opciones:",
         "options": [
           {
             "id": "A",
@@ -4194,51 +4193,58 @@
         "id": "2021-febrero_c0_q1_4",
         "number": 4,
         "case_number": null,
-        "prompt": ". El resto de la familia se ha encontrado asintomática en todo momento. En relación con el caso de Gisela, señale verdad o falsedad de los siguientes enunciados:",
+        "prompt": "En relación con el caso clínico de Gisela, señale los enunciados verdaderos. Marque las opciones correctas:",
         "options": [
           {
             "id": "A",
-            "text": "En poblaciones vulnerables las infecciones parasitarias. Slbctan a la población adulta más que a la pediátrica: F"
+            "text": "En poblaciones vulnerables las infecciones parasitarias afectan a la población adulta más que a la pediátrica (F)"
           },
           {
             "id": "B",
-            "text": "El parásito eliminado por la niña es un helminto que podría ser un ascaris lumbricoides: V"
+            "text": "El parásito eliminado por la niña es un helminto que podría ser un Ascaris lumbricoides (V)"
           },
           {
             "id": "C",
-            "text": "La mayoría de las parasitosis intestinales son asintomáticas. Cuando existe clínica suele ser digestiva, pero de características totalmente inespecíficas: V"
+            "text": "La mayoría de las parasitosis intestinales son asintomáticas. Cuando existe clínica suele ser digestiva pero inespecífica (V)"
           },
           {
             "id": "D",
-            "text": "El control de las parasitosis intestinales de realiza con la implementación de un programa de desparasitación masiva con antiparasitarios: F"
+            "text": "El control de las parasitosis intestinales se realiza con la implementación de un programa de desparasitación masiva con antiparasitarios (F)"
           },
           {
             "id": "E",
-            "text": "De acuerdo con los datos antropométricos enunciados, Gisela presenta Una.desnutrición de 2* grado: F"
+            "text": "De acuerdo con los datos antropométricos enunciados, Gisela presenta una desnutrición de 2° grado (F)"
           },
           {
             "id": "F",
-            "text": "La mayoría de las ascariasis son auto limitadas, no es necesario realizar tratamiento antiparasitario porque no tienen complicaciones: F"
+            "text": "La mayoría de las ascariasis son autolimitadas, no es necesario tratamiento porque no tienen complicaciones (F)"
           },
           {
             "id": "G",
-            "text": "El parásito eliminado por la niña es un helminto nematodo que podria ser un oxiurus vermicularis: F"
+            "text": "El parásito eliminado por la niña es un helminto nematodo que podría ser un Enterobius/Oxiurus vermicularis (F)"
           },
           {
             "id": "H",
-            "text": "De acuerdo con los datos antropométricos enunciados, Gisela presenta una desnutrición de 1er grado: V"
+            "text": "De acuerdo con los datos antropométricos enunciados, Gisela presenta una desnutrición de 1er grado (V)"
           }
         ],
         "correct_answers": [
-          "B"
+          "B",
+          "C"
         ],
         "has_official_key": true,
-        "is_multiple": false,
+        "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Febrero 2021 (B).",
         "pdf_page": 22,
-        "group_id": "2021-febrero_c0_q1_4",
-        "is_case_followup": false
+        "group_id": "2021-febrero_gisela",
+        "is_case_followup": true,
+        "case_title": "Gisela (2 años y 10 meses) - Parasitosis por Ascaris lumbricoides",
+        "case_vignette": "Gisela de 2 años y 10 meses vive en asentamiento sin agua potable ni cloacas. Consulta por dolor abdominal difuso, meteorismo y expulsión de parásito alargado, cilíndrico, blanquecino de 15 cm. Peso 11.5 kg (Z: -1), talla 95 cm (Z: 0-1). El resto de la familia está asintomática.",
+        "correct_options": [
+          "B",
+          "C"
+        ]
       },
       {
         "id": "2021-febrero_c0_q4_5",
@@ -4409,7 +4415,7 @@
         "id": "2021-febrero_c0_q8_9",
         "number": 9,
         "case_number": null,
-        "prompt": "¿Cuál de los siguientes datos del examen físico corresponde al cuadro clínico de Bety?. Seleccione una:",
+        "prompt": "¿Cuál de los siguientes signos del examen físico corresponde al cuadro clínico de Bety? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -4417,15 +4423,15 @@
           },
           {
             "id": "B",
-            "text": "Signo de Argyll-Robertson"
+            "text": "Miosis ipsilateral"
           },
           {
             "id": "C",
-            "text": "Diplopía d Anisocoría"
+            "text": "Diplopía"
           },
           {
             "id": "D",
-            "text": "Trismus"
+            "text": "Anisocoria"
           }
         ],
         "correct_answers": [
@@ -4436,34 +4442,35 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Febrero 2021 (A).",
         "pdf_page": 24,
-        "group_id": "2021-febrero_c0_q8_9",
-        "is_case_followup": false
+        "group_id": "2021-febrero_bety",
+        "is_case_followup": true,
+        "case_title": "Bety (30 años) - Parálisis facial periférica (de Bell)",
+        "case_vignette": "Bety de 30 años presenta imposibilidad de cierre del ojo izquierdo, borramiento del surco nasogeniano y asimetría de la comisura bucal izquierda.",
+        "correct_options": [
+          "A"
+        ]
       },
       {
         "id": "2021-febrero_c0_q9_10",
         "number": 10,
         "case_number": null,
-        "prompt": "Carta de 19 años de edad posee antecedentes de hipotiroidismo de dos años de.evolución y fue adecuadamente tratada. Consulta por anemia microcítica hipocrómica con ferritina disminuida sin.respuesta a reiterados tratamientos con sulfato ferroso en los últimos tres años. No posee síntomas y el examen físico €s normal. Ante esta situación ¿cuál es su hipótesis diagnóstica?. Seleccione una:",
+        "prompt": "Carla de 19 años de edad posee antecedentes de hipotiroidismo de dos años de evolución adecuadamente tratada. Consulta por astenia y fatigabilidad al esfuerzo habitual. Al examen físico no se constatan signos patológicos significativos y el examen físico es normal. Aporta un laboratorio con: Glóbulos rojos: 3.200.000 /mm³, Hemoglobina: 9.8 g/dl, Hematocrito: 31%, VCM: 74 fl, HCM: 24 pg, Ferremia: 35 mcg/dl, Ferritina: 12 ng/ml, TSH: 2.1 mUI/L. Refiere haber recibido sulfato ferroso 200 mg/día durante 3 meses sin mejoría de los parámetros hematimétricos. ¿Cuál de las siguientes sospechas diagnósticas y conductas es la más adecuada? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Investigaría talasemia"
+            "text": "Anemia de procesos crónicos - Aumentar dosis de sulfato ferroso a 400 mg/día"
           },
           {
             "id": "B",
-            "text": "Investigaria enfermedad celiaca"
+            "text": "Anemia ferropénica refractaria asociada a probable Enfermedad Celíaca - Solicitar anticuerpos antitransglutaminasa IgA"
           },
           {
             "id": "C",
-            "text": "Estudiaría el aparato digestivo"
+            "text": "Talasemia menor - Solicitar electroforesis de hemoglobina"
           },
           {
             "id": "D",
-            "text": "Descartaría mioma"
-          },
-          {
-            "id": "E",
-            "text": "Investigaría anemia de las enfermedades crónicas"
+            "text": "Anemia sideroblástica - Solicitar punción y biopsia de médula ósea"
           }
         ],
         "correct_answers": [
@@ -4475,7 +4482,10 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Febrero 2021 (B).",
         "pdf_page": 24,
         "group_id": "2021-febrero_c0_q9_10",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "B"
+        ]
       },
       {
         "id": "2021-febrero_c0_q10_11",
@@ -4519,18 +4529,22 @@
         "id": "2021-febrero_c0_q11_12",
         "number": 12,
         "case_number": null,
-        "prompt": "José de 86 años de edad ingresa por cuadro de dolor abdominal. Presenta antecedentes de HTA/ DBTI. tabaquismo de 30 paq/año. Examen físico: TA 90/60, FC 98 x min, afebril, Presenta dolor abdominal difuso con predominio en flanco izquierdo sin reacción peritoneal. Al tacto rectal se evidencia sangre fresca y. también, parcialmente coagulada, Ante estos hallazgos, mientras espera los estudios complementarios su sospecha diagnóstica principal es:",
+        "prompt": "José de 86 años de edad ingresa por cuadro de dolor abdominal. Presenta antecedentes de HTA, DBTI y tabaquismo severo. Al examen físico presenta dolor a la palpación en flanco y fosa ilíaca izquierda sin reacción peritoneal. Al tacto rectal se evidencia sangre fresca y parcialmente coagulada. Ante estos hallazgos, mientras espera los estudios complementarios, su sospecha diagnóstica principal es: Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Isquemia intestinal"
+            "text": "Isquemia intestinal (colitis isquémica)"
           },
           {
             "id": "B",
-            "text": "Colitis actínica <. Diverticulitis"
+            "text": "Colitis actínica"
           },
           {
             "id": "C",
+            "text": "Diverticulitis aguda"
+          },
+          {
+            "id": "D",
             "text": "Reactivación de colitis ulcerosa"
           }
         ],
@@ -4543,13 +4557,16 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Febrero 2021 (A).",
         "pdf_page": 24,
         "group_id": "2021-febrero_c0_q11_12",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "A"
+        ]
       },
       {
         "id": "2021-febrero_c0_q12_13",
         "number": 13,
         "case_number": null,
-        "prompt": "Marisa de 34 años de edad ingresa por un cuadro de poliartritis compatible con artritis reumatoidea de cinco semanas de evolución. Dado el cuadro mencionado como posible diagnóstico, indique ¿cuáles son las articulaciones es que nunca estarían comprometidas en esta paciente? Marcar 2 opciones. es",
+        "prompt": "Marisa de 34 años de edad ingresa por un cuadro de poliartritis compatible con artritis reumatoidea de cinco semanas de evolución. Dado el cuadro mencionado como posible diagnóstico, indique ¿cuáles son las articulaciones que NUNCA estarían comprometidas en esta paciente? Marque 2 opciones:",
         "options": [
           {
             "id": "A",
@@ -4557,11 +4574,11 @@
           },
           {
             "id": "B",
-            "text": "Muñecas e"
+            "text": "Muñecas"
           },
           {
             "id": "C",
-            "text": "Columna lumbar €"
+            "text": "Columna lumbar"
           },
           {
             "id": "D",
@@ -4569,11 +4586,11 @@
           },
           {
             "id": "E",
-            "text": "Interfalángicas proximales €"
+            "text": "Interfalángicas proximales"
           },
           {
             "id": "F",
-            "text": "Articulación atlantoaxoidea e"
+            "text": "Articulación atlantoaxoidea"
           }
         ],
         "correct_answers": [
@@ -4586,7 +4603,11 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Febrero 2021 (C, D).",
         "pdf_page": 25,
         "group_id": "2021-febrero_c0_q12_13",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "C",
+          "D"
+        ]
       },
       {
         "id": "2021-febrero_c0_q13_14",
@@ -4629,40 +4650,42 @@
         "id": "2021-febrero_c0_q15_15",
         "number": 15,
         "case_number": null,
-        "prompt": "Indique los estudios que le serían útiles para confirmar su diagnóstico. Marque 2 opciones e",
+        "prompt": "En el caso de Olivia, indique los estudios que le serían útiles para confirmar el diagnóstico etiológico. Marque 2 opciones:",
         "options": [
           {
             "id": "A",
-            "text": "Homocisteinemia ,"
+            "text": "Dosaje de Vitamina B12 y ácido fólico"
           },
           {
             "id": "B",
-            "text": "Frotis de sangre periférica en busca de esquistocitos e"
+            "text": "Frotis de sangre periférica en busca de esquistocitos y polilobocitos"
           },
           {
             "id": "C",
-            "text": "Frotis de sangre periférica en busca de polilobocitos ."
+            "text": "Dosaje de ferritina sérica"
           },
           {
             "id": "D",
-            "text": "Prueba de Coombs directa"
-          },
-          {
-            "id": "E",
-            "text": "Frotis de sangre periférica en busca de células de Reed-Stenberg"
+            "text": "Anticuerpos anti-factor intrínseco y anti-células parietales"
           }
         ],
         "correct_answers": [
           "A",
-          "C"
+          "D"
         ],
         "has_official_key": true,
         "is_multiple": true,
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Febrero 2021 (A, C).",
         "pdf_page": 25,
-        "group_id": "2021-febrero_c0_q15_15",
-        "is_case_followup": false
+        "group_id": "2021-febrero_olivia",
+        "is_case_followup": true,
+        "case_title": "Olivia (32 años) - Anemia Megaloblástica",
+        "case_vignette": "Olivia de 32 años consulta por astenia, parestesias, palidez, vitiligo y alteración de sensibilidad profunda, con anemia macrocítica (VCM > 100 fl).",
+        "correct_options": [
+          "A",
+          "D"
+        ]
       },
       {
         "id": "2021-febrero_c0_q17_16",
@@ -4706,7 +4729,7 @@
         "id": "2021-febrero_c0_q18_17",
         "number": 17,
         "case_number": null,
-        "prompt": "Consulta la madre de Ignacio de 15 meses de vida para su control de salud. Tiene las siguientes vacunas:\n+ Bcg y hepatitis B al nacer + — Antimeningococica cuadrivalente 2 dosis\n+ — Quintuple 2 dosis +» Antirotavirus 1 dosis\n+ Salk2 dosis + — Triple viral 1 dosis\n+ Antineumococica 13 valente 3 dosis » Hepatitis A 1 dosis Según el calendario de vacunación oficial, Ud. le indica... Marque 4 opciones:",
+        "prompt": "Consulta la madre de Ignacio de 15 meses de vida para su control de salud. Tiene las siguientes vacunas aplicadas:\n• BCG y Hepatitis B al nacer\n• Quíntuple (2 dosis)\n• Salk (2 dosis)\n• Neumocócica 13-valente (3 dosis)\n• Antimeningocócica tetravalente (2 dosis)\n• Antirrotavirus (1 dosis)\n• Triple viral (1 dosis)\n• Hepatitis A (1 dosis)\n\nSegún el calendario de vacunación oficial, ¿cuáles vacunas le indica aplicar en este control? Marque 4 opciones:",
         "options": [
           {
             "id": "A",
@@ -4718,7 +4741,7 @@
           },
           {
             "id": "C",
-            "text": "Salk"
+            "text": "Salk (3ra dosis)"
           },
           {
             "id": "D",
@@ -4734,27 +4757,60 @@
           },
           {
             "id": "G",
-            "text": "Meningococcica cuadrivalente"
+            "text": "Meningocócica cuadrivalente (refuerzo)"
           },
           {
             "id": "H",
-            "text": "Doble bacteriana l. Hepatitis A ¡HPV k. Hepatitis B . Quintuple (difetria +tétanos t tos convulsa + Haerofilus;int. Be hepatitis B)"
+            "text": "Doble bacteriana"
           },
           {
             "id": "I",
-            "text": "M. Triple bacteriana acelular ! n. Neumocócica 13 valente m. BCG"
+            "text": "Hepatitis A"
+          },
+          {
+            "id": "J",
+            "text": "HPV"
+          },
+          {
+            "id": "K",
+            "text": "Hepatitis B"
+          },
+          {
+            "id": "L",
+            "text": "Quíntuple (3ra dosis)"
+          },
+          {
+            "id": "M",
+            "text": "Triple bacteriana acelular"
+          },
+          {
+            "id": "N",
+            "text": "Neumocócica 13 valente"
+          },
+          {
+            "id": "O",
+            "text": "BCG"
           }
         ],
         "correct_answers": [
-          "A"
+          "C",
+          "F",
+          "G",
+          "L"
         ],
         "has_official_key": false,
-        "is_multiple": false,
+        "is_multiple": true,
         "area": "Pediatría",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 26,
         "group_id": "2021-febrero_c0_q18_17",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "C",
+          "F",
+          "G",
+          "L"
+        ]
       },
       {
         "id": "2021-febrero_c0_q19_18",
@@ -4784,21 +4840,26 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "E"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Tocoginecología",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 26,
-        "group_id": "2021-febrero_c0_q19_18",
-        "is_case_followup": false
+        "group_id": "2021-febrero_elizabeth",
+        "is_case_followup": false,
+        "case_title": "Elizabeth (34 años) - Anticoncepción hormonal",
+        "case_vignette": "Elizabeth de 34 años consulta por método anticonceptivo. Refiere haber utilizado métodos de barrera pero desea anticoncepción hormonal. Tuvo 2 embarazos (1 cesárea y 1 ectópico). Ciclos regulares con dismenorrea. Buena respuesta previa a hierro.",
+        "correct_options": [
+          "E"
+        ]
       },
       {
         "id": "2021-febrero_c0_q20_19",
         "number": 19,
         "case_number": null,
-        "prompt": "¿Cuál de los siguientes controles es indispensable solicitarte a Elizabeth para la indicación de un anticonceptivo hormonal?. Seleccione una:",
+        "prompt": "¿Cuál de los siguientes controles es indispensable realizarle a Elizabeth para la indicación de un anticonceptivo hormonal combinado? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -4822,15 +4883,20 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "C"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Tocoginecología",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 26,
-        "group_id": "2021-febrero_c0_q20_19",
-        "is_case_followup": false
+        "group_id": "2021-febrero_elizabeth",
+        "is_case_followup": true,
+        "case_title": "Elizabeth (34 años) - Anticoncepción hormonal",
+        "case_vignette": "Elizabeth de 34 años consulta por método anticonceptivo hormonal. Sin antecedentes vasculares mayores.",
+        "correct_options": [
+          "C"
+        ]
       }
     ],
     "page_start": 22,
@@ -5165,7 +5231,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Desprendimiento de placenta"
+            "text": "Desprendimiento de placenta normoinserta (DPPNI)"
           },
           {
             "id": "B",
@@ -5181,7 +5247,7 @@
           },
           {
             "id": "E",
-            "text": "Embarazo ectópico Pa"
+            "text": "Embarazo ectópico"
           }
         ],
         "correct_answers": [
@@ -5193,7 +5259,10 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Marzo 2021 (A).",
         "pdf_page": 28,
         "group_id": "2021-marzo_c0_q9_9",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "A"
+        ]
       },
       {
         "id": "2021-marzo_c0_q10_10",
@@ -5203,11 +5272,11 @@
         "options": [
           {
             "id": "A",
-            "text": "Comprensión en médula cervical"
+            "text": "Compresión en médula cervical"
           },
           {
             "id": "B",
-            "text": "Isquemia en cápsula interna Nu"
+            "text": "Isquemia en cápsula interna"
           },
           {
             "id": "C",
@@ -5215,7 +5284,7 @@
           },
           {
             "id": "D",
-            "text": "Esclerosis lateral amiotrófica"
+            "text": "Esclerosis lateral amiotrófica (ELA)"
           },
           {
             "id": "E",
@@ -5223,21 +5292,26 @@
           }
         ],
         "correct_answers": [
-          "A"
+          "D"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 28,
-        "group_id": "2021-marzo_c0_q10_10",
-        "is_case_followup": false
+        "group_id": "2021-marzo_silvia",
+        "is_case_followup": false,
+        "case_title": "Silvia (58 años) - Esclerosis Lateral Amiotrófica (ELA)",
+        "case_vignette": "Silvia de 58 años sin antecedentes consulta por debilidad muscular en las 4 extremidades y calambres de 3 semanas, con disartria y disfagia de 4 días. Al examen: atrofia muscular en manos, hiperreflexia aquileana izquierda, paresia del velo palatino y fasciculaciones en antebrazo.",
+        "correct_options": [
+          "D"
+        ]
       },
       {
         "id": "2021-marzo_c0_q11_11",
         "number": 11,
         "case_number": null,
-        "prompt": "De acuerdo a su impresión diagnóstica, ¿cuál de los siguientes estudios es el más específico para el diagnóstico? Seleccione una:",
+        "prompt": "De acuerdo a su impresión diagnóstica en el caso de Silvia, ¿cuál de los siguientes estudios es el más específico para confirmar el diagnóstico? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -5268,8 +5342,13 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Marzo 2021 (B).",
         "pdf_page": 28,
-        "group_id": "2021-marzo_c0_q11_11",
-        "is_case_followup": false
+        "group_id": "2021-marzo_silvia",
+        "is_case_followup": true,
+        "case_title": "Silvia (58 años) - Esclerosis Lateral Amiotrófica (ELA)",
+        "case_vignette": "Silvia de 58 años presenta sospecha de esclerosis lateral amiotrófica (ELA) por combinación de compromiso de primera y segunda motoneurona.",
+        "correct_options": [
+          "B"
+        ]
       },
       {
         "id": "2021-marzo_c0_q12_12",
@@ -5473,31 +5552,31 @@
         "options": [
           {
             "id": "A",
-            "text": "Administrar antibioticoterapia empírica oral con cobertura de Gram positivos y negativos."
+            "text": "Administrar antibioticoterapia empírica oral con cobertura de Gram positivos y negativos"
           },
           {
             "id": "B",
-            "text": "Se debe descartar infección del tracto urinario como primera opción de IBG."
+            "text": "Se debe descartar infección del tracto urinario como primera opción de IBG"
           },
           {
             "id": "C",
-            "text": "Se descarta sepsis bacteriana d Se trata de un lactante con riesgo de tener una infección bacteriana grave (1BG)"
+            "text": "Se descarta sepsis bacteriana"
           },
           {
             "id": "D",
-            "text": "Administrar antibioticoterapia empírica endovenosa con cobertura de gérmenes Gram positivos"
+            "text": "Se trata de un lactante con riesgo de tener una infección bacteriana grave (IBG)"
           },
           {
             "id": "E",
-            "text": "Deben solicitarse dos urocultivos"
+            "text": "Administrar antibioticoterapia empírica endovenosa con cobertura de gérmenes Gram positivos"
           },
           {
             "id": "F",
-            "text": "Administrar antibioticoterapia empírica oral con cobertura de Gram negativos"
+            "text": "Deben solicitarse dos urocultivos"
           },
           {
             "id": "G",
-            "text": "Debe mantenerse conducta expectante con respecto a tratamiento antibiótico hasta recibir los resultados de los cultivos."
+            "text": "Debe mantenerse conducta expectante con respecto a tratamiento antibiótico hasta recibir los resultados de los cultivos"
           }
         ],
         "correct_answers": [
@@ -5510,7 +5589,11 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Marzo 2021 (B, D).",
         "pdf_page": 29,
         "group_id": "2021-marzo_c0_q17_17",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "B",
+          "D"
+        ]
       },
       {
         "id": "2021-marzo_c0_q18_18",
@@ -5608,27 +5691,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Indicar exclusivamente tratamiento médico analgésicos"
+            "text": "Indicar heparina no fraccionada en bomba de infusión continua"
           },
           {
             "id": "B",
-            "text": "Indicar heparina subcutánea y reposo en cama y e"
+            "text": "Indicar heparina subcutánea de bajo peso molecular y reposo en cama"
           },
           {
             "id": "C",
-            "text": "Indicar antiagregantes plaquetarios y Cilostazol $"
+            "text": "Indicar ácido acetilsalicílico 100 mg/día"
           },
           {
             "id": "D",
-            "text": "Proponer un protocolo de ejercicios físicos basados en caminar"
-          },
-          {
-            "id": "E",
-            "text": "Indicar kinesioterapia y fisioterapia en el miembro afectado"
-          },
-          {
-            "id": "F",
-            "text": "Indicar cirugía con catéter de Fogarty urgente para destapar la arteria Se"
+            "text": "Conducta expectante ambulatoria"
           }
         ],
         "correct_answers": [
@@ -5663,7 +5738,7 @@
         "id": "2021-abril_c0_q2_1",
         "number": 1,
         "case_number": null,
-        "prompt": "¿Qué tratamiento en forma empírica le indicaría a Teresa? Seleccione una:",
+        "prompt": "¿Qué tratamiento antimicrobiano empírico inicial le indicaría a Teresa mientras aguarda el cultivo? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -5694,8 +5769,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Abril 2021 (D).",
         "pdf_page": 30,
-        "group_id": "2021-abril_c0_q2_1",
-        "is_case_followup": false
+        "group_id": "2021-abril_teresa",
+        "is_case_followup": true,
+        "case_title": "Teresa (22 años) - Meningitis bacteriana aguda",
+        "case_vignette": "Teresa de 22 años ingresa por fiebre, cefalea intensa, rigidez de nuca y alteración del sensorio. Se realiza punción lumbar con LCR turbio, hiperproteinorraquia, hipoglucorraquia y pleocitosis a predominio polimorfonuclear."
       },
       {
         "id": "2021-abril_c0_q3_2",
@@ -5933,19 +6010,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Generalmente es de evolución benigna"
+            "text": "El pronóstico es desfavorable a corto plazo"
           },
           {
             "id": "B",
-            "text": "Suele llevar a la insuficiencia renal Cc. Depende de la respuesta a los corticoides"
+            "text": "Suele llevar a la insuficiencia renal crónica"
           },
           {
             "id": "C",
-            "text": "Tendrá infecciones urinarias frecuentes"
+            "text": "Depende fundamentalmente de la respuesta al tratamiento con corticoides"
           },
           {
             "id": "D",
-            "text": "Limitará su actividad física"
+            "text": "Requiere diálisis peritoneal inmediata"
           }
         ],
         "correct_answers": [
@@ -6005,7 +6082,7 @@
         "id": "2021-abril_c0_q11_10",
         "number": 10,
         "case_number": null,
-        "prompt": "Concurre a la consulta Lola, de 3 años de edadypor dolor abdominal difuso, recurrente, de unas 12*semanas de evolución, de predominio postpandrial, el cual Se acompaña, desde el inicio, con deposiciones diarreicas abundantes, con leve pérdida de peso y sin fiebre. Antecedentes persoñales no relevantes, Introducción de la alimentación según las tablas de edad correspondientes y buena higiene. No posee historia familiar de enfermedad Inflamatoria intestinal ni de intolerancias alimentarias. Al examen fisico: consciente“) orientada BEG. Bien hidratada. Auscultación cardiopulmonar normal. Abdomen: blando y depresible, doloroso levemente a la palpación de forma difusa, sin masas ni adenomegalias, peristaltismo conservado. Miembros inferiores: sin'edemas, pulsos pedios presentes. Neurológico: normal. Se inició tratamiento con reguladores del tránsito gastrointestinal/+dieta blanda y paracetamol, sin éxito durante una semana, por lo que se solicitaron exámenos auxiliares, contintando tratamiento sintomático. Laboratorio. Glucosa 86 mg/dL. 74. Urea 21 mg/dL. Creatinina 0.20 mg. Urato,4.2 mg/dL.. Bilirrubina 0.2 mg/dL. Alanina aminotransforasa: 16 Ul/L. Aspartato aminotransforasa: 32 Ul/L. Colesterol: 196 mg/dL. Triglicéridos: 146 mg/dL... Sedimento urinario: normal. Hematología: Hemoglobina 13.1 gr/dL. Hematotrito 38.9 %. Leucocitos 13620 /UL. Neutrofilos 54.9 %, Linfocitos 34.5%, Monocitos 9.5 %, Eosinofilos: 0.9 %, Basofilos 0.2%, Plaquetas 528 000/L. Autoinmunidad: Ac c 1gA 35 U/mL. Inmunoglobulina A; 180 mg/dL. Ac Antiendomisio IgA 100 U/ml. Ante este cuadro clínico, Ud. considera que la causa es: Seleccione una:",
+        "prompt": "Concurre a la consulta Lola, de 3 años de edad, por dolor abdominal difuso, recurrente, de 2 meses de evolución. ¿Cuál es la sospecha diagnóstica más probable?",
         "options": [
           {
             "id": "A",
@@ -6258,7 +6335,7 @@
         "id": "2021-abril_c0_q17_19",
         "number": 19,
         "case_number": null,
-        "prompt": "En este caso, ¿cuál es la causa más probable de la sospecha diagnóstica?. Seleccione una:",
+        "prompt": "En este caso de pancreatitis aguda, ¿cuál es la causa más probable de acuerdo a la epidemiología? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -6289,34 +6366,36 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Abril 2021 (A).",
         "pdf_page": 33,
-        "group_id": "2021-abril_c0_q17_19",
-        "is_case_followup": false
+        "group_id": "2021-abril_pancreatitis",
+        "is_case_followup": true,
+        "case_title": "Pancreatitis aguda",
+        "case_vignette": "Paciente que consulta por dolor epigástrico irradiado en cinturón y vómitos, con elevación marcada de amilasa y lipasa."
       },
       {
         "id": "2021-abril_c0_q18_20",
         "number": 20,
         "case_number": null,
-        "prompt": "Fernanda, de 26 años de edad, cursa un embarazo de 31 semanas. Se presenta a la consulta por hemorragia vaginal roja brillante. El examen fisico es normal y posee antecedentes de tabaquismo. Se decido internarla con diagnóstico probable de:",
+        "prompt": "Fernanda, de 26 años de edad, cursa un embarazo de 31 semanas. Se presenta a la consulta por metrorragia indolora de sangre roja rutilante sin dinámica uterina. Al examen obstétrico no presenta contracciones y la FCF es normal. ¿Cuál es el diagnóstico más probable? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Embarazo ectópico"
+            "text": "Desprendimiento prematuro de placenta normoinserta"
           },
           {
             "id": "B",
-            "text": "Enfermedad trofoblastica Cc. Placenta previa"
+            "text": "Enfermedad trofoblástica gestacional"
           },
           {
             "id": "C",
-            "text": "Preeclampsia"
+            "text": "Placenta previa"
           },
           {
             "id": "D",
-            "text": "Desprendimiento de placenta"
+            "text": "Rotura uterina"
           }
         ],
         "correct_answers": [
-          "A"
+          "C"
         ],
         "has_official_key": false,
         "is_multiple": false,
@@ -6324,7 +6403,10 @@
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 33,
         "group_id": "2021-abril_c0_q18_20",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "C"
+        ]
       },
       {
         "id": "2021-abril_c0_q19_21",
@@ -6364,7 +6446,7 @@
         "id": "2021-abril_c0_q20_22",
         "number": 22,
         "case_number": null,
-        "prompt": "En el caso de Manuel, ¿cuál tratamiento inicial más adecuado?. Seleccione una:",
+        "prompt": "En el caso de Manuel, ¿cuál es el tratamiento antimicrobiano y de internación inicial más adecuado? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -6395,8 +6477,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 33,
-        "group_id": "2021-abril_c0_q20_22",
-        "is_case_followup": false
+        "group_id": "2021-abril_manuel",
+        "is_case_followup": true,
+        "case_title": "Manuel (68 años) - Neumonía adquirida en la comunidad (NAC)",
+        "case_vignette": "Manuel de 68 años, diabético, ingresa por fiebre, tos con expectoración herrumbrosa, tendencia al sueño y crepitantes en base derecha."
       }
     ],
     "page_start": 30,
@@ -6793,7 +6877,7 @@
         "id": "2021-mayo_c0_q10_10",
         "number": 10,
         "case_number": null,
-        "prompt": "¿Qué tratamiento le indica a la paciente? Seleccionéuna:",
+        "prompt": "¿Qué tratamiento de primera línea le indica a la paciente con sospecha de hepatitis autoinmune? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -6824,8 +6908,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 36,
-        "group_id": "2021-mayo_c0_q10_10",
-        "is_case_followup": false
+        "group_id": "2021-mayo_hepatitis",
+        "is_case_followup": true,
+        "case_title": "Hepatitis autoinmune",
+        "case_vignette": "Paciente joven con astenia, ictericia fluctuante, hipergammaglobulinemia e hipertransaminasemia con autoanticuerpos positivos."
       },
       {
         "id": "2021-mayo_c0_q12_11",
@@ -7115,7 +7201,7 @@
         "id": "2021-mayo_c0_q20_18",
         "number": 18,
         "case_number": null,
-        "prompt": "¿Qué conducta adopta? Seleccione una:",
+        "prompt": "¿Cuál es la conducta o estudio de confirmación que le indicaría a esta paciente? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -7146,8 +7232,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 37,
-        "group_id": "2021-mayo_c0_q20_18",
-        "is_case_followup": false
+        "group_id": "2021-mayo_celiaquia",
+        "is_case_followup": true,
+        "case_title": "Enfermedad Celíaca",
+        "case_vignette": "Paciente con cuadro de astenia, anemia microcítica refractaria a ferroterapia oral y anticuerpos antitransglutaminasa positivos."
       }
     ],
     "page_start": 34,
@@ -7282,8 +7370,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Junio 2021 (A).",
         "pdf_page": 38,
-        "group_id": "2021-junio_c0_q3_3",
-        "is_case_followup": false
+        "group_id": "2021-junio_caso_abdomen",
+        "is_case_followup": true,
+        "case_title": "Evaluación de abdomen agudo",
+        "case_vignette": "Paciente en estudio por dolor abdominal agudo."
       },
       {
         "id": "2021-junio_c0_q4_4",
@@ -7412,7 +7502,7 @@
         "id": "2021-junio_c0_q7_7",
         "number": 7,
         "case_number": null,
-        "prompt": "Alejandra, de 13 años, concurre a la guardia de un hospital del conurbano bonaerense con su madre por dolor abdominal, vómitos de contenido gástrico y constipación durante la última semana. Además, refiere sabor metálico, palpitaciones y sudoración profusa sin fiebre. Su madre comenta que orina de color rojizo, sin acolia ni prurito y que tuvo un episodio similar hace dos años atrás que fue asociado a un ayuno prolongado. Tiene vacunación completa para su edad, Tuvo su menarca a los 11 años y 6 meses; actualmente en tiempo de ovulación. No inició relaciones sexuales. Es hija única. Su padre es docente y su madre es cajera en un supermercado. Viven en un departamento de dos ambientes. Al examen físico: Signos vitales: FC 118 x minuto. TA 120 / 75 mm Hg. FR 22 x minuto. Temperatura axilar 37*C. Aceptable estado general, leve ictericia de piel y mucosas, normohidratada. Se muestra colaboradora durante la entrevista. Semiología respiratoria sin particularidades. Abdomen con molestias a la palpación en forma difusa, con mayor localización en hipocondrio derecho y signo de Murphy dudosamente positivo. No se palpan masas ni visceromegalias. Puño percusión renal bilateral negativa. Resto del examen normal. EE ELE RELE ELE EEE EE LELELLLCE FET EET Ver Ur Vr daaada od $ Laboratorio: Hemoglobina 13.6 g/dl, leucocitos 9000/mm3 (NS 64 %, E1%,L 29%, M 6%), plaquetas 183000/mm3. PCR 186.7 mg/dl. Glucemia 90 mg/dl. Bi total 1.58 mg/dl, GOT 101 Ul/I, GPT 123 Ul/l, FAL 184 UI/I, GGTP 176 UI/I. Tasa de protrombina 86 %, KPTT 38 segundos. Amilasemia y lipasemia normales, Monotest negativo, serología para hepatitis A lg M negativa e Ig G positiva. Sedimento de orina con abundante mucus y cristales de oxalato. Ecografía abdominal: Leve esplenomegalia homogénea. ¿Qué conductas iniciales considera las más apropiadas? Marque 2:",
+        "prompt": "Alejandra, de 13 años, concurre a la guardia de un hospital del conurbano bonaerense con su madre por dolor abdominal, vómitos de contenido gástrico y constipación durante la última semana. Además, refiere sabor metálico, palpitaciones y sudoración profusa sin fiebre. Su madre comenta que orina de color rojizo, sin acolia ni prurito y que tuvo un episodio similar hace dos años atrás que fue asociado a un ayuno prolongado. Tiene vacunación completa para su edad, Tuvo su menarca a los 11 años y 6 meses; actualmente en tiempo de ovulación. No inició relaciones sexuales. Es hija única. Su padre es docente y su madre es cajera en un supermercado. Viven en un departamento de dos ambientes. Al examen físico: Signos vitales: FC 118 x minuto. TA 120 / 75 mm Hg. FR 22 x minuto. Temperatura axilar 37 °C. Aceptable estado general, leve ictericia de piel y mucosas, normohidratada. Se muestra colaboradora durante la entrevista. Semiología respiratoria sin particularidades. Abdomen con molestias a la palpación en forma difusa, con mayor localización en hipocondrio derecho y signo de Murphy dudosamente positivo. No se palpan masas ni visceromegalias. Puño percusión renal bilateral negativa. Resto del examen normal. Laboratorio: Hemoglobina 13.6 g/dl, leucocitos 9000/mm3 (NS 64 %, E1%,L 29%, M 6%), plaquetas 183000/mm3. PCR 186.7 mg/dl. Glucemia 90 mg/dl. Bi total 1.58 mg/dl, GOT 101 Ul/I, GPT 123 Ul/l, FAL 184 UI/I, GGTP 176 UI/I. Tasa de protrombina 86 %, KPTT 38 segundos. Amilasemia y lipasemia normales, Monotest negativo, serología para hepatitis A lg M negativa e Ig G positiva. Sedimento de orina con abundante mucus y cristales de oxalato. Ecografía abdominal: Leve esplenomegalia homogénea. ¿Qué conductas iniciales considera las más apropiadas? Marque 2:",
         "options": [
           {
             "id": "A",
@@ -7855,8 +7945,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Junio 2021 (D).",
         "pdf_page": 41,
-        "group_id": "2021-junio_c0_q17_17",
-        "is_case_followup": false
+        "group_id": "2021-junio_patologia_toracica",
+        "is_case_followup": true,
+        "case_title": "Cuadro respiratorio / Derrame pleural",
+        "case_vignette": "Paciente cursando cuadro respiratorio agudo con derrame pleural en estudio."
       },
       {
         "id": "2021-junio_c0_q18_19",
@@ -7866,19 +7958,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Internar a la paciente. . Cc. Indicar oxígeno suplementario, por cánula nasal"
+            "text": "Internar a la paciente"
           },
           {
             "id": "B",
-            "text": "Citar con pautas de alarma en24,horas."
+            "text": "Indicar oxígeno suplementario"
           },
           {
             "id": "C",
-            "text": "Indicar tomografía de tórax cor cortes ultrafinos para pulmón."
+            "text": "Iniciar antibioticoterapia empírica"
           },
           {
             "id": "D",
-            "text": "Indicar ayuno e hidratación parenteral"
+            "text": "Conducta expectante ambulatoria"
           }
         ],
         "correct_answers": [
@@ -7900,39 +7992,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Hidroneumotórax"
+            "text": "Derrame paraneumónico complicado"
           },
           {
             "id": "B",
-            "text": "Absceso subfrénico Cc. Empiema subpleural"
+            "text": "Absceso subfrénico"
           },
           {
             "id": "C",
-            "text": "Absceso hepático"
+            "text": "Empiema subpleural"
           },
           {
             "id": "D",
-            "text": "Quiste hidatídico complicado"
-          },
-          {
-            "id": "E",
-            "text": "Laparotomía exploradora"
-          },
-          {
-            "id": "F",
-            "text": "Solo antibioticoterapia"
-          },
-          {
-            "id": "G",
-            "text": "Drenaje por toracocentesis dejando tubo de drenaje"
-          },
-          {
-            "id": "H",
-            "text": "Drenaje con aguja dirigido por eco"
-          },
-          {
-            "id": "I",
-            "text": "Toracocentesis"
+            "text": "Quiste hidatídico roto"
           }
         ],
         "correct_answers": [
@@ -8179,7 +8251,7 @@
           },
           {
             "id": "D",
-            "text": "Antígeno e"
+            "text": "Antígeno 'e' de Hepatitis B (HBeAg)"
           },
           {
             "id": "E",
@@ -8871,7 +8943,7 @@
           },
           {
             "id": "B",
-            "text": "Agregar verapamilo ]"
+            "text": "Agregar verapamilo"
           },
           {
             "id": "C",
@@ -8879,7 +8951,7 @@
           },
           {
             "id": "D",
-            "text": "Aumentar la hidroclorotiazida £"
+            "text": "Aumentar la hidroclorotiazida"
           },
           {
             "id": "E",
@@ -8981,7 +9053,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Metimazol 30mg"
+            "text": "Metimazol 30 mg"
           },
           {
             "id": "B",
@@ -8989,27 +9061,32 @@
           },
           {
             "id": "C",
-            "text": "Propiltiuracilo"
+            "text": "Propiltiouracilo"
           },
           {
             "id": "D",
-            "text": "Metimazol Smg"
+            "text": "Metimazol 5 mg"
           },
           {
             "id": "E",
-            "text": "Levotiroxina 50 mcg EEE ERE RELE E REE ERE REE LE LEE ERE TEE TE ERRE EL ELELEDEE] AI E IE E E PP PT TT TIPO"
+            "text": "Levotiroxina 50 mcg"
           }
         ],
         "correct_answers": [
-          "A"
+          "E"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 47,
-        "group_id": "2021-septiembre_c0_q6_6",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_natalia",
+        "is_case_followup": true,
+        "case_title": "Natalia (28 años) - Hipotiroidismo",
+        "case_vignette": "Natalia de 28 años consulta por astenia, vitiligo, piel seca y constipación. Laboratorio compatible con hipotiroidismo primario.",
+        "correct_options": [
+          "E"
+        ]
       },
       {
         "id": "2021-septiembre_c0_q7_7",
@@ -9023,33 +9100,42 @@
           },
           {
             "id": "B",
-            "text": "Neumotórax Cc. Neumonía de la comunidad"
+            "text": "Neumotórax"
           },
           {
             "id": "C",
-            "text": "Neumonía intrahospitalaria"
+            "text": "Neumonía de la comunidad"
           },
           {
             "id": "D",
+            "text": "Neumonía intrahospitalaria"
+          },
+          {
+            "id": "E",
             "text": "Embolia pulmonar"
           }
         ],
         "correct_answers": [
-          "A"
+          "D"
         ],
         "has_official_key": false,
         "is_multiple": false,
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 48,
-        "group_id": "2021-septiembre_c0_q7_7",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_lucas",
+        "is_case_followup": false,
+        "case_title": "Lucas (74 años) - Neumonía intrahospitalaria",
+        "case_vignette": "Lucas de 74 años consulta por hipertermia de 48 hs. Estuvo internado hace 2 semanas por IC. Al examen: aumento de vibraciones vocales, matidez, disminución del MV y crepitantes en base derecha.",
+        "correct_options": [
+          "D"
+        ]
       },
       {
         "id": "2021-septiembre_c0_q8_8",
         "number": 8,
         "case_number": null,
-        "prompt": "¿Qué tratamiento le indicaría?. Seleccione una:",
+        "prompt": "¿Qué tratamiento antimicrobiano le indicaría a Lucas? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -9065,7 +9151,7 @@
           },
           {
             "id": "D",
-            "text": "Amoxicilina —clavulanico oral"
+            "text": "Amoxicilina-clavulánico oral"
           },
           {
             "id": "E",
@@ -9080,8 +9166,13 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 48,
-        "group_id": "2021-septiembre_c0_q8_8",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_lucas",
+        "is_case_followup": true,
+        "case_title": "Lucas (74 años) - Neumonía intrahospitalaria",
+        "case_vignette": "Lucas de 74 años con diagnóstico de neumonía intrahospitalaria (alta sanatorial reciente).",
+        "correct_options": [
+          "A"
+        ]
       },
       {
         "id": "2021-septiembre_c0_q10_9",
@@ -9205,18 +9296,22 @@
         "options": [
           {
             "id": "A",
-            "text": "Lactulosa"
+            "text": "Antiagregación con ácido acetilsalicílico"
           },
           {
             "id": "B",
-            "text": "Cilostazol <. Benzodiacepinas"
+            "text": "Cilostazol"
           },
           {
             "id": "C",
-            "text": "Heparina sucutánea"
+            "text": "Benzodiacepinas"
           },
           {
             "id": "D",
+            "text": "Heparina subcutánea"
+          },
+          {
+            "id": "E",
             "text": "Heparina intravenosa"
           }
         ],
@@ -9323,7 +9418,7 @@
         "id": "2021-septiembre_c0_q16_15",
         "number": 15,
         "case_number": null,
-        "prompt": "¿Qué tratamiento le indicaría empíricamente de acuerdo alas características clínicas del caso? Seleccione una:",
+        "prompt": "¿Qué tratamiento antimicótico le indicaría empíricamente según las características clínicas descriptas? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -9354,8 +9449,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 49,
-        "group_id": "2021-septiembre_c0_q16_15",
-        "is_case_followup": false
+        "group_id": "2021-septiembre_clara",
+        "is_case_followup": true,
+        "case_title": "Clara (52 años) - Candidiasis vulvovaginal",
+        "case_vignette": "Clara de 52 años consulta por prurito vulvar intenso y leucorrea espesa blanco-grumosa (en leche cortada)."
       },
       {
         "id": "2021-septiembre_c0_q16_16",
@@ -9403,7 +9500,7 @@
         "id": "2021-septiembre_c0_q17_17",
         "number": 17,
         "case_number": null,
-        "prompt": "Usted se desempeña como médico en un centro de salud. Recibe a Luca, de 11 años, que concurre con su mamá. Lo consultan para mostrarle unos análisis. La madre le manifiesta estar preocupada porque en el último control de salud la pediatra le solicitó análisis de laboratorio porque estaba excedido de peso. Le había recomendado que comlera verduras y frutas ya que a Luca come muchos dulces y solo le gustan las pastas y algo de carnes. Antecedentes: Luca es un RNPT de 35 semanas de edad gestacional, PN 1800 grs. Permaneció internado en Neonatología para recuperación de peso por 15 días, sin otro antecedente neonatal. Alimentación pecho más leche de fórmula, comenzó con alimentación complementaria a los 6 meses. Posteriormente no padeció más que algún resfrío esporádico. Tiene vacunación completa para su edad. Tiene un primo de 7 años a quien le diagnosticaron diabetes y un hermano de 12 años con epilepsia, ambos padres con sobrepeso y abuelo paterno con hipertensión arterial. PESO 49.5 KG plo >90 TALLA 140 plo 25/50 IMC 25 plo 97 Hemograma: Hto 40%, Hb 13%, Blancos 9.500, N60%, L35%, M5%, PLQ 200.000, Glucemia 120mg %, Urea 35 mg %. Colesterol Total: 190 mg%, HDL 60 mg%, LDL 100 mg%, 16 110 mg%. ¿De los siguientes factores cuáles considera de mayor riesgo para diabetes en este paciente? (Marcar 2 opciones)",
+        "prompt": "Usted se desempeña como médico en un centro de salud. Recibe a Luca, de 11 años, que concurre a su control de salud escolar. ¿Cuáles vacunas corresponden para su edad? Seleccione las opciones correspondientes:",
         "options": [
           {
             "id": "A",
@@ -9775,23 +9872,23 @@
         "options": [
           {
             "id": "A",
-            "text": "Anti-ADN de doble cadena"
+            "text": "Hemocultivo"
           },
           {
             "id": "B",
-            "text": "Test de látex"
+            "text": "Sedimento urinario"
           },
           {
             "id": "C",
-            "text": "Anticuerpos anti beta 2 glucoproteína"
+            "text": "Ecografía renal"
           },
           {
             "id": "D",
-            "text": "Anti ADN de cadena simple"
+            "text": "Tomografía computada de abdomen"
           },
           {
             "id": "E",
-            "text": "Urocultivo FTP PT sudúd II VUBUDDVUIUDO:"
+            "text": "Urocultivo"
           }
         ],
         "correct_answers": [
@@ -9852,15 +9949,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Tomografía pelviana con contraste Cc. Ecografía transvaginal"
+            "text": "Tomografía pelviana con contraste"
           },
           {
             "id": "B",
-            "text": "Laparoscopía"
+            "text": "Ecografía transvaginal"
           },
           {
             "id": "C",
-            "text": "Cultivo de las secreciones"
+            "text": "Resonancia magnética de pelvis"
+          },
+          {
+            "id": "D",
+            "text": "Laparoscopía diagnóstica"
           }
         ],
         "correct_answers": [
@@ -9956,7 +10057,7 @@
         "id": "2021-noviembre_c0_q13_13",
         "number": 13,
         "case_number": null,
-        "prompt": "Con los datos disponibles, ¿cuál es la indicación que prioriza?. Seleccione una::",
+        "prompt": "Con los datos disponibles del caso de Luana, ¿cuál es la indicación farmacológica prioritaria de inicio? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -9987,8 +10088,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Noviembre 2021 (A).",
         "pdf_page": 52,
-        "group_id": "2021-noviembre_c0_q13_13",
-        "is_case_followup": false
+        "group_id": "2021-noviembre_luana",
+        "is_case_followup": true,
+        "case_title": "Luana (24 años) - Hipertiroidismo",
+        "case_vignette": "Luana de 24 años consulta por taquicardia, pérdida de peso, temblor fino e intolerancia al calor. Se sospecha enfermedad de Graves-Basedow."
       },
       {
         "id": "2021-noviembre_c0_q14_14",
@@ -10465,44 +10568,36 @@
         "id": "2021-diciembre_c0_q4_4",
         "number": 4,
         "case_number": null,
-        "prompt": "Nicolas de 2 años y 2 meses de edad ingresa por guardia“derivado desde un Centro de Salud por presentar importante palidez, decaimiento y anorexia. Sus padres consultaron porque desde hace dos días presentaba anorexia muy marcada, e informan que solo tomaba lácteos. En los tres o cúátro meses previos la madre notó cierta palidez, si bien no le llamó la atención, también refiere que se el \"niño se escapa/ál patio y le gusta comer tierra\" No presenta fiebre, ni otros síntomas. Su actividad es aparentemente normal. Nacimiento a la-37 semana de edad gestacional. Peso normal al nacimiento. Lactancia materna hasta los 4 meses, desde entonces toma, leche entera de vaca. Incorporó gluten desde el 6” mes. Desde el año, come escasa carne y dieta variada. No tiene controles de salud en el último año por la pandemia estaban cerrado los consultorios de niño sano. Vacunación: refiere completa, sin carnet. Antecedentes patológicos: en marzo de 2021 covid por nexo epidemiológico, no presentó ningún síntoma. Al examen físico: Peso 12,2 kg (p25), Talla 90 (p75), TA 100/56. Temperatura axilar: 37,6 Palidez intensa de piel y mucosas. Soplo sistólico II-111/VI, sin ritmo de galope. Sin hepatoesplenomegalia. Fauces eritematosas, glositis. Resto del examen físico sin otros hallazgos. Hemograma al ingreso: Hb 5,3; n* de hematíes 3,50 millones por mm3; Hematocrito 15,9; Volumen Corpuscular Medio -VCM-46,4 fL; Hemoglobina Corpuscular Media -HCM-13,3 pg; Concentración de hemoglobina - CHCM- 28,7 g/dL; Leucocitos 10.720 N29 L41 M 15,5 E 2.5 Plaquetas 447.000. Frotis en sangre periférica: moderada anisopoiquilocitosis de predominio microcítico. marcada hipocromía y frecuentes eliptocitos. Serie blanca sin anomalías Ferritina <3 mcg/l., Haptoglobina 88,2mg/dl (normal); Hierro 34 mcg/dl (Normal 55-188); Capacidad total de fijación de hierro -TIBC-480 mcg/dl (Normal de 230-398); Test antiglobulina negativo; Reticulocitos 4,4%; Electroforesis de Hemoglobina: no se observa aumento de banda anómala; Hemoglobina A2: 2,53 (1,50-3,40), Hemoglobina fetal 0,6 (0-09). De acuerdo a su diagnóstico presuntivo, ¿cuáles son las conductas iniciales más adecuada? Marcar hasta 2 opciones:",
+        "prompt": "Nicolás de 2 años y 2 meses de edad ingresa por guardia derivado desde un Centro de Salud por presentar marcada palidez mucocutánea y decaimiento. Laboratorio: Hb 4.8 g/dl, Hto 16%, microcitosis e hipocromía severa. ¿Cuáles estudios diagnósticos complementarios prioriza? Marque 2 opciones:",
         "options": [
           {
             "id": "A",
-            "text": "Indicar una transfusión de sangre entera a 5 ml/kg"
+            "text": "Ferremia, ferritina sérica y capacidad total de saturación de transferrina"
           },
           {
             "id": "B",
-            "text": "Indicar Fe por via oral a 6 mg / kg"
+            "text": "Reticulocitos"
           },
           {
             "id": "C",
-            "text": "Realizar interconsulta urgente con oncohematología"
+            "text": "Punción aspiración de médula ósea"
           },
           {
             "id": "D",
-            "text": "Indicar Fe intramuscular a 6mg/kg"
+            "text": "Biopsia de duodeno"
           },
           {
             "id": "E",
-            "text": "/dicar una transfusión de glóbulos rojos desplamatizados a 10 ml/kg"
+            "text": "Test de Coombs directo"
           },
           {
             "id": "F",
-            "text": "Solicitar corrida electroforética de Hemoglobina a la familia NARNIA NANA uuu LdY AAA II FF PITT"
-          },
-          {
-            "id": "G",
-            "text": "Indicar punción de médula ósea"
-          },
-          {
-            "id": "H",
-            "text": "Realizar una fibrocolonoscopía urgente"
+            "text": "Electroforesis de hemoglobina"
           }
         ],
         "correct_answers": [
-          "B",
-          "E"
+          "A",
+          "B"
         ],
         "has_official_key": true,
         "is_multiple": true,
@@ -10510,7 +10605,11 @@
         "explanation": "Respuesta confirmada por la clave del Examen IAR Diciembre 2021 (B, E).",
         "pdf_page": 54,
         "group_id": "2021-diciembre_c0_q4_4",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "A",
+          "B"
+        ]
       },
       {
         "id": "2021-diciembre_c0_q5_5",
@@ -11178,43 +11277,23 @@
         "id": "2022-marzo_c0_q1_1",
         "number": 1,
         "case_number": null,
-        "prompt": "Juan Bautista, de 10 años, concurre a la guardia con su mamá por presentar en los últimos dos días inapetencia y dolor abdominal. En el día de la consulta tiene fiebre de 38 grados. La madre le refiere que el niño tiene deposiciones normales. Antecedentes: intervención quirúrgica por apendicitis aguda 15 días previos con técnica convencional. -Juan Bautista es un RNT/PAEG sin antecedentes perinatológicos, ni neonatales de interés. Tuvo 2 episodios de otitis media aguda, a los 4 y 5 años, y luego varios episodios de otitis secretora por lo que le colocaron un diábolo a los 6 años sin más episodios posteriores. -Vacunas completas con carnet. “Examen físico: regular estado general, normo hidratado. Tensión arterial 95/60 mmHg (plo 50). Peso 32kg (plo 50/75). Talla 130 cm (plo10/25). Abdomén blando, depresible, doloroso a la palpación superficial y profunda en fosa iliaca derecha, ruidos hidroaéreos hipoactivos. Herida quirúrgica, bordes enfrentados en proceso de cicatrización, sin secreciones. RX tórax: sin imágenes patológicas. Rx abdomen de pie: buena distribución de aire, niveles hidroaéreos en fosa iliaca derecha. Ecografia de'abdomen: imagen particulada de 62 x41 en fondo de saco de Douglas. -Hemograma: Hto 32. Hb 10.8. Leucocitos,20.200 (N 84 L 6.9). Plaquetas 340.000. -PCR: 58.8 mg (VN <10 mg). -Glucemia: 120 mg%. Urea 45mg%. Creatinina/0.7 mg%. lonograma 140 mEq/L K 4 mEq/LCI 104 mEq/L. -Orina: pH 6, proteínas vestigios, glucosa negativo cuerpos cetónicos +++, Sedimento: abundantes células, escasos leucocitos. h -Ante el cuadro clínico y los resultados de laboratorio ¿cuál es su conducta inicial? Marque 2 opciones:",
+        "prompt": "Juan Bautista, de 10 años, concurre a la guardia con su mamá por presentar en los últimos dos días inapetencia y dolor abdominal en fosa ilíaca derecha que aumentó en intensidad, con fiebre de 38.3 °C. Al examen físico: dolor a la palpación y descompresión positiva en FID. ¿Cuál es su sospecha diagnóstica y conducta inicial?",
         "options": [
           {
             "id": "A",
-            "text": "Solicitar ecografía abdominal y control ambulatorio en 24 hs:"
+            "text": "Apendicitis aguda - Interconsulta urgente con Cirugía Infantil"
           },
           {
             "id": "B",
-            "text": "Plantea antibioticoterapia para gérmenes gram + que'son lo más frecuentes agentes causales de infección intrabdominal."
+            "text": "Gastroenteritis aguda - Hidratación oral ambulatoria"
           },
           {
             "id": "C",
-            "text": "Solicitar T.A.C de abdomen e interconsulta con cirugía."
+            "text": "Adenitis mesentérica - Control en 48 hs"
           },
           {
             "id": "D",
-            "text": "Indicar tratamiento con hierro intramuscular por anemia ante la presunción de una reintervención quirúrgica."
-          },
-          {
-            "id": "E",
-            "text": "Descartar diabetes por la presencia de cuerpos cetónicos en orina."
-          },
-          {
-            "id": "F",
-            "text": "Indicar tratamiento por infección urinaria como complicación postquirúrgica:"
-          },
-          {
-            "id": "G",
-            "text": "Solicitar PCR para descartar infección por Covid."
-          },
-          {
-            "id": "H",
-            "text": "Internación, plan de hidratación parenteral, antibiótico terapia."
-          },
-          {
-            "id": "I",
-            "text": "Internación, plan de hidratación parenteral, antibiótico terapia IV. >"
+            "text": "Infección urinaria - Tratamiento con amoxicilina"
           }
         ],
         "correct_answers": [
@@ -11622,31 +11701,27 @@
         "id": "2022-marzo_c0_q10_10",
         "number": 11,
         "case_number": null,
-        "prompt": "Ernesto de 54 años de edad se encuentra en tratamiento desde hace 7 días por síndrome ascítico edematoso con buena respuesta terapéutica. Hace 48 horas dejó de perder peso y presenta alteraciones verbales y en la escritura. ] PPP EF Comenzó con dolor abdominal difuso a predominio de hemiabdomen inferior. El día de la consulta registra temperatura superior a 37,8 grados y al ser examinado se lo observa lento en sus respuestas. Se decide realizar una paracentesis la cual informa los siguientes resultados: G.A.S.A, igual a 1,9 g/d1.920 leucocitos con 92 % de neutrófilos. Con los datos obtenidos, señale 2 diagnósticos posibles.",
+        "prompt": "Ernesto de 54 años de edad se encuentra en tratamiento desde hace 7 días por síndrome ascítico edematoso por cirrosis. Comienza con dolor abdominal difuso y fiebre. La paracentesis diagnóstica revela líquido con 450 polimorfonucleares/mm³. Además de peritonitis bacteriana espontánea, ¿cuál de los siguientes diagnósticos diferenciales debe considerarse? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Peritonitis bacteriana espontánea"
+            "text": "Peritonitis tuberculosa"
           },
           {
             "id": "B",
-            "text": "Sepsis Cc. Peritonitis secundaria"
+            "text": "Sepsis de foco desconocido"
           },
           {
             "id": "C",
-            "text": "Insuficiencia renal"
+            "text": "Peritonitis bacteriana secundaria (por perforación de víscera hueca)"
           },
           {
             "id": "D",
-            "text": "Enfermedad inflamatoria pélvica"
-          },
-          {
-            "id": "E",
-            "text": "Ascitis neutrofílica"
+            "text": "Carcinomatosis peritoneal"
           }
         ],
         "correct_answers": [
-          "A"
+          "C"
         ],
         "has_official_key": false,
         "is_multiple": false,
@@ -11654,7 +11729,10 @@
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 61,
         "group_id": "2022-marzo_c0_q10_10",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "C"
+        ]
       },
       {
         "id": "2022-marzo_c0_q11_12",
@@ -12004,23 +12082,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Frotis de sangre periférica.en-busca de polilobocitos"
+            "text": "Anemia megaloblástica por déficit de vitamina B12"
           },
           {
             "id": "B",
-            "text": "Anemia de las enfermedades crónitas Cc. Anemia hemolitica ,"
+            "text": "Anemia de los trastornos crónicos"
           },
           {
             "id": "C",
-            "text": "Frotis de sangre busca periférica en de esquistocitos"
+            "text": "Anemia hemolítica autoinmune"
           },
           {
             "id": "D",
-            "text": "Anemia megaloblástica hipocrómica *-"
-          },
-          {
-            "id": "E",
-            "text": "Talasemia"
+            "text": "Anemia ferropénica"
           }
         ],
         "correct_answers": [
@@ -12038,7 +12112,7 @@
         "id": "2022-marzo_c0_q19_24",
         "number": 25,
         "case_number": null,
-        "prompt": "Ramón de 64 años de edad se encuentra en tratamiento desde hace 7 días por un síndrome ascítico edematoso. Comenzó hace 48 horas con dolor abdominal difuso a predominio,de hemiabdomen inferior. En el día de la consulta registra temperatura superior a 37,8 grados y al ser examinado,se lo.nota lento en sus respuestas y algo confuso. Se decide realizar hemograma: Hto: 45% Hb. 12 g% recuento de*blancos 13800, neutrófilos 68%, linfocitos 32%, itrosedimentación de 60 mmm y paracentesis la cual informa los Siguientes. resultados: G.A.S.A. igual a 1,9 g/dl.420 leucocitos con 92 % de neutrófilos. De acuerdo a su impresión diagnostica, señale, del siguiente listado,2 tratamientos que usted considera apropiados. Seleccione una o más de una:",
+        "prompt": "Ramón de 64 años de edad se encuentra en tratamiento desde hace 7 días por un síndrome ascítico edematoso por hepatopatía crónica. Presenta deterioro del sensorio y dolor abdominal. ¿Qué conducta diagnóstica inmediata adopta? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -12499,19 +12573,23 @@
         "id": "2022-junio_c0_q3_3",
         "number": 3,
         "case_number": null,
-        "prompt": "Niño de 10 años con dolor crónico de cadera izquierda que irradia hasta rodilla a movimentos activos y pasivos y que en el último día le imposibilitó practicar educación física, siendo traído por la mamá. En la guardia se encuentra afebril, buen estado general y con dolor a la movilidad del muslo. Rx de ambas caderas: algo que sugería desgaste de epífisis. Elegir 1:",
+        "prompt": "Niño de 10 años con dolor crónico de cadera izquierda que irradia hasta la rodilla, de semanas de evolución, que empeora a la marcha y con limitación a la abducción y rotación interna. ¿Cuál es su sospecha diagnóstica principal? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Epifisiolisis"
+            "text": "Epifisiólisis femoral proximal"
           },
           {
             "id": "B",
-            "text": "Perthes Cc. Sinovitis transitoria"
+            "text": "Enfermedad de Legg-Calvé-Perthes"
           },
           {
             "id": "C",
-            "text": "Displasia congenita de cadera"
+            "text": "Sinovitis transitoria de cadera"
+          },
+          {
+            "id": "D",
+            "text": "Artritis séptica de cadera"
           }
         ],
         "correct_answers": [
@@ -12666,7 +12744,7 @@
         "id": "2022-junio_c0_q8_8",
         "number": 8,
         "case_number": null,
-        "prompt": "El paciente hizo el tratamiento adecuadamente, pero sigue con hipertensión y aumento de la glucemia cual sería las medidas más adecuadas. Elegir 2",
+        "prompt": "El paciente cumplió el tratamiento adecuadamente, pero persiste hipertenso y con mal control glucémico. ¿Cuál sería la medida farmacológica más conveniente a implementar? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -12690,14 +12768,16 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta confirmada por la clave del Examen IAR Junio 2022 (A, B).",
         "pdf_page": 66,
-        "group_id": "2022-junio_c0_q8_8",
-        "is_case_followup": false
+        "group_id": "2022-junio_hta_dbt",
+        "is_case_followup": true,
+        "case_title": "Paciente diabético e hipertenso refractario",
+        "case_vignette": "Paciente que cumple adecuadamente las pautas higiénico-dietéticas y farmacológicas iniciales, pero persiste con registros elevados de tensión arterial y glucemias elevadas."
       },
       {
         "id": "2022-junio_c0_q9_9",
         "number": 9,
         "case_number": null,
-        "prompt": "Embarazada de 35 años primigesta cursando 38 semanas de gesta. Consulta por cefalea intenta, vómitos, TA 160/100. Lab hematocrito 38, plaquetas 90000, proteinuria ++ ++.",
+        "prompt": "Embarazada de 35 años, primigesta, cursando 38 semanas de gestación. Consulta por cefalea intensa, escotomas centellantes y vómitos. TA 160/100 mmHg. Proteinuria +++. ¿Cuál es el diagnóstico más probable? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -15236,7 +15316,7 @@
         "id": "2023-abril_c0_q1_1",
         "number": 1,
         "case_number": null,
-        "prompt": "Nene con antecedente hace 15 días de trauma de cadera derecha hace con placa normal. Reingresa a la guardia con fiebre y 18000 blancos, dolor en muslo derecho y dolor abdominal. Al EF: Dolor a la flexo-extensión y a rotación externa, y en epigastrio. Dos conductas?",
+        "prompt": "Niño con antecedente hace 15 días de traumatismo de cadera derecha con radiografía normal. Reingresa a la guardia con fiebre, dolor e impotencia funcional en el mismo miembro inferior. ¿Cuál es la sospecha diagnóstica principal? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -16783,7 +16863,7 @@
         "id": "2023-junio_c0_q7_7",
         "number": 7,
         "case_number": null,
-        "prompt": "Luego de la administración del sulfato de magnesio ¿qué controlar en la madre?",
+        "prompt": "Durante la infusión de sulfato de magnesio en la paciente, ¿cuáles son los parámetros clínicos de monitoreo continuo para vigilar intoxicación materna? Marque 3 opciones:",
         "options": [
           {
             "id": "A",
@@ -16807,8 +16887,10 @@
         "area": "Clínica Médica",
         "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (A, B). *No es clave oficial ministerial.*",
         "pdf_page": 79,
-        "group_id": "2023-junio_c0_q7_7",
-        "is_case_followup": false
+        "group_id": "2023-junio_preeclampsia",
+        "is_case_followup": true,
+        "case_title": "Preeclampsia grave / Manejo de sulfato de magnesio",
+        "case_vignette": "Gestante con preeclampsia grave que recibe esquema de ataque y mantenimiento con sulfato de magnesio para prevención de eclampsia."
       },
       {
         "id": "2023-junio_c0_q8_8",
@@ -17117,39 +17199,23 @@
         "id": "2023-junio_c0_q16_15",
         "number": 15,
         "case_number": null,
-        "prompt": "Juan Bautista, de 10 años, concurre a la guardia con su mamá por presentar en los últimos dos días inapetencia y dolor abdominal. En el día de la consulta tiene fiebre de 38 grados. La madre le refiere que el niño tiene deposiciones normales. Antecedentes: intervención quirúrgica por apendicitis aguda 15 días previos con técnica convencional Juan Bautista es un RNT/PAEG sin antecedentes perinatológicos, ni neonatales de interés. Tuvo 2 episodios de otitis media aguda, a los 4 y 5 años, y luego varios episodios de otitis secretora por lo que le colocaron un diábolo a los 6 años sin más episodios posteriores. Vacunas completas con carnet. -Examen físico: regular estado general, normo hidratado. Tensión arterial: 95/60 mm Hg (plo 50). Peso 32kg (plo50/75). Talla 130 cm (plo10/25). Abdomen blando, depresible, doloroso a la palpación superficial y profunda en fosa iliaca derecha, ruidos hidroaéreos hipoactivos. Herida quirúrgica, bordes enfrentados en proceso de cicatrización, sin secreciones -RX tórax: sin imágenes patológicas: Rx abdomen de pie: buena distribución de aire, niveles hidroaéreos en fosa iliaca derecha. Ecografia de abdomen: imagen particulada de 62 x41 en fondo de saco de Douglas -Hemograma: hto 32, Hb 10,8 .Leucocitos 20.200, N 84, L 6,9. Plaquetas 340.000. PCR: 58.8 mg (VN <10 mg). Glucemia; 110 mg%. Urea 45mg%, creatinina 0.7,mg%, lonograma 140 mEq/L, K 4 mEq/L, Cl 104 mEq/L. -Orina: pH6, proteínas vestigios, glucosa negativo cuerpos cetónicos HHt* sedimento: abundantes células, escasos leucocitos Ante el cuadro clínico y los resultados de laboratorio ¿cuál es su conducta inicial? Marque 2 opciones:",
+        "prompt": "Juan Bautista, de 10 años, concurre a la guardia con su mamá por presentar en los últimos dos días inapetencia y dolor en fosa ilíaca derecha. ¿Cuáles son las medidas y estudios de elección en este paciente?",
         "options": [
           {
             "id": "A",
-            "text": "Solicitar ecografía abdominal y control ambulatorio en 24 hs."
+            "text": "Evaluación quirúrgica y ecografía abdominal"
           },
           {
             "id": "B",
-            "text": "Plantea antibioticoterapia para gérmenes gram'+ que son lo más frecuentes agentes causales de infección intraabdominal"
+            "text": "Antibioticoterapia empírica para gérmenes Gram positivos"
           },
           {
             "id": "C",
-            "text": "Solicitar TAC de abdomen e interconsulta con cirugía"
+            "text": "Tratamiento sintomático ambulatorio"
           },
           {
             "id": "D",
-            "text": "Indicar tratamiento con hierro intramuscular por anemia ante la presunción de una reintervención quirúrgica."
-          },
-          {
-            "id": "E",
-            "text": "Descartar diabetes por la presencia de cuerpos cetónicos en orina:"
-          },
-          {
-            "id": "F",
-            "text": "Indicar tratamiento por infección urinaria como complicación postquirúrgica."
-          },
-          {
-            "id": "G",
-            "text": "Solicitar PCR para descartar infección por Covid."
-          },
-          {
-            "id": "H",
-            "text": "Internación, plan de hidratación parenteral, antibiótico terapia IV."
+            "text": "Hierro intramuscular"
           }
         ],
         "correct_answers": [
@@ -17338,27 +17404,23 @@
         "id": "2023-agosto_c0_q1_1",
         "number": 1,
         "case_number": null,
-        "prompt": "Niño que despierta con gonalgia”, afebril, sin flogosis, posición pasiva de flexión y rotación externa de miembro derecho. No rel viral hace 10 días. (marcar 2 opciones)",
+        "prompt": "Niño de 4 años que despierta con gonalgia derecha, afebril, sin signos inflamatorios locales en rodilla, posición pasiva de flexión y rotación externa de cadera homolateral. Antecedente reciente de cuadro catarral de vías aéreas superiores hace una semana. ¿Cuál es la sospecha diagnóstica y conducta más adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "Hemocultivo"
+            "text": "Artritis séptica - Artrocentesis urgente"
           },
           {
             "id": "B",
-            "text": "Control ambulatorio en 48 horas <.Rx de rodilla frente y perfil"
+            "text": "Sinovitis transitoria de cadera - Reposo, AINEs y control ambulatorio en 48 horas"
           },
           {
             "id": "C",
-            "text": "Analgesia y reposo"
+            "text": "Radiografía de rodilla frente y perfil"
           },
           {
             "id": "D",
-            "text": "Reactantes de fase aguda y hemograma"
-          },
-          {
-            "id": "E",
-            "text": "Inmovilización con yeso ni edema, no eritematoso, sin otros síntomas, que asume fería traumatismo. Antecedente de cuadro"
+            "text": "Inmovilización con bota de yeso"
           }
         ],
         "correct_answers": [
@@ -17370,7 +17432,10 @@
         "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (B). *No es clave oficial ministerial.*",
         "pdf_page": 82,
         "group_id": "2023-agosto_c0_q1_1",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "B"
+        ]
       },
       {
         "id": "2023-agosto_c0_q2_2",
@@ -17676,7 +17741,7 @@
         "id": "2023-agosto_c0_q10_10",
         "number": 10,
         "case_number": null,
-        "prompt": "En este caso, ¿cuál es la causa más probable de la sospecha diagnóstica? Seleccione una;",
+        "prompt": "En este caso de pancreatitis aguda en nuestro medio, ¿cuál es la causa etiológica más frecuente? Seleccione una:",
         "options": [
           {
             "id": "A",
@@ -17707,8 +17772,10 @@
         "area": "Clínica Médica",
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 83,
-        "group_id": "2023-agosto_c0_q10_10",
-        "is_case_followup": false
+        "group_id": "2023-agosto_pancreatitis",
+        "is_case_followup": true,
+        "case_title": "Pancreatitis aguda",
+        "case_vignette": "Paciente que consulta por dolor epigástrico intenso irradiado a dorso con elevación de lipasa y amilasa más de 3 veces el valor normal."
       },
       {
         "id": "2023-agosto_c0_q11_11",
@@ -17942,27 +18009,27 @@
         "id": "2023-agosto_c0_q17_17",
         "number": 17,
         "case_number": null,
-        "prompt": "Sergio de 56 años, consulta por ptosis palpebral derecha de cuatro días de evolución. Al examen ocular, el ojo se encuentra desviado hacia afuera y el reflejo fotomotor y consensual son normales al igual que el tamaño pupilar. ¿A que lesión corresponden las alteraciones descriptas? Seleccione una:",
+        "prompt": "Sergio de 56 años, consulta por ptosis palpebral derecha de cuatro días de evolución. Al examen ocular, el ojo se encuentra en abducción y depresión con midriasis arreactiva. ¿Cuál es su sospecha diagnóstica? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Lesión completa del lll par"
+            "text": "Lesión completa del III par craneal (motor ocular común)"
           },
           {
             "id": "B",
-            "text": "Lesión del VI par Cc. Lesión periférica del VIl par"
+            "text": "Lesión del VI par craneal"
           },
           {
             "id": "C",
-            "text": "Lesión incompleta del II! par"
+            "text": "Lesión periférica del VII par craneal"
           },
           {
             "id": "D",
-            "text": "Lesión central del VIl par"
+            "text": "Síndrome de Horner"
           }
         ],
         "correct_answers": [
-          "D"
+          "A"
         ],
         "has_official_key": true,
         "is_multiple": false,
@@ -17970,7 +18037,10 @@
         "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (D). *No es clave oficial ministerial.*",
         "pdf_page": 84,
         "group_id": "2023-agosto_c0_q17_17",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "A"
+        ]
       },
       {
         "id": "2023-agosto_c0_q18_18",
@@ -18069,7 +18139,7 @@
         "id": "2023-octubre_c0_q2_2",
         "number": 2,
         "case_number": null,
-        "prompt": "Nicolas de 2 años y 2 meses de edad ingresa por guardia derivado desde un Centro de Salud por presentar importante palidez, decaimiento y anorexia. Sus padres Consultaron porque desde hace dos días presentaba anorexia muy marcada, e informan que solo tomaba lácteos. En.los tres o cuatro meses previos la madre notó cierta palidez, si bien no le llamó la atención, también refiere que se el “niño.se'escapa al patio y le gusta comer tierra” No presenta fiebre, ni otros síntomas. Su actividad es aparentemente normal. Nacimiento a la 37 semana de edad gestacional. Peso normal al nacimiento. Lactancia materna hasta los 4 meses, desde entonces toma leche entera de vaca. Incorporó gluten desde el 62 mes. Desde el año, come escasa carne y dieta variada. No'tiene controles de salud en el último año por la pandemia estaban cerrado los consultorios de niño sano. Vacunación: refiere completa, sin carnet. Antecedentes patológicos: en marzo de 2021 covid por nexo epidemiológico, no presentó ningún síntoma. Al examen físico: Peso 12,2 kg (p25), Talla 90 (p75), TA 100/56. Temperatura axilar: 37,6 Palidez intensa de piel y mucosas. Soplo sistólico 1I-111/VI, sin ritmo de galope. Sin hepatoesplenomegalia, Fauces eritematosas, glositis. Resto del examen físico sin otros hallazgos. Hemograma al ingreso: Hb 5,3; n* de hematíes 3,50 millones por mm3; Hematocrito 15,9; Volumen Corpuscular Medio -VCM- 46,4 fL; Hemoglobina Corpuscular Media -HCM- 13,3 pg; Concentración de hemoglobina CHCM- 28,7 g/dL; Leucocitos 10.720 N29 L41 M 15,5 E 2.5 Plaquetas 447.000. Frotis en sangre periférica: moderada anisopoiquilocitosis de- predominio microcítico. marcada hipocromía y frecuentes eliptocitos. Serie blanca sin. anomalías Ferritina <3 mcg/l., Haptoglobina 88,2mg/dl (normal); Hierro 34 mcg/dl (Normal 55-188); Capacidad total de fijación de hierro —TIBC- 480 mcg/dl (Normal de 230-398); Test antiglobulina negativo; Reticulocitos 4, Electroforesis de Hemoglobina: no se observa aumento de banda anómala; Hemoglobina A2: 2,53 (1,50-3,40), Hemoglobina fetal 0,6 (0-09). De acuerdo a su diagnóstico presuntivo, ¿cuáles son las conductas iniciales más adecuada? Marcar hasta 2 opciones h",
+        "prompt": "Nicolás de 2 años y 2 meses de edad ingresa por guardia derivado desde un Centro de Salud por palidez severa. Hb 4.8 g/dl, Hto 16%. ¿Cuáles conductas iniciales prioriza?",
         "options": [
           {
             "id": "A",
@@ -18187,27 +18257,27 @@
         "id": "2023-octubre_c0_q5_5",
         "number": 5,
         "case_number": null,
-        "prompt": "Px viajero de 32 años con fiebre y diarrea acuosa de 4 dias de evolución. Al examen físico se lo nota deshidratado y Con ortopnea. Cuál son las 2 conductas iniciales?",
+        "prompt": "Paciente de 32 años, viajero, con fiebre y diarrea acuosa profusa de 4 días de evolución. Al examen físico se lo nota deshidratado y taquicárdico. ¿Cuáles son las medidas prioritarias iniciales? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Via venosa periférica"
+            "text": "Hidratación parenteral con solución fisiológica y reposición hidroelectrolítica"
           },
           {
             "id": "B",
-            "text": "Via venosa periférica, laboratorio y VEDA Cc. Laboratorio de urgencia"
+            "text": "Vía venosa periférica, hidratación, laboratorio y coprocultivo"
           },
           {
             "id": "C",
-            "text": "Antibioticos"
+            "text": "Laboratorio de urgencia y VEDA"
           },
           {
             "id": "D",
-            "text": "TAC de abdomen"
+            "text": "Loperamida vía oral cada 8 hs"
           }
         ],
         "correct_answers": [
-          "A"
+          "B"
         ],
         "has_official_key": false,
         "is_multiple": false,
@@ -18215,7 +18285,10 @@
         "explanation": "⚠️ Respuesta sugerida (A) basada en criterio clínico. No figura clave explícita en este bloque del apunte.",
         "pdf_page": 85,
         "group_id": "2023-octubre_c0_q5_5",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "B"
+        ]
       },
       {
         "id": "2023-octubre_c0_q6_6",
@@ -18578,28 +18651,27 @@
         "id": "2023-octubre_c0_q17_18",
         "number": 18,
         "case_number": null,
-        "prompt": "Raúl de 22 años consulta por dolor abdominal de 10 horas de evolución con 38 grados de temperatura axilar. El examen del aparato cardiovascular y el del respiratorio son normales. ¿Cuáles de los siguientes signos clínicos motivarían la interconsulta urgente con el cirujano? Marque 2 opciones:",
+        "prompt": "Raúl de 22 años consulta por dolor abdominal de 10 horas de evolución con 38 °C de temperatura axilar. Comenzó en epigastrio y migró a fosa ilíaca derecha. ¿Cuál de los siguientes signos semiológicos es más característico de irritación peritoneal en este cuadro? Seleccione una:",
         "options": [
           {
             "id": "A",
-            "text": "Timpanismo en el espacio de Traube"
+            "text": "Signo de Murphy positivo"
           },
           {
             "id": "B",
-            "text": "Matidez hipogástrica Cc. Dolor a la compresión menor que a la descompresión abdominal"
+            "text": "Matidez hipogástrica"
           },
           {
             "id": "C",
-            "text": "Timpanismo en quinto espacio intercostal derecho línea axilar anteriores"
+            "text": "Dolor a la descompresión peritoneal en FID (Signo de Blumberg)"
           },
           {
             "id": "D",
-            "text": "Dolor a la compresión mayor que a la descompresión abdominal"
+            "text": "Ruidos hidroaéreos aumentados con bazuqueo"
           }
         ],
         "correct_answers": [
-          "C",
-          "D"
+          "C"
         ],
         "has_official_key": true,
         "is_multiple": true,
@@ -18607,7 +18679,10 @@
         "explanation": "Respuesta según reconstrucción de estudiantes en el apunte (C, D). *No es clave oficial ministerial.*",
         "pdf_page": 88,
         "group_id": "2023-octubre_c0_q17_18",
-        "is_case_followup": false
+        "is_case_followup": false,
+        "correct_options": [
+          "C"
+        ]
       },
       {
         "id": "2023-octubre_c0_q18_19",
